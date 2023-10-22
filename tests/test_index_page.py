@@ -9,7 +9,6 @@ incorrect_3 = ['correct_username', '', 'Password field cannot be empty']
 incorrect_4 = ['', 'correct_username', 'Username field cannot be empty']
 
 
-@mark.single_check
 @mark.index
 def test_success_login(index_page_instance):
     index_page_instance.enter_username('correct_username')
