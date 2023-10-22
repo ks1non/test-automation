@@ -1,4 +1,4 @@
-"""fff"""
+"""Тут происходит вызов тестов с разными параметрами вщт так"""         # noqa
 import pytest
 from pytest import mark
 
