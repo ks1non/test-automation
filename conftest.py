@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from pages.index_page import IndexPage
 from pages.check_and_validation_page import CheckAndValidationPage
-
+from pages.input_and_click_page import InputAndClickPage
 
 @pytest.fixture(scope='function')
 def get_chrome_options():
@@ -44,3 +44,16 @@ def setup_check_and_validation(get_webdriver):
 @pytest.fixture(scope='function')
 def check_and_validation_instance(setup_check_and_validation):
     yield CheckAndValidationPage(setup_check_and_validation)
+
+
+@pytest.fixture(scope='function')
+def setup_input_and_click(get_webdriver):
+    url = 'https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html'
+    get_webdriver.get(url)
+    yield get_webdriver
+    get_webdriver.quit()
+
+
+@pytest.fixture(scope='function')
+def input_and_click_instance(setup_input_and_click):
+    yield InputAndClickPage(setup_input_and_click)
