@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="0.163" timestamp="2023-11-01T19:21:25.716557" hostname="DESKTOP-FCB6K2B"><testcase classname="tests.test_fake" name="test_3" time="0.001"><failure message="assert 2 == 1">@mark.ui
-    @mark.smoke
-    
-    def test_3():
-&gt;       assert 2 == 1
-E       assert 2 == 1
-
-tests\test_fake.py:16: AssertionError</failure></testcase></testsuite></testsuites>
