@@ -140,4 +140,8 @@ dmypy.json
 cython_debug/
 
 /.idea/
-
+main.py
+pyreport.html
+result.xml
+test_report.json
+test_results.png
