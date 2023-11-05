@@ -11,6 +11,7 @@ from pages.input_and_click_page import InputAndClickPage
 def get_chrome_options():
     '''scope рядом с каждой фекстурой , по дефолту фанкшен'''
     options = ChromeOptions()
+    options.add_argument('headless')
     return options
 
 
