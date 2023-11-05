@@ -1,3 +1,5 @@
 pytest
 selenium
 webdriver-manager
+pytest-rerunfailures
+pytest-pyreport

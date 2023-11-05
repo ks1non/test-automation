@@ -1,0 +1,1 @@
+{"num_tests": 1, "num_failures": 1, "num_skipped": 0, "test_cases": [{"name": "test_3", "result": "fail", "details": "@mark.ui\n    @mark.smoke\n    \n    def test_3():\n>       assert 2 == 1\nE       assert 2 == 1\n\ntests\\test_fake.py:16: AssertionError", "time": 0.001}], "total_time": 0.163}
