@@ -141,6 +141,8 @@ cython_debug/
 
 /.idea/
 main.py
+main.py/
+/main.py/
 pyreport.html
 result.xml
 test_report.json
