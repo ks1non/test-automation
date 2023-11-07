@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f549d7e5-808c-4d41-a856-eeead59aa2c0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/base_objeckt.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_objeckt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/input_and_click_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/input_and_click_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/pyreport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_results.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_results.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/pyreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pyreport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tests/result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_input_and_click.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_input_and_click.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_results.png" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_results.png" afterDir="false" />
-    </list>
+    <list default="true" id="f549d7e5-808c-4d41-a856-eeead59aa2c0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +165,7 @@
       <workItem from="1699222587651" duration="916000" />
       <workItem from="1699300776318" duration="8391000" />
       <workItem from="1699309904775" duration="3000" />
-      <workItem from="1699369250305" duration="668000" />
+      <workItem from="1699369250305" duration="1037000" />
     </task>
     <servers />
   </component>

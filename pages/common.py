@@ -7,8 +7,8 @@ from selenium.webdriver.common.by import By
 class Common(BaseObject, Assertions):
     """fff"""
 
-    THEME_DAY = (By.XPATH, '/html/body')  # noqa
-    THEME_NIGHT = (By.CLASS_NAME, 'night-mode')
+    THEME_DAY = (By.CLASS_NAME, 'day-mode')  # noqa
+    THEME_NIGHT = (By.CLASS_NAME, 'day-mode night-mode')
     SWITCH = (By.XPATH, '//*[@id="addBtn"]')  # noqa
     BACK_BTN = (By.CLASS_NAME, 'back-button')
 
