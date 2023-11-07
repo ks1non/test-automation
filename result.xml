@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="14" time="101.553" timestamp="2023-11-05T04:31:05.716824" hostname="DESKTOP-FCB6K2B"><testcase classname="tests.test_check_and_validation" name="test_validation[15-Valid]" time="7.126" /><testcase classname="tests.test_check_and_validation" name="test_validation[1-Not in range]" time="4.794" /><testcase classname="tests.test_check_and_validation" name="test_validation[h-Not a number]" time="4.814" /><testcase classname="tests.test_check_and_validation" name="test_validation[-1-Negative integer]" time="4.833" /><testcase classname="tests.test_fake" name="test_1" time="0.000" /><testcase classname="tests.test_fake" name="test_2" time="0.000" /><testcase classname="tests.test_fake" name="test_3" time="0.000" /><testcase classname="tests.test_index_page" name="test_success_login" time="5.344" /><testcase classname="tests.test_index_page" name="test_unsuccessful_login[--Username and password fields cannot be empty]" time="4.965" /><testcase classname="tests.test_index_page" name="test_unsuccessful_login[correct_username-correct_username-Password or username is incorrect]" time="4.972" /><testcase classname="tests.test_index_page" name="test_unsuccessful_login[correct_username--Password field cannot be empty]" time="4.865" /><testcase classname="tests.test_index_page" name="test_unsuccessful_login[-correct_username-Username field cannot be empty]" time="4.936" /><testcase classname="tests.test_input_and_click" name="test_enter_value" time="4.974" /><testcase classname="tests.test_input_and_click" name="test_won" time="5.028" /></testsuite></testsuites>
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="5.424" timestamp="2023-11-07T18:14:09.046025" hostname="DESKTOP-FCB6K2B"><testcase classname="tests.test_input_and_click" name="test_enter_value" time="5.075"><failure message="AttributeError: 'list' object has no attribute 'text'">input_and_click_instance = &lt;pages.input_and_click_page.InputAndClickPage object at 0x000001C189C036D0&gt;
+
+    @mark.input_and_click
+    def test_enter_value(input_and_click_instance):
+        input_and_click_instance.enter_items('1')
+        input_and_click_instance.add_value()
+        input_and_click_instance.enter_items('2')
+        input_and_click_instance.add_value()
+&gt;       input_and_click_instance.check_all(2)
+
+tests\test_input_and_click.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pages\input_and_click_page.py:42: in check_all
+    self.assert_equal(self.get_all(self.ITEMS), items)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;pages.input_and_click_page.InputAndClickPage object at 0x000001C189C036D0&gt;, locator = ('xpath', '//*[@id="items"]')
+
+    def get_all(self, locator):
+        """fff"""
+&gt;       return self.all_visible(locator).text
+E       AttributeError: 'list' object has no attribute 'text'
+
+base\base_objeckt.py:45: AttributeError</failure></testcase></testsuite></testsuites>

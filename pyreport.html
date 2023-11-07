@@ -221,7 +221,7 @@
 				labels: ['Tests Passed', 'Tests Failed', 'Tests Skipped'],
 				datasets: [{
 					label: 'Test Results',
-					data: [14, 0, 0],
+					data: [0, 1, 0],
 					backgroundColor: [
 						'#4CAF50',
 						'rgb(255, 0, 0)',
@@ -248,114 +248,36 @@
 		<tbody>
 			
 				
-					<tr class="test_row pass">
-						<td>test_validation[15-Valid]</td>
-						<td class="pass">pass</td>
-						<td>7.126 sec.</td>
-					</tr>
-				
-			
-				
-					<tr class="test_row pass">
-						<td>test_validation[1-Not in range]</td>
-						<td class="pass">pass</td>
-						<td>4.794 sec.</td>
-					</tr>
-				
-			
-				
-					<tr class="test_row pass">
-						<td>test_validation[h-Not a number]</td>
-						<td class="pass">pass</td>
-						<td>4.814 sec.</td>
-					</tr>
-				
-			
-				
-					<tr class="test_row pass">
-						<td>test_validation[-1-Negative integer]</td>
-						<td class="pass">pass</td>
-						<td>4.833 sec.</td>
-					</tr>
-				
-			
-				
-					<tr class="test_row pass">
-						<td>test_1</td>
-						<td class="pass">pass</td>
-						<td>0.0 sec.</td>
-					</tr>
-				
-			
-				
-					<tr class="test_row pass">
-						<td>test_2</td>
-						<td class="pass">pass</td>
-						<td>0.0 sec.</td>
-					</tr>
-				
-			
-				
-					<tr class="test_row pass">
-						<td>test_3</td>
-						<td class="pass">pass</td>
-						<td>0.0 sec.</td>
-					</tr>
-				
-			
-				
-					<tr class="test_row pass">
-						<td>test_success_login</td>
-						<td class="pass">pass</td>
-						<td>5.344 sec.</td>
-					</tr>
-				
-			
-				
-					<tr class="test_row pass">
-						<td>test_unsuccessful_login[--Username and password fields cannot be empty]</td>
-						<td class="pass">pass</td>
-						<td>4.965 sec.</td>
-					</tr>
-				
-			
-				
-					<tr class="test_row pass">
-						<td>test_unsuccessful_login[correct_username-correct_username-Password or username is incorrect]</td>
-						<td class="pass">pass</td>
-						<td>4.972 sec.</td>
-					</tr>
-				
-			
-				
-					<tr class="test_row pass">
-						<td>test_unsuccessful_login[correct_username--Password field cannot be empty]</td>
-						<td class="pass">pass</td>
-						<td>4.865 sec.</td>
-					</tr>
-				
-			
-				
-					<tr class="test_row pass">
-						<td>test_unsuccessful_login[-correct_username-Username field cannot be empty]</td>
-						<td class="pass">pass</td>
-						<td>4.936 sec.</td>
-					</tr>
-				
-			
-				
-					<tr class="test_row pass">
+					<tr class="test_row fail" data-toggle="collapse" data-target="#test_enter_value">
 						<td>test_enter_value</td>
-						<td class="pass">pass</td>
-						<td>4.974 sec.</td>
+						<td class="fail">fail</td>
+						<td>5.075 sec.</td>
 					</tr>
-				
-			
-				
-					<tr class="test_row pass">
-						<td>test_won</td>
-						<td class="pass">pass</td>
-						<td>5.028 sec.</td>
+					<tr id="test_enter_value" class="collapse">
+						<td colspan="3"><pre>input_and_click_instance = <pages.input_and_click_page.InputAndClickPage object at 0x000001C189C036D0>
+
+    @mark.input_and_click
+    def test_enter_value(input_and_click_instance):
+        input_and_click_instance.enter_items('1')
+        input_and_click_instance.add_value()
+        input_and_click_instance.enter_items('2')
+        input_and_click_instance.add_value()
+>       input_and_click_instance.check_all(2)
+
+tests\test_input_and_click.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pages\input_and_click_page.py:42: in check_all
+    self.assert_equal(self.get_all(self.ITEMS), items)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <pages.input_and_click_page.InputAndClickPage object at 0x000001C189C036D0>, locator = ('xpath', '//*[@id="items"]')
+
+    def get_all(self, locator):
+        """fff"""
+>       return self.all_visible(locator).text
+E       AttributeError: 'list' object has no attribute 'text'
+
+base\base_objeckt.py:45: AttributeError</pre></td>
 					</tr>
 				
 			
@@ -373,11 +295,11 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td>14</td>
-				<td>14</td>
+				<td>1</td>
 				<td>0</td>
+				<td>1</td>
 				<td>0</td>
-				<td>101.553 sec.</td>
+				<td>5.424 sec.</td>
 			</tr>
 		</tbody>
 	</table>

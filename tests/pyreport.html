@@ -221,7 +221,7 @@
 				labels: ['Tests Passed', 'Tests Failed', 'Tests Skipped'],
 				datasets: [{
 					label: 'Test Results',
-					data: [4, 0, 0],
+					data: [0, 1, 0],
 					backgroundColor: [
 						'#4CAF50',
 						'rgb(255, 0, 0)',
@@ -248,34 +248,23 @@
 		<tbody>
 			
 				
-					<tr class="test_row pass">
-						<td>test_validation[15-Valid]</td>
-						<td class="pass">pass</td>
-						<td>7.626 sec.</td>
+					<tr class="test_row fail" data-toggle="collapse" data-target="#test_back_btn">
+						<td>test_back_btn</td>
+						<td class="fail">fail</td>
+						<td>153.726 sec.</td>
 					</tr>
-				
-			
-				
-					<tr class="test_row pass">
-						<td>test_validation[1-Not in range]</td>
-						<td class="pass">pass</td>
-						<td>4.934 sec.</td>
-					</tr>
-				
-			
-				
-					<tr class="test_row pass">
-						<td>test_validation[h-Not a number]</td>
-						<td class="pass">pass</td>
-						<td>4.955 sec.</td>
-					</tr>
-				
-			
-				
-					<tr class="test_row pass">
-						<td>test_validation[-1-Negative integer]</td>
-						<td class="pass">pass</td>
-						<td>4.885 sec.</td>
+					<tr id="test_back_btn" class="collapse">
+						<td colspan="3"><pre>input_and_click_instance = <pages.input_and_click_page.InputAndClickPage object at 0x0000014E08879BD0>
+hover_and_select_instance = <pages.hover_and_select_page.HoverAndSelectPage object at 0x0000014E08879910>
+
+    @mark.test_one
+    def test_back_btn(input_and_click_instance, hover_and_select_instance):
+        input_and_click_instance.click_back()
+>       assert hover_and_select_instance.check_marker == 'HOVER AND SELECT'
+E       AssertionError: assert <bound method HoverAndSelectPage.check_marker of <pages.hover_and_select_page.HoverAndSelectPage object at 0x0000014E08879910>> == 'HOVER AND SELECT'
+E        +  where <bound method HoverAndSelectPage.check_marker of <pages.hover_and_select_page.HoverAndSelectPage object at 0x0000014E08879910>> = <pages.hover_and_select_page.HoverAndSelectPage object at 0x0000014E08879910>.check_marker
+
+test_input_and_click.py:26: AssertionError</pre></td>
 					</tr>
 				
 			
@@ -293,11 +282,11 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td>4</td>
-				<td>4</td>
+				<td>1</td>
 				<td>0</td>
+				<td>1</td>
 				<td>0</td>
-				<td>38.768 sec.</td>
+				<td>154.237 sec.</td>
 			</tr>
 		</tbody>
 	</table>

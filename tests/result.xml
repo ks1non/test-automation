@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="4" time="38.768" timestamp="2023-11-05T04:24:44.116481" hostname="DESKTOP-FCB6K2B"><testcase classname="tests.test_check_and_validation" name="test_validation[15-Valid]" time="7.626" /><testcase classname="tests.test_check_and_validation" name="test_validation[1-Not in range]" time="4.934" /><testcase classname="tests.test_check_and_validation" name="test_validation[h-Not a number]" time="4.955" /><testcase classname="tests.test_check_and_validation" name="test_validation[-1-Negative integer]" time="4.885" /></testsuite></testsuites>
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="154.237" timestamp="2023-11-07T01:28:51.421514" hostname="DESKTOP-FCB6K2B"><testcase classname="tests.test_input_and_click" name="test_back_btn" time="153.726"><failure message="AssertionError: assert &lt;bound method HoverAndSelectPage.check_marker of &lt;pages.hover_and_select_page.HoverAndSelectPage object at 0x0000014E08879910&gt;&gt; == 'HOVER AND SELECT'&#10; +  where &lt;bound method HoverAndSelectPage.check_marker of &lt;pages.hover_and_select_page.HoverAndSelectPage object at 0x0000014E08879910&gt;&gt; = &lt;pages.hover_and_select_page.HoverAndSelectPage object at 0x0000014E08879910&gt;.check_marker">input_and_click_instance = &lt;pages.input_and_click_page.InputAndClickPage object at 0x0000014E08879BD0&gt;
+hover_and_select_instance = &lt;pages.hover_and_select_page.HoverAndSelectPage object at 0x0000014E08879910&gt;
+
+    @mark.test_one
+    def test_back_btn(input_and_click_instance, hover_and_select_instance):
+        input_and_click_instance.click_back()
+&gt;       assert hover_and_select_instance.check_marker == 'HOVER AND SELECT'
+E       AssertionError: assert &lt;bound method HoverAndSelectPage.check_marker of &lt;pages.hover_and_select_page.HoverAndSelectPage object at 0x0000014E08879910&gt;&gt; == 'HOVER AND SELECT'
+E        +  where &lt;bound method HoverAndSelectPage.check_marker of &lt;pages.hover_and_select_page.HoverAndSelectPage object at 0x0000014E08879910&gt;&gt; = &lt;pages.hover_and_select_page.HoverAndSelectPage object at 0x0000014E08879910&gt;.check_marker
+
+test_input_and_click.py:26: AssertionError</failure></testcase></testsuite></testsuites>

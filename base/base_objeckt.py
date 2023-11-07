@@ -12,6 +12,14 @@ class BaseObject:
         self.driver = driver
         self.wait = WebDriverWait(driver, 2)
 
+    def all_visible(self, locator) -> WebElement:
+        """fff"""
+        return self.wait.until(ec.visibility_of_all_elements_located(locator))
+
+    def no_visible(self, locator) -> WebElement:
+        """fff"""
+        return self.wait.until_not(ec.visibility_of_element_located(locator))
+
     def is_visible(self, locator) -> WebElement:
         """fff"""
         return self.wait.until(ec.visibility_of_element_located(locator))
@@ -31,3 +39,7 @@ class BaseObject:
     def get_text(self, locator):
         """fff"""
         return self.is_visible(locator).text
+
+    def get_all(self, locator):
+        """fff"""
+        return self.all_visible(locator).text

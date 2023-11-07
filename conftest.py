@@ -6,12 +6,13 @@ from webdriver_manager.chrome import ChromeDriverManager
 from pages.index_page import IndexPage
 from pages.check_and_validation_page import CheckAndValidationPage
 from pages.input_and_click_page import InputAndClickPage
+from pages.hover_and_select_page import HoverAndSelectPage
 
 @pytest.fixture(scope='function')
 def get_chrome_options():
     '''scope рядом с каждой фекстурой , по дефолту фанкшен'''
     options = ChromeOptions()
-    options.add_argument('headless')
+    # options.add_argument('headless')
     return options
 
 
@@ -58,3 +59,16 @@ def setup_input_and_click(get_webdriver):
 @pytest.fixture(scope='function')
 def input_and_click_instance(setup_input_and_click):
     yield InputAndClickPage(setup_input_and_click)
+
+
+@pytest.fixture(scope='function')
+def setup_hover_and_select(get_webdriver):
+    url = 'https://toghrulmirzayev.github.io/ui-simulator/hover_and_select.html'
+    get_webdriver.get(url)
+    yield get_webdriver
+    get_webdriver.quit()
+
+
+@pytest.fixture(scope='function')
+def hover_and_select_instance(setup_hover_and_select):
+    yield HoverAndSelectPage(setup_hover_and_select)
