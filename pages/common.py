@@ -22,8 +22,11 @@ class Common(BaseObject, Assertions):
     def check_day_theme(self):
         self.is_visible(self.THEME_DAY)
 
-    # def click_back(self):
-    #     self.click(self.BACK_BTN)
+    def click_back(self):
+        self.click(self.BACK_BTN)
 
     def click_swtch(self):
         self.click(self.SWITCH)
+
+    def navigate_pages(self):
+        pass

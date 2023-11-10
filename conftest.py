@@ -7,7 +7,7 @@ from pages.index_page import IndexPage
 from pages.check_and_validation_page import CheckAndValidationPage
 from pages.input_and_click_page import InputAndClickPage
 from pages.hover_and_select_page import HoverAndSelectPage
-
+from pages.common import Common
 @pytest.fixture(scope='function')
 def get_chrome_options():
     '''scope рядом с каждой фекстурой , по дефолту фанкшен'''
@@ -72,3 +72,8 @@ def setup_hover_and_select(get_webdriver):
 @pytest.fixture(scope='function')
 def hover_and_select_instance(setup_hover_and_select):
     yield HoverAndSelectPage(setup_hover_and_select)
+
+
+@pytest.fixture()
+def common_instance(setup_hover_and_select):
+    yield Common(setup_hover_and_select)

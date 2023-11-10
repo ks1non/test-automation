@@ -43,3 +43,9 @@ class BaseObject:
     def get_all(self, locator):
         """fff"""
         return self.all_visible(locator).text
+
+    def items_in_list(self, locator):
+        items_list = self.wait.until(ec.visibility_of_element_located(locator))
+        items = items_list.text.split()
+        return items
+

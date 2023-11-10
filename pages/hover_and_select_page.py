@@ -7,8 +7,11 @@ from selenium.webdriver.common.by import By
 class HoverAndSelectPage(BaseObject, Assertions):
     """fff"""
 
-    MARKERHOVERPAGES = (By.CLASS_NAME, 'select-text')  # noqa
+    def __init__(self, driver):
+        super().__init__(driver)
+        self.driver = driver
 
+    MARKERHOVERPAGES = (By.CLASS_NAME, 'select-text')  # noqa
 
     def check_marker(self):
         self.get_text(self.MARKERHOVERPAGES)
