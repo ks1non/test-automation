@@ -39,3 +39,8 @@ class InputAndClickPage(BaseObject, Assertions):
     def check_all(self, items):
         """Проверяем наличие всех значений"""
         self.assert_equal(self.items_in_list(self.ITEMS), items)
+
+    def add_all_value(self, items):
+        for i in items:
+            self.enter_items(i)
+            self.add_value()
