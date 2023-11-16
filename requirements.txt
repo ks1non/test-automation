@@ -3,3 +3,4 @@ selenium
 webdriver-manager
 pytest-rerunfailures
 pytest-pyreport
+pytest-xdist

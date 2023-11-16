@@ -3,6 +3,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.remote.webelement import WebElement
+from selenium.webdriver.common.action_chains import ActionChains
 
 
 class BaseObject:
@@ -15,6 +16,9 @@ class BaseObject:
     def all_visible(self, locator) -> WebElement:
         """fff"""
         return self.wait.until(ec.visibility_of_all_elements_located(locator))
+
+    def get_url(self):
+        return self.driver.current_url
 
     def no_visible(self, locator) -> WebElement:
         """fff"""
@@ -49,3 +53,13 @@ class BaseObject:
         items = items_list.text.split()
         return items
 
+    def hover(self, locator):
+        element = self.is_visible(locator)
+        actions = ActionChains(self.driver)
+        actions.move_to_element(element).perform()
+
+    def dnd(self, locator_0, locator_1):
+        drag = self.is_visible(locator_0)
+        drop = self.is_visible(locator_1)
+        actions = ActionChains(self.driver)
+        actions.drag_and_drop(drag, drop).perform()

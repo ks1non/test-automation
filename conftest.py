@@ -8,11 +8,14 @@ from pages.check_and_validation_page import CheckAndValidationPage
 from pages.input_and_click_page import InputAndClickPage
 from pages.hover_and_select_page import HoverAndSelectPage
 from pages.common import Common
+from pages.drag_and_drop_page import DragAndDropPage
+
+
 @pytest.fixture(scope='function')
 def get_chrome_options():
     '''scope рядом с каждой фекстурой , по дефолту фанкшен'''
     options = ChromeOptions()
-    # options.add_argument('headless')
+    options.add_argument('headless')
     return options
 
 
@@ -74,6 +77,19 @@ def hover_and_select_instance(setup_hover_and_select):
     yield HoverAndSelectPage(setup_hover_and_select)
 
 
-@pytest.fixture()
+@pytest.fixture(scope='function')
 def common_instance(setup_hover_and_select):
     yield Common(setup_hover_and_select)
+
+
+@pytest.fixture(scope='function')
+def setup_drag_and_drop(get_webdriver):
+    url = 'https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html'
+    get_webdriver.get(url)
+    yield get_webdriver
+    get_webdriver.quit()
+
+
+@pytest.fixture(scope='function')
+def drag_and_drop_instance(setup_drag_and_drop):
+    yield DragAndDropPage(setup_drag_and_drop)

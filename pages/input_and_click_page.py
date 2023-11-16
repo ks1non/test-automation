@@ -11,14 +11,11 @@ class InputAndClickPage(BaseObject, Assertions):
     ADDBTN = (By.XPATH, '//*[@id="addBtn"]')  # noqa
     DELETEBTN = (By.XPATH, '//*[@id="deleteBtn"]')  # noqa
     ITEMS = (By.XPATH, '//*[@id="items"]')
-    BACK_BTN = (By.CLASS_NAME, 'back-button')
 
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
 
-    def click_back(self):
-        self.click(self.BACK_BTN)
 
     def enter_items(self, value):
         """Вводим значение в инпут"""  # noqa
