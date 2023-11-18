@@ -9,13 +9,13 @@ from pages.input_and_click_page import InputAndClickPage
 from pages.hover_and_select_page import HoverAndSelectPage
 from pages.common import Common
 from pages.drag_and_drop_page import DragAndDropPage
-
+from pages.checkboxes_and_scroll_page import CheckboxesAndScroll
 
 @pytest.fixture(scope='function')
 def get_chrome_options():
     '''scope рядом с каждой фекстурой , по дефолту фанкшен'''
     options = ChromeOptions()
-    options.add_argument('headless')
+    # options.add_argument('headless')
     return options
 
 
@@ -93,3 +93,16 @@ def setup_drag_and_drop(get_webdriver):
 @pytest.fixture(scope='function')
 def drag_and_drop_instance(setup_drag_and_drop):
     yield DragAndDropPage(setup_drag_and_drop)
+
+
+@pytest.fixture(scope='function')
+def setup_checkboxes_and_scroll(get_webdriver):
+    url = 'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'
+    get_webdriver.get(url)
+    yield get_webdriver
+    get_webdriver.quit()
+
+
+@pytest.fixture(scope='function')
+def checkboxes_and_scroll_instance(setup_checkboxes_and_scroll):
+    yield CheckboxesAndScroll(setup_checkboxes_and_scroll)
