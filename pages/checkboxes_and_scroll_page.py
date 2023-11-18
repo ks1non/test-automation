@@ -23,3 +23,8 @@ class CheckboxesAndScroll(BaseObject, Assertions):
         for i in range(1, checkbox_list + 1):
             self.click_checkbox(i)
             self.assert_equal(self.get_text(self.COUNTER), f'{i}')
+
+    def counter_uncheck_checkbox(self, checkbox_list):
+        for i in range(1, checkbox_list + 1):
+            self.click_checkbox(i)
+            self.assert_equal(self.get_text(self.COUNTER), f'{checkbox_list - i}')
