@@ -9,4 +9,4 @@ with open(path, 'r') as f:
 
 login = index_creds['login']
 password = index_creds['password']
-exception = index_creds['exception']
+exception = index_creds['expectetion']
