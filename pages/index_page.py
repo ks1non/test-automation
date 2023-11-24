@@ -2,7 +2,7 @@
 from support.assertions import Assertions
 from base.base_objeckt import BaseObject
 from selenium.webdriver.common.by import By
-
+import allure
 
 class IndexPage(BaseObject, Assertions):
     """fff"""
@@ -17,6 +17,7 @@ class IndexPage(BaseObject, Assertions):
         super().__init__(driver)
         self.driver = driver
 
+    @allure.step('user name entered')
     def enter_username(self, login):
         """fff"""
         self.send_keys(self.USERNAME_FIELD, value=login)

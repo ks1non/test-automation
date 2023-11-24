@@ -10,6 +10,8 @@ from pages.hover_and_select_page import HoverAndSelectPage
 from pages.common import Common
 from pages.drag_and_drop_page import DragAndDropPage
 from pages.checkboxes_and_scroll_page import CheckboxesAndScroll
+from pages.sort_by_page import SortByPage
+
 
 @pytest.fixture(scope='function')
 def get_chrome_options():
@@ -106,3 +108,16 @@ def setup_checkboxes_and_scroll(get_webdriver):
 @pytest.fixture(scope='function')
 def checkboxes_and_scroll_instance(setup_checkboxes_and_scroll):
     yield CheckboxesAndScroll(setup_checkboxes_and_scroll)
+
+
+@pytest.fixture(scope='function')
+def setup_sorting(get_webdriver):
+    url = 'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'
+    get_webdriver.get(url)
+    yield get_webdriver
+    get_webdriver.quit()
+
+
+@pytest.fixture(scope='function')
+def setup_sorting_instance(setup_sorting):
+    yield SortByPage(setup_sorting)
