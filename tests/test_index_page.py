@@ -15,6 +15,7 @@ incorrect_4 = ['', 'correct_username', 'Username field cannot be empty']
 @allure.suite('Authorization suite')
 @allure.severity(allure.severity_level.BLOCKER)
 @mark.index
+@mark.smoke
 def test_success_login(index_page_instance):
     index_page_instance.enter_username(login)
     index_page_instance.enter_password(password)
