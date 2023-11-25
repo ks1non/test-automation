@@ -21,6 +21,14 @@ pool:
   vmImage: 'windows-latest'
 #берется из ci/cd документации
 steps:
+  - task: replacetokens@3
+    displayName: 'Replace tokens'
+    inputs:
+      targetFiles: |
+        **/index_creds.json
+      tokenPrefix: '$('
+      tokenSuffix: ')'
+
   - task: UsePythonVersion@0
     inputs:
       versionSpec: '3.9'
