@@ -15,7 +15,7 @@ schedules:
         - main
 
 trigger:
-  - main
+  - main  #pr none - что бы не запускать во время pr
 
 pool:
   vmImage: 'windows-latest'
