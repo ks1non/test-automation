@@ -23,9 +23,9 @@ def test_success_login(index_page_instance):
 
 
 @mark.index
-@pytest.mark.parametrize('login, password, text', (incorrect_1, incorrect_2, incorrect_3, incorrect_4))
-def test_unsuccessful_login(index_page_instance, login, password, text):
-    index_page_instance.enter_username(login)
-    index_page_instance.enter_password(password)
+@pytest.mark.parametrize('un_login, un_password, un_text', (incorrect_1, incorrect_2, incorrect_3, incorrect_4))
+def test_unsuccessful_login(index_page_instance, un_login, un_password, un_text):
+    index_page_instance.enter_username(un_login)
+    index_page_instance.enter_password(un_password)
     index_page_instance.click_to_login_btn()
-    index_page_instance.verify_incorrect_login(text)
+    index_page_instance.verify_incorrect_login(un_text)
