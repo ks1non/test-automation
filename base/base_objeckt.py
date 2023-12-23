@@ -40,7 +40,7 @@ class BaseObject:
         self.is_clickable(locator).click()
 
     def send_keys(self, locator, value):
-        """fff"""
+        """этот метод нужен что бы ввести текст"""
         self.is_visible(locator).send_keys(value)
 
     def get_text(self, locator):

@@ -1,5 +1,11 @@
+//{
+//  "login": "$(login)",
+//  "password": "$(password)",
+//  "expectetion": "Log out"
+//}
+
 {
-  "login": "$(login)",
-  "password": "$(password)",
+  "login": "correct_username",
+  "password": "correct_password",
   "expectetion": "Log out"
 }

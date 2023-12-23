@@ -1,7 +1,7 @@
 """Тут происходит вызов тестов с разными параметрами"""  # noqa
 import pytest
 from pytest import mark
-from env_setup import login, password, exception
+# from env_setup import login, password, exception
 import allure
 # correct_0 = ['correct_username', 'correct_password', 'Log out']
 incorrect_1 = ['', '', 'Username and password fields cannot be empty']
@@ -14,7 +14,6 @@ incorrect_4 = ['', 'correct_username', 'Username field cannot be empty']
 @allure.title('Successful login')
 @allure.suite('Authorization suite')
 @allure.severity(allure.severity_level.BLOCKER)
-@mark.index
 @mark.smoke
 def test_success_login(index_page_instance):
     index_page_instance.enter_username(login)
@@ -24,8 +23,7 @@ def test_success_login(index_page_instance):
 
 
 @mark.index
-@pytest.mark.parametrize('login, password, text', (incorrect_1, incorrect_2, incorrect_3, incorrect_4),
-                         )
+@pytest.mark.parametrize('login, password, text', (incorrect_1, incorrect_2, incorrect_3, incorrect_4))
 def test_unsuccessful_login(index_page_instance, login, password, text):
     index_page_instance.enter_username(login)
     index_page_instance.enter_password(password)
