@@ -1,7 +1,7 @@
 """Тут происходит вызов тестов с разными параметрами"""  # noqa
 import pytest
 from pytest import mark
-# from env_setup import login, password, exception
+from env_setup import login, password, exception
 import allure
 # correct_0 = ['correct_username', 'correct_password', 'Log out']
 incorrect_1 = ['', '', 'Username and password fields cannot be empty']
