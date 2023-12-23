@@ -18,9 +18,9 @@ class IndexPage(BaseObject, Assertions):
         self.driver = driver
 
     @allure.step('user name entered')
-    def enter_username(self):
+    def enter_username(self, login):
         """fff"""
-        self.send_keys(self.USERNAME_FIELD)
+        self.send_keys(self.USERNAME_FIELD, login)
 
     def enter_password(self, password):
         """fff"""
