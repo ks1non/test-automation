@@ -1,7 +1,7 @@
 """Тут происходит вызов тестов с разными параметрами"""  # noqa
 import pytest
 from pytest import mark
-from env_setup import login, password
+from env_setup import LOGIN, PASSWORD
 import allure
 
 incorrect_1 = ['', '', 'Username and password fields cannot be empty']
@@ -17,8 +17,8 @@ incorrect_4 = ['', 'correct_username', 'Username field cannot be empty']
 @allure.severity(allure.severity_level.BLOCKER)
 @mark.smoke
 def test_success_login(index_page_instance):
-    index_page_instance.enter_username(login)
-    index_page_instance.enter_password(password)
+    index_page_instance.enter_username(LOGIN)
+    index_page_instance.enter_password(PASSWORD)
     index_page_instance.click_to_login_btn()
     index_page_instance.verify_login('Log out')
 
