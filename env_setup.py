@@ -16,10 +16,10 @@ import os
 
 load_dotenv()
 
-login = os.getenv("LOGIN")
-password = os.getenv("PASSWORD")
+LOGIN = os.getenv("LOGIN")
+PASSWORD = os.getenv("PASSWORD")
 
 
-def test_encryption(): # try printing your secrets while running the code in CI to check if they are really encrypted
-    print(login)
-    print(password)
+def test_encryption():  # try printing your secrets while running the code in CI to check if they are really encrypted
+    print(LOGIN)
+    print(PASSWORD)
