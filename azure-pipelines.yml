@@ -64,10 +64,3 @@ steps:
     inputs:
       reportDir: 'pyreport.html'
       tabName: 'PytestPyreport'
-
-  - script: |
-  - task: CmdLine@2
-    inputs:
-      script: |
-        allure serve
-    displayName: 'Install allure'

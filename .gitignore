@@ -10,3 +10,5 @@ new.py
 **/my_test.py
 **/logfile.log
 **/allure-results
+**/.env
+.env

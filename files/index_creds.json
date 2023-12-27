@@ -1,5 +1,5 @@
 {
-  "login": "$(login)",
-  "password": "$(password)",
+  "login": "correct_username",
+  "password": "correct_password",
   "expectetion": "Log out"
 }
