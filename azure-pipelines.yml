@@ -15,20 +15,15 @@ schedules:
         - main
 
 trigger:
-  - main  #pr none - что бы не запускать во время pr
+  - main
 
 pool:
   vmImage: 'windows-latest'
-#берется из ci/cd документации
-steps:
-  - task: replacetokens@3
-    displayName: 'Replace tokens'
-    inputs:
-      targetFiles: |
-        **/index_creds.json
-      tokenPrefix: '$('
-      tokenSuffix: ')'
 
+variables: # add your variable group to pipelines
+  - group: authorization
+
+steps:
   - task: UsePythonVersion@0
     inputs:
       versionSpec: '3.9'
@@ -43,6 +38,7 @@ steps:
         pip install -r requirements.txt
     displayName: 'Install dependencies'
 
+
   - task: CmdLine@2
     inputs:
       ${{ if contains(parameters.subscription, 'smoke') }}:
@@ -52,15 +48,11 @@ steps:
         script: |
           pytest
     displayName: 'pytest'
-    continueOnError: true
+    env: # use your secrets safely without disclosing their content
+      LOGIN: $(LOGIN)
+      PASSWORD: $(PASSWORD)
 
   - task: PublishTestResults@2
     inputs:
       testResultsFormat: 'JUnit'
       testResultsFiles: 'result.xml'
-
-  - task: PublishHtmlReport@1
-    displayName: 'Publish HTML Report'
-    inputs:
-      reportDir: 'pyreport.html'
-      tabName: 'PytestPyreport'
