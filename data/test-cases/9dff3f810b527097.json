@@ -1,12 +1,12 @@
 {
-  "uid" : "a43213d8fbcbaf7b",
-  "name" : "test_checkbox_click",
-  "fullName" : "tests.test_checkboxes_and_scroll#test_checkbox_click",
-  "historyId" : "e6097249ec439bd87002ff1207efc20e",
+  "uid" : "9dff3f810b527097",
+  "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
+  "fullName" : "tests.test_common#test_back_per_pages_parametrize",
+  "historyId" : "8789cf8e2e158c371ef3a203e865de9a",
   "time" : {
-    "start" : 1703877740467,
-    "stop" : 1703877742331,
-    "duration" : 1864
+    "start" : 1703878261636,
+    "stop" : 1703878262032,
+    "duration" : 396
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1703877740338,
-      "stop" : 1703877740338,
+      "start" : 1703878261540,
+      "stop" : 1703878261540,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,8 +29,8 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1703877739528,
-      "stop" : 1703877739528,
+      "start" : 1703878260708,
+      "stop" : 1703878260708,
       "duration" : 0
     },
     "status" : "passed",
@@ -44,9 +44,9 @@
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1703877739528,
-      "stop" : 1703877740338,
-      "duration" : 810
+      "start" : 1703878260708,
+      "stop" : 1703878261540,
+      "duration" : 832
     },
     "status" : "passed",
     "steps" : [ ],
@@ -57,11 +57,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "checkboxes_and_scroll_instance",
+    "name" : "common_instance",
     "time" : {
-      "start" : 1703877740338,
-      "stop" : 1703877740466,
-      "duration" : 128
+      "start" : 1703878261541,
+      "stop" : 1703878261635,
+      "duration" : 94
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,11 +76,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a23017e14b5165c4",
+      "uid" : "b27a05c40da39144",
       "name" : "log",
-      "source" : "a23017e14b5165c4.txt",
+      "source" : "b27a05c40da39144.txt",
       "type" : "text/plain",
-      "size" : 2039
+      "size" : 79
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -91,8 +91,8 @@
   "afterStages" : [ {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703877742391,
-      "stop" : 1703877742391,
+      "start" : 1703878262091,
+      "stop" : 1703878262091,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,11 +104,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "checkboxes_and_scroll_instance::0",
+    "name" : "common_instance::0",
     "time" : {
-      "start" : 1703877742332,
-      "stop" : 1703877742391,
-      "duration" : 59
+      "start" : 1703878262033,
+      "stop" : 1703878262090,
+      "duration" : 57
     },
     "status" : "passed",
     "steps" : [ ],
@@ -121,19 +121,19 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "checkbox_and_scroll"
+    "value" : "common"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_checkboxes_and_scroll"
+    "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az1382-721"
+    "value" : "fv-az1433-659"
   }, {
     "name" : "thread",
-    "value" : "4253-MainThread"
+    "value" : "4207-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,12 +142,18 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_checkboxes_and_scroll"
+    "value" : "tests.test_common"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "index",
+    "value" : "4"
+  }, {
+    "name" : "url",
+    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -155,8 +161,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "checkbox_and_scroll" ]
+    "tags" : [ "common" ]
   },
-  "source" : "a43213d8fbcbaf7b.json",
-  "parameterValues" : [ ]
+  "source" : "9dff3f810b527097.json",
+  "parameterValues" : [ "4", "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'" ]
 }

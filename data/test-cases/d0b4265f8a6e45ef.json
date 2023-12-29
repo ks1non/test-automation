@@ -1,22 +1,22 @@
 {
-  "uid" : "893013859739c0ab",
-  "name" : "test_dnd",
-  "fullName" : "tests.test_drag_and_drop#test_dnd",
-  "historyId" : "96f31f4135cd340fe3c0786af0f98ba6",
+  "uid" : "d0b4265f8a6e45ef",
+  "name" : "test_checkbox_click",
+  "fullName" : "tests.test_checkboxes_and_scroll#test_checkbox_click",
+  "historyId" : "e6097249ec439bd87002ff1207efc20e",
   "time" : {
-    "start" : 1703877753294,
-    "stop" : 1703877756189,
-    "duration" : 2895
+    "start" : 1703878252069,
+    "stop" : 1703878253795,
+    "duration" : 1726
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "screenshot_on_failures",
+    "name" : "get_webdriver",
     "time" : {
-      "start" : 1703877753166,
-      "stop" : 1703877753166,
-      "duration" : 0
+      "start" : 1703878251209,
+      "stop" : 1703878251985,
+      "duration" : 776
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1703877752360,
-      "stop" : 1703877752360,
+      "start" : 1703878251209,
+      "stop" : 1703878251209,
       "duration" : 0
     },
     "status" : "passed",
@@ -42,11 +42,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "get_webdriver",
+    "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1703877752360,
-      "stop" : 1703877753166,
-      "duration" : 806
+      "start" : 1703878251985,
+      "stop" : 1703878251985,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -57,11 +57,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "drag_and_drop_instance",
+    "name" : "checkboxes_and_scroll_instance",
     "time" : {
-      "start" : 1703877753166,
-      "stop" : 1703877753294,
-      "duration" : 128
+      "start" : 1703878251985,
+      "stop" : 1703878252069,
+      "duration" : 84
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,11 +76,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "36363ea4fa013e2c",
+      "uid" : "d0a28b1daea23427",
       "name" : "log",
-      "source" : "36363ea4fa013e2c.txt",
+      "source" : "d0a28b1daea23427.txt",
       "type" : "text/plain",
-      "size" : 1055
+      "size" : 2039
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -91,8 +91,8 @@
   "afterStages" : [ {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703877756246,
-      "stop" : 1703877756246,
+      "start" : 1703878253852,
+      "stop" : 1703878253852,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,11 +104,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "drag_and_drop_instance::0",
+    "name" : "checkboxes_and_scroll_instance::0",
     "time" : {
-      "start" : 1703877756189,
-      "stop" : 1703877756245,
-      "duration" : 56
+      "start" : 1703878253795,
+      "stop" : 1703878253852,
+      "duration" : 57
     },
     "status" : "passed",
     "steps" : [ ],
@@ -121,19 +121,19 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "test_dnd"
+    "value" : "checkbox_and_scroll"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_drag_and_drop"
+    "value" : "test_checkboxes_and_scroll"
   }, {
     "name" : "host",
-    "value" : "fv-az1382-721"
+    "value" : "fv-az1433-659"
   }, {
     "name" : "thread",
-    "value" : "4253-MainThread"
+    "value" : "4207-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,7 +142,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_drag_and_drop"
+    "value" : "tests.test_checkboxes_and_scroll"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -155,8 +155,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "test_dnd" ]
+    "tags" : [ "checkbox_and_scroll" ]
   },
-  "source" : "893013859739c0ab.json",
+  "source" : "d0b4265f8a6e45ef.json",
   "parameterValues" : [ ]
 }

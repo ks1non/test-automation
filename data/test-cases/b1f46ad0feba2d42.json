@@ -1,52 +1,22 @@
 {
-  "uid" : "76214f2f9e21eae1",
-  "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
+  "uid" : "b1f46ad0feba2d42",
+  "name" : "test_back_per_pages_parametrize[5-https://toghrulmirzayev.github.io/ui-simulator/sorting.html]",
   "fullName" : "tests.test_common#test_back_per_pages_parametrize",
-  "historyId" : "ef79e85e3cd147d830893cffa721b233",
+  "historyId" : "fdb936303ecada5f5a44f0441610721e",
   "time" : {
-    "start" : 1703877749119,
-    "stop" : 1703877749519,
-    "duration" : 400
+    "start" : 1703878262966,
+    "stop" : 1703878263368,
+    "duration" : 402
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "screenshot_on_failures",
-    "time" : {
-      "start" : 1703877748993,
-      "stop" : 1703877748994,
-      "duration" : 1
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "common_instance",
     "time" : {
-      "start" : 1703877748994,
-      "stop" : 1703877749118,
-      "duration" : 124
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_chrome_options",
-    "time" : {
-      "start" : 1703877748193,
-      "stop" : 1703877748193,
-      "duration" : 0
+      "start" : 1703878262879,
+      "stop" : 1703878262966,
+      "duration" : 87
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,9 +29,39 @@
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1703877748193,
-      "stop" : 1703877748993,
-      "duration" : 800
+      "start" : 1703878262093,
+      "stop" : 1703878262878,
+      "duration" : 785
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1703878262879,
+      "stop" : 1703878262879,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1703878262093,
+      "stop" : 1703878262093,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,9 +76,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "3d3415de0c63c542",
+      "uid" : "92cf24f8c81eae43",
       "name" : "log",
-      "source" : "3d3415de0c63c542.txt",
+      "source" : "92cf24f8c81eae43.txt",
       "type" : "text/plain",
       "size" : 79
     } ],
@@ -89,11 +89,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "screenshot_on_failures::0",
+    "name" : "common_instance::0",
     "time" : {
-      "start" : 1703877749576,
-      "stop" : 1703877749576,
-      "duration" : 0
+      "start" : 1703878263369,
+      "stop" : 1703878263425,
+      "duration" : 56
     },
     "status" : "passed",
     "steps" : [ ],
@@ -104,11 +104,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "common_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703877749519,
-      "stop" : 1703877749576,
-      "duration" : 57
+      "start" : 1703878263426,
+      "stop" : 1703878263426,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -130,10 +130,10 @@
     "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az1382-721"
+    "value" : "fv-az1433-659"
   }, {
     "name" : "thread",
-    "value" : "4253-MainThread"
+    "value" : "4207-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -149,10 +149,10 @@
   } ],
   "parameters" : [ {
     "name" : "index",
-    "value" : "3"
+    "value" : "5"
   }, {
     "name" : "url",
-    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'"
+    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -163,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ "common" ]
   },
-  "source" : "76214f2f9e21eae1.json",
-  "parameterValues" : [ "3", "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'" ]
+  "source" : "b1f46ad0feba2d42.json",
+  "parameterValues" : [ "5", "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'" ]
 }

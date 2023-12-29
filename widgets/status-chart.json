@@ -1,190 +1,190 @@
 [ {
-  "uid" : "893013859739c0ab",
-  "name" : "test_dnd",
-  "time" : {
-    "start" : 1703877753294,
-    "stop" : 1703877756189,
-    "duration" : 2895
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d4ac3f3d191f7699",
+  "uid" : "d51b90c1843fee9c",
   "name" : "test_validation[h-Not a number]",
   "time" : {
-    "start" : 1703877738323,
-    "stop" : 1703877738405,
-    "duration" : 82
+    "start" : 1703878250064,
+    "stop" : 1703878250148,
+    "duration" : 84
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a8ad7946c766a5a9",
+  "uid" : "d0b4265f8a6e45ef",
+  "name" : "test_checkbox_click",
+  "time" : {
+    "start" : 1703878252069,
+    "stop" : 1703878253795,
+    "duration" : 1726
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1f46ad0feba2d42",
   "name" : "test_back_per_pages_parametrize[5-https://toghrulmirzayev.github.io/ui-simulator/sorting.html]",
   "time" : {
-    "start" : 1703877751896,
-    "stop" : 1703877752300,
-    "duration" : 404
+    "start" : 1703878262966,
+    "stop" : 1703878263368,
+    "duration" : 402
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f9164a4f80a38321",
-  "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
+  "uid" : "446f9914fd1cf25f",
+  "name" : "test_adding_multiple_values",
   "time" : {
-    "start" : 1703877750501,
-    "stop" : 1703877750905,
-    "duration" : 404
+    "start" : 1703878273647,
+    "stop" : 1703878273940,
+    "duration" : 293
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b023fa4719efbd59",
-  "name" : "test_back_per_pages_parametrize[2-https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html]",
+  "uid" : "a3946ba022d99e5f",
+  "name" : "Unsuccessful login",
   "time" : {
-    "start" : 1703877747733,
-    "stop" : 1703877748132,
+    "start" : 1703878268065,
+    "stop" : 1703878268229,
+    "duration" : 164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94bfbddfb2f27a6b",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1703878270269,
+    "stop" : 1703878270440,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35d1b820a9c257b0",
+  "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
+  "time" : {
+    "start" : 1703878260249,
+    "stop" : 1703878260648,
     "duration" : 399
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3de9ef9f3d248aa4",
-  "name" : "test_del_value",
-  "time" : {
-    "start" : 1703877761780,
-    "stop" : 1703877762014,
-    "duration" : 234
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5f973c5dd6b31a1",
-  "name" : "test_sort",
-  "time" : {
-    "start" : 1703877764237,
-    "stop" : 1703877764582,
-    "duration" : 345
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2db4fb9827eb28ac",
-  "name" : "test_back_per_pages",
-  "time" : {
-    "start" : 1703877743364,
-    "stop" : 1703877745374,
-    "duration" : 2010
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4364caaf42a68e85",
-  "name" : "Unsuccessful login",
-  "time" : {
-    "start" : 1703877757178,
-    "stop" : 1703877757338,
-    "duration" : 160
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c8723ec37c28c1ca",
-  "name" : "Unsuccessful login",
-  "time" : {
-    "start" : 1703877759478,
-    "stop" : 1703877759648,
-    "duration" : 170
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba71ed01461fe405",
-  "name" : "test_back_per_pages_parametrize[1-https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html]",
-  "time" : {
-    "start" : 1703877746351,
-    "stop" : 1703877746751,
-    "duration" : 400
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a43213d8fbcbaf7b",
-  "name" : "test_checkbox_click",
-  "time" : {
-    "start" : 1703877740467,
-    "stop" : 1703877742331,
-    "duration" : 1864
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1f17fa6b433a6433",
-  "name" : "test_validation[-1-Negative integer]",
-  "time" : {
-    "start" : 1703877739386,
-    "stop" : 1703877739468,
-    "duration" : 82
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "12e377587db1244d",
+  "uid" : "bc07f622b7f409ae",
   "name" : "test_validation[1-Not in range]",
   "time" : {
-    "start" : 1703877737255,
-    "stop" : 1703877737337,
-    "duration" : 82
+    "start" : 1703878249030,
+    "stop" : 1703878249116,
+    "duration" : 86
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9878fb6631a4e5e3",
-  "name" : "test_adding_multiple_values",
+  "uid" : "92fe86cf39c5eeee",
+  "name" : "test_del_value",
   "time" : {
-    "start" : 1703877762993,
-    "stop" : 1703877763259,
-    "duration" : 266
+    "start" : 1703878272461,
+    "stop" : 1703878272714,
+    "duration" : 253
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "382c31db78610dd8",
+  "uid" : "2eb86f23f3b9e3a",
+  "name" : "test_back_per_pages_parametrize[1-https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html]",
+  "time" : {
+    "start" : 1703878257601,
+    "stop" : 1703878257997,
+    "duration" : 396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7308d24971e01de",
+  "name" : "test_back_per_pages",
+  "time" : {
+    "start" : 1703878254723,
+    "stop" : 1703878256677,
+    "duration" : 1954
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ab7876fa28d5264",
   "name" : "Unsuccessful login",
   "time" : {
-    "start" : 1703877760630,
-    "stop" : 1703877760798,
-    "duration" : 168
+    "start" : 1703878269159,
+    "stop" : 1703878269341,
+    "duration" : 182
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6a815df7b7c5d971",
+  "uid" : "dcc82ecf4cbf281e",
+  "name" : "test_sort",
+  "time" : {
+    "start" : 1703878274864,
+    "stop" : 1703878275221,
+    "duration" : 357
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d8f7115d491342d",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1703878271364,
+    "stop" : 1703878271538,
+    "duration" : 174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd09a85eb28ec8e6",
+  "name" : "test_back_per_pages_parametrize[2-https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html]",
+  "time" : {
+    "start" : 1703878258917,
+    "stop" : 1703878259318,
+    "duration" : 401
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48ce8f7c4e89e76",
+  "name" : "test_validation[-1-Negative integer]",
+  "time" : {
+    "start" : 1703878251064,
+    "stop" : 1703878251149,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b3de7189b9fe2d1",
+  "name" : "test_dnd",
+  "time" : {
+    "start" : 1703878264297,
+    "stop" : 1703878267141,
+    "duration" : 2844
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d87aa0bc0c8be7d8",
   "name" : "test_validation[15-Valid]",
   "time" : {
-    "start" : 1703877735341,
-    "stop" : 1703877736229,
-    "duration" : 888
+    "start" : 1703878247993,
+    "stop" : 1703878248098,
+    "duration" : 105
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9551f983a2559904",
-  "name" : "Unsuccessful login",
+  "uid" : "9dff3f810b527097",
+  "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
   "time" : {
-    "start" : 1703877758326,
-    "stop" : 1703877758498,
-    "duration" : 172
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "76214f2f9e21eae1",
-  "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
-  "time" : {
-    "start" : 1703877749119,
-    "stop" : 1703877749519,
-    "duration" : 400
+    "start" : 1703878261636,
+    "stop" : 1703878262032,
+    "duration" : 396
   },
   "status" : "passed",
   "severity" : "normal"
