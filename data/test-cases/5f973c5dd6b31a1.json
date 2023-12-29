@@ -1,12 +1,12 @@
 {
-  "uid" : "1a0da795c8791bc",
+  "uid" : "5f973c5dd6b31a1",
   "name" : "test_sort",
   "fullName" : "tests.test_sort_by#test_sort",
   "historyId" : "ef7797c3370b6ba80d57696a8b7ee5ec",
   "time" : {
-    "start" : 1703876285627,
-    "stop" : 1703876285964,
-    "duration" : 337
+    "start" : 1703877764237,
+    "stop" : 1703877764582,
+    "duration" : 345
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,39 +14,9 @@
   "beforeStages" : [ {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1703876284699,
-      "stop" : 1703876285502,
-      "duration" : 803
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_chrome_options",
-    "time" : {
-      "start" : 1703876284699,
-      "stop" : 1703876284699,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "screenshot_on_failures",
-    "time" : {
-      "start" : 1703876285502,
-      "stop" : 1703876285502,
-      "duration" : 0
+      "start" : 1703877763319,
+      "stop" : 1703877764117,
+      "duration" : 798
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,9 +29,39 @@
   }, {
     "name" : "setup_sorting_instance",
     "time" : {
-      "start" : 1703876285502,
-      "stop" : 1703876285626,
-      "duration" : 124
+      "start" : 1703877764117,
+      "stop" : 1703877764237,
+      "duration" : 120
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1703877764117,
+      "stop" : 1703877764117,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1703877763319,
+      "stop" : 1703877763319,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,9 +76,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "4b43ebd5ca838d0e",
+      "uid" : "a41103908f2cde96",
       "name" : "log",
-      "source" : "4b43ebd5ca838d0e.txt",
+      "source" : "a41103908f2cde96.txt",
       "type" : "text/plain",
       "size" : 1967
     } ],
@@ -89,11 +89,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "screenshot_on_failures::0",
+    "name" : "setup_sorting_instance::0",
     "time" : {
-      "start" : 1703876286022,
-      "stop" : 1703876286022,
-      "duration" : 0
+      "start" : 1703877764582,
+      "stop" : 1703877764639,
+      "duration" : 57
     },
     "status" : "passed",
     "steps" : [ ],
@@ -104,11 +104,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "setup_sorting_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703876285965,
-      "stop" : 1703876286022,
-      "duration" : 57
+      "start" : 1703877764639,
+      "stop" : 1703877764639,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -127,10 +127,10 @@
     "value" : "test_sort_by"
   }, {
     "name" : "host",
-    "value" : "fv-az1210-752"
+    "value" : "fv-az1382-721"
   }, {
     "name" : "thread",
-    "value" : "4187-MainThread"
+    "value" : "4253-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -154,6 +154,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1a0da795c8791bc.json",
+  "source" : "5f973c5dd6b31a1.json",
   "parameterValues" : [ ]
 }

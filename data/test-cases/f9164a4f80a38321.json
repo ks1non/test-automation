@@ -1,52 +1,37 @@
 {
-  "uid" : "429e6bbdc940630d",
+  "uid" : "f9164a4f80a38321",
   "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
   "fullName" : "tests.test_common#test_back_per_pages_parametrize",
   "historyId" : "8789cf8e2e158c371ef3a203e865de9a",
   "time" : {
-    "start" : 1703876271840,
-    "stop" : 1703876272249,
-    "duration" : 409
+    "start" : 1703877750501,
+    "stop" : 1703877750905,
+    "duration" : 404
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "get_webdriver",
-    "time" : {
-      "start" : 1703876270898,
-      "stop" : 1703876271697,
-      "duration" : 799
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "screenshot_on_failures",
-    "time" : {
-      "start" : 1703876271698,
-      "stop" : 1703876271698,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "common_instance",
     "time" : {
-      "start" : 1703876271698,
-      "stop" : 1703876271839,
-      "duration" : 141
+      "start" : 1703877750381,
+      "stop" : 1703877750501,
+      "duration" : 120
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1703877749578,
+      "stop" : 1703877750380,
+      "duration" : 802
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,8 +44,23 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1703876270898,
-      "stop" : 1703876270898,
+      "start" : 1703877749578,
+      "stop" : 1703877749578,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1703877750381,
+      "stop" : 1703877750381,
       "duration" : 0
     },
     "status" : "passed",
@@ -76,9 +76,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "67345e56c6b8ed11",
+      "uid" : "baa360efa540f117",
       "name" : "log",
-      "source" : "67345e56c6b8ed11.txt",
+      "source" : "baa360efa540f117.txt",
       "type" : "text/plain",
       "size" : 79
     } ],
@@ -89,11 +89,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "screenshot_on_failures::0",
+    "name" : "common_instance::0",
     "time" : {
-      "start" : 1703876272307,
-      "stop" : 1703876272307,
-      "duration" : 0
+      "start" : 1703877750906,
+      "stop" : 1703877750963,
+      "duration" : 57
     },
     "status" : "passed",
     "steps" : [ ],
@@ -104,11 +104,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "common_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703876272250,
-      "stop" : 1703876272307,
-      "duration" : 57
+      "start" : 1703877750963,
+      "stop" : 1703877750963,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -130,10 +130,10 @@
     "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az1210-752"
+    "value" : "fv-az1382-721"
   }, {
     "name" : "thread",
-    "value" : "4187-MainThread"
+    "value" : "4253-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -163,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ "common" ]
   },
-  "source" : "429e6bbdc940630d.json",
+  "source" : "f9164a4f80a38321.json",
   "parameterValues" : [ "4", "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'" ]
 }

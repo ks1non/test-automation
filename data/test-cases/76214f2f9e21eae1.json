@@ -1,12 +1,12 @@
 {
-  "uid" : "102683032052e58b",
-  "name" : "test_back_per_pages_parametrize[1-https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html]",
+  "uid" : "76214f2f9e21eae1",
+  "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
   "fullName" : "tests.test_common#test_back_per_pages_parametrize",
-  "historyId" : "c8fe1442e5851d63f9f3785b6a9f994f",
+  "historyId" : "ef79e85e3cd147d830893cffa721b233",
   "time" : {
-    "start" : 1703876267646,
-    "stop" : 1703876268051,
-    "duration" : 405
+    "start" : 1703877749119,
+    "stop" : 1703877749519,
+    "duration" : 400
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,24 @@
   "beforeStages" : [ {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1703876267530,
-      "stop" : 1703876267530,
-      "duration" : 0
+      "start" : 1703877748993,
+      "stop" : 1703877748994,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "common_instance",
+    "time" : {
+      "start" : 1703877748994,
+      "stop" : 1703877749118,
+      "duration" : 124
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +44,8 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1703876266726,
-      "stop" : 1703876266726,
+      "start" : 1703877748193,
+      "stop" : 1703877748193,
       "duration" : 0
     },
     "status" : "passed",
@@ -44,24 +59,9 @@
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1703876266726,
-      "stop" : 1703876267530,
-      "duration" : 804
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "common_instance",
-    "time" : {
-      "start" : 1703876267530,
-      "stop" : 1703876267646,
-      "duration" : 116
+      "start" : 1703877748193,
+      "stop" : 1703877748993,
+      "duration" : 800
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,9 +76,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "731ef7b1d2f5ccc8",
+      "uid" : "3d3415de0c63c542",
       "name" : "log",
-      "source" : "731ef7b1d2f5ccc8.txt",
+      "source" : "3d3415de0c63c542.txt",
       "type" : "text/plain",
       "size" : 79
     } ],
@@ -91,8 +91,8 @@
   "afterStages" : [ {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703876268109,
-      "stop" : 1703876268109,
+      "start" : 1703877749576,
+      "stop" : 1703877749576,
       "duration" : 0
     },
     "status" : "passed",
@@ -106,8 +106,8 @@
   }, {
     "name" : "common_instance::0",
     "time" : {
-      "start" : 1703876268052,
-      "stop" : 1703876268109,
+      "start" : 1703877749519,
+      "stop" : 1703877749576,
       "duration" : 57
     },
     "status" : "passed",
@@ -130,10 +130,10 @@
     "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az1210-752"
+    "value" : "fv-az1382-721"
   }, {
     "name" : "thread",
-    "value" : "4187-MainThread"
+    "value" : "4253-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -149,10 +149,10 @@
   } ],
   "parameters" : [ {
     "name" : "index",
-    "value" : "1"
+    "value" : "3"
   }, {
     "name" : "url",
-    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html'"
+    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -163,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ "common" ]
   },
-  "source" : "102683032052e58b.json",
-  "parameterValues" : [ "1", "'https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html'" ]
+  "source" : "76214f2f9e21eae1.json",
+  "parameterValues" : [ "3", "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'" ]
 }

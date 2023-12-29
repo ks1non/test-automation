@@ -1,21 +1,36 @@
 {
-  "uid" : "3b4380001c13c619",
-  "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
+  "uid" : "a8ad7946c766a5a9",
+  "name" : "test_back_per_pages_parametrize[5-https://toghrulmirzayev.github.io/ui-simulator/sorting.html]",
   "fullName" : "tests.test_common#test_back_per_pages_parametrize",
-  "historyId" : "ef79e85e3cd147d830893cffa721b233",
+  "historyId" : "fdb936303ecada5f5a44f0441610721e",
   "time" : {
-    "start" : 1703876270435,
-    "stop" : 1703876270838,
-    "duration" : 403
+    "start" : 1703877751896,
+    "stop" : 1703877752300,
+    "duration" : 404
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1703877750965,
+      "stop" : 1703877751772,
+      "duration" : 807
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1703876269505,
-      "stop" : 1703876269505,
+      "start" : 1703877750965,
+      "stop" : 1703877750965,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,9 +44,9 @@
   }, {
     "name" : "common_instance",
     "time" : {
-      "start" : 1703876270306,
-      "stop" : 1703876270434,
-      "duration" : 128
+      "start" : 1703877751772,
+      "stop" : 1703877751895,
+      "duration" : 123
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,24 +59,9 @@
   }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1703876270306,
-      "stop" : 1703876270306,
+      "start" : 1703877751772,
+      "stop" : 1703877751772,
       "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_webdriver",
-    "time" : {
-      "start" : 1703876269505,
-      "stop" : 1703876270305,
-      "duration" : 800
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,9 +76,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "be1842ad393e5ad0",
+      "uid" : "27d99f28b96bbf73",
       "name" : "log",
-      "source" : "be1842ad393e5ad0.txt",
+      "source" : "27d99f28b96bbf73.txt",
       "type" : "text/plain",
       "size" : 79
     } ],
@@ -91,8 +91,8 @@
   "afterStages" : [ {
     "name" : "common_instance::0",
     "time" : {
-      "start" : 1703876270839,
-      "stop" : 1703876270896,
+      "start" : 1703877752300,
+      "stop" : 1703877752357,
       "duration" : 57
     },
     "status" : "passed",
@@ -106,8 +106,8 @@
   }, {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703876270896,
-      "stop" : 1703876270896,
+      "start" : 1703877752358,
+      "stop" : 1703877752358,
       "duration" : 0
     },
     "status" : "passed",
@@ -130,10 +130,10 @@
     "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az1210-752"
+    "value" : "fv-az1382-721"
   }, {
     "name" : "thread",
-    "value" : "4187-MainThread"
+    "value" : "4253-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -149,10 +149,10 @@
   } ],
   "parameters" : [ {
     "name" : "index",
-    "value" : "3"
+    "value" : "5"
   }, {
     "name" : "url",
-    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'"
+    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -163,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ "common" ]
   },
-  "source" : "3b4380001c13c619.json",
-  "parameterValues" : [ "3", "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'" ]
+  "source" : "a8ad7946c766a5a9.json",
+  "parameterValues" : [ "5", "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'" ]
 }
