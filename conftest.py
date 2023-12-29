@@ -11,6 +11,7 @@ from pages.common import Common
 from pages.drag_and_drop_page import DragAndDropPage
 from pages.checkboxes_and_scroll_page import CheckboxesAndScroll
 from pages.sort_by_page import SortByPage
+import allure
 
 
 @pytest.fixture(scope='function')
@@ -28,96 +29,56 @@ def get_webdriver(get_chrome_options):
 
 
 @pytest.fixture(scope='function')
-def setup_index(get_webdriver):
-    url = 'https://toghrulmirzayev.github.io/ui-simulator/'
-    get_webdriver.get(url)
-    yield get_webdriver
+def index_page_instance(get_webdriver):
+    get_webdriver.get('https://toghrulmirzayev.github.io/ui-simulator/')
+    yield IndexPage(get_webdriver)
     get_webdriver.quit()
 
 
 @pytest.fixture(scope='function')
-def index_page_instance(setup_index):
-    yield IndexPage(setup_index)
-
-
-@pytest.fixture(scope='function')
-def setup_check_and_validation(get_webdriver):
-    url = 'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'
-    get_webdriver.get(url)
-    yield get_webdriver
+def check_and_validation_instance(get_webdriver):
+    get_webdriver.get('https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html')
+    yield CheckAndValidationPage(get_webdriver)
     get_webdriver.quit()
 
 
 @pytest.fixture(scope='function')
-def check_and_validation_instance(setup_check_and_validation):
-    yield CheckAndValidationPage(setup_check_and_validation)
-
-
-@pytest.fixture(scope='function')
-def setup_input_and_click(get_webdriver):
-    url = 'https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html'
-    get_webdriver.get(url)
-    yield get_webdriver
+def input_and_click_instance(get_webdriver):
+    get_webdriver.get('https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html')
+    yield InputAndClickPage(get_webdriver)
     get_webdriver.quit()
 
 
 @pytest.fixture(scope='function')
-def input_and_click_instance(setup_input_and_click):
-    yield InputAndClickPage(setup_input_and_click)
-
-
-@pytest.fixture(scope='function')
-def setup_hover_and_select(get_webdriver):
-    url = 'https://toghrulmirzayev.github.io/ui-simulator/hover_and_select.html'
-    get_webdriver.get(url)
-    yield get_webdriver
+def hover_and_select_instance(get_webdriver):
+    get_webdriver.get('https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html')
+    yield HoverAndSelectPage(get_webdriver)
     get_webdriver.quit()
 
 
 @pytest.fixture(scope='function')
-def hover_and_select_instance(setup_hover_and_select):
-    yield HoverAndSelectPage(setup_hover_and_select)
-
-
-@pytest.fixture(scope='function')
-def common_instance(setup_hover_and_select):
-    yield Common(setup_hover_and_select)
-
-
-@pytest.fixture(scope='function')
-def setup_drag_and_drop(get_webdriver):
-    url = 'https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html'
-    get_webdriver.get(url)
-    yield get_webdriver
+def common_instance(get_webdriver):
+    get_webdriver.get('https://toghrulmirzayev.github.io/ui-simulator/hover_and_select.html')
+    yield Common(get_webdriver)
     get_webdriver.quit()
 
 
 @pytest.fixture(scope='function')
-def drag_and_drop_instance(setup_drag_and_drop):
-    yield DragAndDropPage(setup_drag_and_drop)
-
-
-@pytest.fixture(scope='function')
-def setup_checkboxes_and_scroll(get_webdriver):
-    url = 'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'
-    get_webdriver.get(url)
-    yield get_webdriver
+def drag_and_drop_instance(get_webdriver):
+    get_webdriver.get('https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html')
+    yield DragAndDropPage(get_webdriver)
     get_webdriver.quit()
 
 
 @pytest.fixture(scope='function')
-def checkboxes_and_scroll_instance(setup_checkboxes_and_scroll):
-    yield CheckboxesAndScroll(setup_checkboxes_and_scroll)
-
-
-@pytest.fixture(scope='function')
-def setup_sorting(get_webdriver):
-    url = 'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'
-    get_webdriver.get(url)
-    yield get_webdriver
+def checkboxes_and_scroll_instance(get_webdriver):
+    get_webdriver.get('https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html')
+    yield CheckboxesAndScroll(get_webdriver)
     get_webdriver.quit()
 
 
 @pytest.fixture(scope='function')
-def setup_sorting_instance(setup_sorting):
-    yield SortByPage(setup_sorting)
+def setup_sorting_instance(get_webdriver):
+    get_webdriver.get('https://toghrulmirzayev.github.io/ui-simulator/sorting.html')
+    yield SortByPage(get_webdriver)
+    get_webdriver.quit()

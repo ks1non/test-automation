@@ -12,3 +12,4 @@ new.py
 **/allure-results
 **/.env
 .env
+**/allure-report
