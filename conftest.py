@@ -82,3 +82,14 @@ def setup_sorting_instance(get_webdriver):
     get_webdriver.get('https://toghrulmirzayev.github.io/ui-simulator/sorting.html')
     yield SortByPage(get_webdriver)
     get_webdriver.quit()
+
+
+@pytest.fixture(scope='function', autouse=True)
+def screenshot_on_failures(get_webdriver, request):
+    failed_tests_count = request.session.testsfailed
+    yield
+    if request.session.testsfailed > failed_tests_count:
+        test_case_name = request.node.name
+        screenshot = 'screenshot_on_failures' + f'_{test_case_name}' + '.png'
+        get_webdriver.get_screenshot_as_file(screenshot)
+        allure.attach.file(screenshot, 'screenshot_on_failures.png', attachment_type=allure.attachment_type.PNG)
