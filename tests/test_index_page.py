@@ -20,7 +20,7 @@ def test_success_login(index_page_instance):
     index_page_instance.enter_username(LOGIN)
     index_page_instance.enter_password(PASSWORD)
     index_page_instance.click_to_login_btn()
-    index_page_instance.verify_login('Log outt')
+    index_page_instance.verify_login('Log out')
 
 
 @allure.description('Unsuccess login')
