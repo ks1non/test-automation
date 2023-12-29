@@ -1,190 +1,190 @@
 [ {
-  "uid" : "35d1b820a9c257b0",
-  "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
-  "time" : {
-    "start" : 1703878260249,
-    "stop" : 1703878260648,
-    "duration" : 399
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f7308d24971e01de",
-  "name" : "test_back_per_pages",
-  "time" : {
-    "start" : 1703878254723,
-    "stop" : 1703878256677,
-    "duration" : 1954
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8d8f7115d491342d",
+  "uid" : "4f4bd2a5a32ad3bb",
   "name" : "Unsuccessful login",
   "time" : {
-    "start" : 1703878271364,
-    "stop" : 1703878271538,
-    "duration" : 174
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a3946ba022d99e5f",
-  "name" : "Unsuccessful login",
-  "time" : {
-    "start" : 1703878268065,
-    "stop" : 1703878268229,
+    "start" : 1703893997347,
+    "stop" : 1703893997511,
     "duration" : 164
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d51b90c1843fee9c",
-  "name" : "test_validation[h-Not a number]",
+  "uid" : "ff061a4bed1f265a",
+  "name" : "test_back_per_pages",
   "time" : {
-    "start" : 1703878250064,
-    "stop" : 1703878250148,
-    "duration" : 84
+    "start" : 1703893983529,
+    "stop" : 1703893985565,
+    "duration" : 2036
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "dcc82ecf4cbf281e",
-  "name" : "test_sort",
-  "time" : {
-    "start" : 1703878274864,
-    "stop" : 1703878275221,
-    "duration" : 357
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2eb86f23f3b9e3a",
-  "name" : "test_back_per_pages_parametrize[1-https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html]",
-  "time" : {
-    "start" : 1703878257601,
-    "stop" : 1703878257997,
-    "duration" : 396
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8ab7876fa28d5264",
+  "uid" : "30473064a1b083df",
   "name" : "Unsuccessful login",
   "time" : {
-    "start" : 1703878269159,
-    "stop" : 1703878269341,
-    "duration" : 182
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bc07f622b7f409ae",
-  "name" : "test_validation[1-Not in range]",
-  "time" : {
-    "start" : 1703878249030,
-    "stop" : 1703878249116,
-    "duration" : 86
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d0b4265f8a6e45ef",
-  "name" : "test_checkbox_click",
-  "time" : {
-    "start" : 1703878252069,
-    "stop" : 1703878253795,
-    "duration" : 1726
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d87aa0bc0c8be7d8",
-  "name" : "test_validation[15-Valid]",
-  "time" : {
-    "start" : 1703878247993,
-    "stop" : 1703878248098,
-    "duration" : 105
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cd09a85eb28ec8e6",
-  "name" : "test_back_per_pages_parametrize[2-https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html]",
-  "time" : {
-    "start" : 1703878258917,
-    "stop" : 1703878259318,
-    "duration" : 401
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b1f46ad0feba2d42",
-  "name" : "test_back_per_pages_parametrize[5-https://toghrulmirzayev.github.io/ui-simulator/sorting.html]",
-  "time" : {
-    "start" : 1703878262966,
-    "stop" : 1703878263368,
-    "duration" : 402
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "92fe86cf39c5eeee",
-  "name" : "test_del_value",
-  "time" : {
-    "start" : 1703878272461,
-    "stop" : 1703878272714,
-    "duration" : 253
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "94bfbddfb2f27a6b",
-  "name" : "Unsuccessful login",
-  "time" : {
-    "start" : 1703878270269,
-    "stop" : 1703878270440,
+    "start" : 1703893999683,
+    "stop" : 1703893999854,
     "duration" : 171
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "446f9914fd1cf25f",
+  "uid" : "9aca9aa6bd8844d4",
   "name" : "test_adding_multiple_values",
   "time" : {
-    "start" : 1703878273647,
-    "stop" : 1703878273940,
-    "duration" : 293
+    "start" : 1703894003251,
+    "stop" : 1703894003532,
+    "duration" : 281
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9dff3f810b527097",
-  "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
-  "time" : {
-    "start" : 1703878261636,
-    "stop" : 1703878262032,
-    "duration" : 396
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2b3de7189b9fe2d1",
-  "name" : "test_dnd",
-  "time" : {
-    "start" : 1703878264297,
-    "stop" : 1703878267141,
-    "duration" : 2844
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "48ce8f7c4e89e76",
+  "uid" : "23d91fa544030cba",
   "name" : "test_validation[-1-Negative integer]",
   "time" : {
-    "start" : 1703878251064,
-    "stop" : 1703878251149,
-    "duration" : 85
+    "start" : 1703893979744,
+    "stop" : 1703893979828,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68aecd1601ff1dd7",
+  "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
+  "time" : {
+    "start" : 1703893990743,
+    "stop" : 1703893991147,
+    "duration" : 404
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ed8e4da65fc525",
+  "name" : "test_back_per_pages_parametrize[2-https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html]",
+  "time" : {
+    "start" : 1703893987961,
+    "stop" : 1703893988365,
+    "duration" : 404
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e16ef0602e0c6c6",
+  "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
+  "time" : {
+    "start" : 1703893989350,
+    "stop" : 1703893989754,
+    "duration" : 404
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce479a743b1ba8d8",
+  "name" : "test_validation[15-Valid]",
+  "time" : {
+    "start" : 1703893976487,
+    "stop" : 1703893976590,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8bcc580ffda159a",
+  "name" : "test_del_value",
+  "time" : {
+    "start" : 1703894002010,
+    "stop" : 1703894002255,
+    "duration" : 245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de1e60f181724534",
+  "name" : "test_dnd",
+  "time" : {
+    "start" : 1703893993522,
+    "stop" : 1703893996349,
+    "duration" : 2827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79cefc4016815d0e",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1703893998495,
+    "stop" : 1703893998693,
+    "duration" : 198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d008fdd59767be2a",
+  "name" : "test_checkbox_click",
+  "time" : {
+    "start" : 1703893980860,
+    "stop" : 1703893982540,
+    "duration" : 1680
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c0dd40f2ab3ff29",
+  "name" : "test_sort",
+  "time" : {
+    "start" : 1703894004504,
+    "stop" : 1703894004842,
+    "duration" : 338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bb584e4a597628c",
+  "name" : "test_back_per_pages_parametrize[5-https://toghrulmirzayev.github.io/ui-simulator/sorting.html]",
+  "time" : {
+    "start" : 1703893992134,
+    "stop" : 1703893992539,
+    "duration" : 405
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45ca5f47b3b8f35b",
+  "name" : "test_validation[1-Not in range]",
+  "time" : {
+    "start" : 1703893977596,
+    "stop" : 1703893977687,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "967dabcb16578d46",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1703894000844,
+    "stop" : 1703894001020,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7dfb74e3e0d7df30",
+  "name" : "test_back_per_pages_parametrize[1-https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html]",
+  "time" : {
+    "start" : 1703893986563,
+    "stop" : 1703893986971,
+    "duration" : 408
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c2014880116e82e",
+  "name" : "test_validation[h-Not a number]",
+  "time" : {
+    "start" : 1703893978679,
+    "stop" : 1703893978763,
+    "duration" : 84
   },
   "status" : "passed",
   "severity" : "normal"

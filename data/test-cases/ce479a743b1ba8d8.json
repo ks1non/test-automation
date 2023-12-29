@@ -1,54 +1,22 @@
 {
-  "uid" : "a3946ba022d99e5f",
-  "name" : "Unsuccessful login",
-  "fullName" : "tests.test_index_page#test_unsuccessful_login",
-  "historyId" : "3ffef4f4d17d5e07156ff9e8459d4a9c",
+  "uid" : "ce479a743b1ba8d8",
+  "name" : "test_validation[15-Valid]",
+  "fullName" : "tests.test_check_and_validation#test_validation",
+  "historyId" : "d1069b0f8b53bf512c2c7d1627e92621",
   "time" : {
-    "start" : 1703878268065,
-    "stop" : 1703878268229,
-    "duration" : 164
+    "start" : 1703893976487,
+    "stop" : 1703893976590,
+    "duration" : 103
   },
-  "description" : "Unsuccess login",
-  "descriptionHtml" : "<p>Unsuccess login</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "get_chrome_options",
+    "name" : "check_and_validation_instance",
     "time" : {
-      "start" : 1703878267201,
-      "stop" : 1703878267201,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "index_page_instance",
-    "time" : {
-      "start" : 1703878267982,
-      "stop" : 1703878268064,
-      "duration" : 82
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "screenshot_on_failures",
-    "time" : {
-      "start" : 1703878267982,
-      "stop" : 1703878267982,
-      "duration" : 0
+      "start" : 1703893976299,
+      "stop" : 1703893976486,
+      "duration" : 187
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,9 +29,39 @@
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1703878267201,
-      "stop" : 1703878267981,
-      "duration" : 780
+      "start" : 1703893974762,
+      "stop" : 1703893976299,
+      "duration" : 1537
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1703893976299,
+      "stop" : 1703893976299,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1703893974762,
+      "stop" : 1703893974762,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -75,72 +73,38 @@
     "hasContent" : false
   } ],
   "testStage" : {
-    "description" : "Unsuccess login",
     "status" : "passed",
     "steps" : [ {
-      "name" : "ввели логин",
+      "name" : "Вводим значение в инпут",
       "time" : {
-        "start" : 1703878268065,
-        "stop" : 1703878268120,
-        "duration" : 55
+        "start" : 1703893976487,
+        "stop" : 1703893976562,
+        "duration" : 75
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "login",
-        "value" : "''"
+        "name" : "value",
+        "value" : "'15'"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "ввели пароль",
+      "name" : "проверяем вывод соответствующего сообщения",
       "time" : {
-        "start" : 1703878268120,
-        "stop" : 1703878268162,
-        "duration" : 42
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "password",
-        "value" : "''"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "нажали на кнопку логина",
-      "time" : {
-        "start" : 1703878268162,
-        "stop" : 1703878268204,
-        "duration" : 42
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "проверка соответствия ошибки авторизации",
-      "time" : {
-        "start" : 1703878268204,
-        "stop" : 1703878268228,
-        "duration" : 24
+        "start" : 1703893976562,
+        "stop" : 1703893976590,
+        "duration" : 28
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "text",
-        "value" : "'Username and password fields cannot be empty'"
+        "value" : "'Valid'"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -148,23 +112,23 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "2d44bfd027040cbb",
+      "uid" : "a6e8856df478e2bd",
       "name" : "log",
-      "source" : "2d44bfd027040cbb.txt",
+      "source" : "a6e8856df478e2bd.txt",
       "type" : "text/plain",
-      "size" : 261
+      "size" : 174
     } ],
     "parameters" : [ ],
-    "stepsCount" : 4,
+    "stepsCount" : 2,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "index_page_instance::0",
+    "name" : "check_and_validation_instance::0",
     "time" : {
-      "start" : 1703878268230,
-      "stop" : 1703878268286,
+      "start" : 1703893976591,
+      "stop" : 1703893976647,
       "duration" : 56
     },
     "status" : "passed",
@@ -178,8 +142,8 @@
   }, {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703878268287,
-      "stop" : 1703878268287,
+      "start" : 1703893976648,
+      "stop" : 1703893976648,
       "duration" : 0
     },
     "status" : "passed",
@@ -192,23 +156,20 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "suite",
-    "value" : "Authorization suite"
-  }, {
-    "name" : "owner",
-    "value" : "Sergey"
-  }, {
     "name" : "tag",
-    "value" : "index"
+    "value" : "check_and_validation"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
+    "name" : "suite",
+    "value" : "test_check_and_validation"
+  }, {
     "name" : "host",
-    "value" : "fv-az1433-659"
+    "value" : "fv-az1016-625"
   }, {
     "name" : "thread",
-    "value" : "4207-MainThread"
+    "value" : "4162-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -217,31 +178,27 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_index_page"
+    "value" : "tests.test_check_and_validation"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
-    "name" : "un_login",
-    "value" : "''"
+    "name" : "text",
+    "value" : "'Valid'"
   }, {
-    "name" : "un_password",
-    "value" : "''"
-  }, {
-    "name" : "un_text",
-    "value" : "'Username and password fields cannot be empty'"
+    "name" : "value",
+    "value" : "'15'"
   } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "owner" : "Sergey",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "index" ]
+    "tags" : [ "check_and_validation" ]
   },
-  "source" : "a3946ba022d99e5f.json",
-  "parameterValues" : [ "''", "''", "'Username and password fields cannot be empty'" ]
+  "source" : "ce479a743b1ba8d8.json",
+  "parameterValues" : [ "'Valid'", "'15'" ]
 }

@@ -1,22 +1,22 @@
 {
-  "uid" : "f7308d24971e01de",
-  "name" : "test_back_per_pages",
-  "fullName" : "tests.test_common#test_back_per_pages",
-  "historyId" : "20791a68dd3f57c56c3f88114d253350",
+  "uid" : "d008fdd59767be2a",
+  "name" : "test_checkbox_click",
+  "fullName" : "tests.test_checkboxes_and_scroll#test_checkbox_click",
+  "historyId" : "e6097249ec439bd87002ff1207efc20e",
   "time" : {
-    "start" : 1703878254723,
-    "stop" : 1703878256677,
-    "duration" : 1954
+    "start" : 1703893980860,
+    "stop" : 1703893982540,
+    "duration" : 1680
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "get_chrome_options",
+    "name" : "get_webdriver",
     "time" : {
-      "start" : 1703878253854,
-      "stop" : 1703878253855,
-      "duration" : 1
+      "start" : 1703893979889,
+      "stop" : 1703893980705,
+      "duration" : 816
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1703878254636,
-      "stop" : 1703878254636,
+      "start" : 1703893980705,
+      "stop" : 1703893980705,
       "duration" : 0
     },
     "status" : "passed",
@@ -42,11 +42,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "common_instance",
+    "name" : "checkboxes_and_scroll_instance",
     "time" : {
-      "start" : 1703878254636,
-      "stop" : 1703878254723,
-      "duration" : 87
+      "start" : 1703893980705,
+      "stop" : 1703893980859,
+      "duration" : 154
     },
     "status" : "passed",
     "steps" : [ ],
@@ -57,11 +57,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "get_webdriver",
+    "name" : "get_chrome_options",
     "time" : {
-      "start" : 1703878253855,
-      "stop" : 1703878254635,
-      "duration" : 780
+      "start" : 1703893979888,
+      "stop" : 1703893979889,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,11 +76,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "108f9263a1623219",
+      "uid" : "4233471392c17b15",
       "name" : "log",
-      "source" : "108f9263a1623219.txt",
+      "source" : "4233471392c17b15.txt",
       "type" : "text/plain",
-      "size" : 399
+      "size" : 2039
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -91,8 +91,8 @@
   "afterStages" : [ {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703878256735,
-      "stop" : 1703878256735,
+      "start" : 1703893982597,
+      "stop" : 1703893982597,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,10 +104,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "common_instance::0",
+    "name" : "checkboxes_and_scroll_instance::0",
     "time" : {
-      "start" : 1703878256678,
-      "stop" : 1703878256735,
+      "start" : 1703893982540,
+      "stop" : 1703893982597,
       "duration" : 57
     },
     "status" : "passed",
@@ -121,19 +121,19 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "common"
+    "value" : "checkbox_and_scroll"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_common"
+    "value" : "test_checkboxes_and_scroll"
   }, {
     "name" : "host",
-    "value" : "fv-az1433-659"
+    "value" : "fv-az1016-625"
   }, {
     "name" : "thread",
-    "value" : "4207-MainThread"
+    "value" : "4162-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,7 +142,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_common"
+    "value" : "tests.test_checkboxes_and_scroll"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -155,8 +155,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "common" ]
+    "tags" : [ "checkbox_and_scroll" ]
   },
-  "source" : "f7308d24971e01de.json",
+  "source" : "d008fdd59767be2a.json",
   "parameterValues" : [ ]
 }

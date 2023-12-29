@@ -1,12 +1,12 @@
 {
-  "uid" : "35d1b820a9c257b0",
-  "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
-  "fullName" : "tests.test_common#test_back_per_pages_parametrize",
-  "historyId" : "ef79e85e3cd147d830893cffa721b233",
+  "uid" : "45ca5f47b3b8f35b",
+  "name" : "test_validation[1-Not in range]",
+  "fullName" : "tests.test_check_and_validation#test_validation",
+  "historyId" : "2b8dae27f188b70e625095d86e69ea48",
   "time" : {
-    "start" : 1703878260249,
-    "stop" : 1703878260648,
-    "duration" : 399
+    "start" : 1703893977596,
+    "stop" : 1703893977687,
+    "duration" : 91
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1703878260161,
-      "stop" : 1703878260161,
+      "start" : 1703893977474,
+      "stop" : 1703893977474,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,9 +29,24 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1703878259380,
-      "stop" : 1703878259380,
+      "start" : 1703893976654,
+      "stop" : 1703893976654,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "check_and_validation_instance",
+    "time" : {
+      "start" : 1703893977474,
+      "stop" : 1703893977596,
+      "duration" : 122
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,24 +59,9 @@
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1703878259381,
-      "stop" : 1703878260161,
-      "duration" : 780
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "common_instance",
-    "time" : {
-      "start" : 1703878260161,
-      "stop" : 1703878260248,
-      "duration" : 87
+      "start" : 1703893976654,
+      "stop" : 1703893977474,
+      "duration" : 820
     },
     "status" : "passed",
     "steps" : [ ],
@@ -74,16 +74,52 @@
   } ],
   "testStage" : {
     "status" : "passed",
-    "steps" : [ ],
+    "steps" : [ {
+      "name" : "Вводим значение в инпут",
+      "time" : {
+        "start" : 1703893977596,
+        "stop" : 1703893977659,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "'1'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "проверяем вывод соответствующего сообщения",
+      "time" : {
+        "start" : 1703893977659,
+        "stop" : 1703893977687,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'Not in range'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
     "attachments" : [ {
-      "uid" : "b7d659cd9fc49033",
+      "uid" : "60bb88ea77ccd617",
       "name" : "log",
-      "source" : "b7d659cd9fc49033.txt",
+      "source" : "60bb88ea77ccd617.txt",
       "type" : "text/plain",
-      "size" : 79
+      "size" : 174
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
+    "stepsCount" : 2,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -91,8 +127,8 @@
   "afterStages" : [ {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703878260706,
-      "stop" : 1703878260706,
+      "start" : 1703893977747,
+      "stop" : 1703893977747,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,11 +140,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "common_instance::0",
+    "name" : "check_and_validation_instance::0",
     "time" : {
-      "start" : 1703878260649,
-      "stop" : 1703878260706,
-      "duration" : 57
+      "start" : 1703893977688,
+      "stop" : 1703893977747,
+      "duration" : 59
     },
     "status" : "passed",
     "steps" : [ ],
@@ -121,19 +157,19 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "common"
+    "value" : "check_and_validation"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_common"
+    "value" : "test_check_and_validation"
   }, {
     "name" : "host",
-    "value" : "fv-az1433-659"
+    "value" : "fv-az1016-625"
   }, {
     "name" : "thread",
-    "value" : "4207-MainThread"
+    "value" : "4162-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,17 +178,17 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_common"
+    "value" : "tests.test_check_and_validation"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
-    "name" : "index",
-    "value" : "3"
+    "name" : "text",
+    "value" : "'Not in range'"
   }, {
-    "name" : "url",
-    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'"
+    "name" : "value",
+    "value" : "'1'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -161,8 +197,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "common" ]
+    "tags" : [ "check_and_validation" ]
   },
-  "source" : "35d1b820a9c257b0.json",
-  "parameterValues" : [ "3", "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'" ]
+  "source" : "45ca5f47b3b8f35b.json",
+  "parameterValues" : [ "'Not in range'", "'1'" ]
 }
