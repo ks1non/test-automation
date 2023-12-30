@@ -1,52 +1,22 @@
 {
-  "uid" : "aae153d850948623",
-  "name" : "test_back_per_pages_parametrize[1-https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html]",
+  "uid" : "b4e934a86de0c494",
+  "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
   "fullName" : "tests.test_common#test_back_per_pages_parametrize",
-  "historyId" : "c8fe1442e5851d63f9f3785b6a9f994f",
+  "historyId" : "8789cf8e2e158c371ef3a203e865de9a",
   "time" : {
-    "start" : 1703945407101,
-    "stop" : 1703945407499,
-    "duration" : 398
+    "start" : 1703954308347,
+    "stop" : 1703954308739,
+    "duration" : 392
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "get_webdriver",
-    "time" : {
-      "start" : 1703945406234,
-      "stop" : 1703945407013,
-      "duration" : 779
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "screenshot_on_failures",
-    "time" : {
-      "start" : 1703945407013,
-      "stop" : 1703945407013,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "common_instance",
     "time" : {
-      "start" : 1703945407014,
-      "stop" : 1703945407101,
-      "duration" : 87
+      "start" : 1703954308233,
+      "stop" : 1703954308346,
+      "duration" : 113
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,9 +29,39 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1703945406234,
-      "stop" : 1703945406234,
+      "start" : 1703954307459,
+      "stop" : 1703954307459,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1703954308233,
+      "stop" : 1703954308233,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1703954307459,
+      "stop" : 1703954308232,
+      "duration" : 773
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,9 +76,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a4c20394ea1e29dd",
+      "uid" : "e10a40e75bf6e26f",
       "name" : "log",
-      "source" : "a4c20394ea1e29dd.txt",
+      "source" : "e10a40e75bf6e26f.txt",
       "type" : "text/plain",
       "size" : 79
     } ],
@@ -89,11 +89,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "screenshot_on_failures::0",
+    "name" : "common_instance::0",
     "time" : {
-      "start" : 1703945407558,
-      "stop" : 1703945407558,
-      "duration" : 0
+      "start" : 1703954308739,
+      "stop" : 1703954308796,
+      "duration" : 57
     },
     "status" : "passed",
     "steps" : [ ],
@@ -104,11 +104,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "common_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703945407500,
-      "stop" : 1703945407557,
-      "duration" : 57
+      "start" : 1703954308796,
+      "stop" : 1703954308796,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -130,10 +130,10 @@
     "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az700-154"
+    "value" : "fv-az1206-584"
   }, {
     "name" : "thread",
-    "value" : "4215-MainThread"
+    "value" : "4233-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -149,10 +149,10 @@
   } ],
   "parameters" : [ {
     "name" : "index",
-    "value" : "1"
+    "value" : "4"
   }, {
     "name" : "url",
-    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html'"
+    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -163,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ "common" ]
   },
-  "source" : "aae153d850948623.json",
-  "parameterValues" : [ "1", "'https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html'" ]
+  "source" : "b4e934a86de0c494.json",
+  "parameterValues" : [ "4", "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'" ]
 }

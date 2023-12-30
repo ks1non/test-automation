@@ -1,52 +1,37 @@
 {
-  "uid" : "f3a6908b479f8092",
-  "name" : "test_sort",
-  "fullName" : "tests.test_sort_by#test_sort",
-  "historyId" : "ef7797c3370b6ba80d57696a8b7ee5ec",
+  "uid" : "154171229c4c4d04",
+  "name" : "test_back_per_pages_parametrize[5-https://toghrulmirzayev.github.io/ui-simulator/sorting.html]",
+  "fullName" : "tests.test_common#test_back_per_pages_parametrize",
+  "historyId" : "fdb936303ecada5f5a44f0441610721e",
   "time" : {
-    "start" : 1703945424360,
-    "stop" : 1703945424697,
-    "duration" : 337
+    "start" : 1703954309683,
+    "stop" : 1703954310221,
+    "duration" : 538
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "get_chrome_options",
-    "time" : {
-      "start" : 1703945423499,
-      "stop" : 1703945423499,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "setup_sorting_instance",
-    "time" : {
-      "start" : 1703945424277,
-      "stop" : 1703945424360,
-      "duration" : 83
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1703945424277,
-      "stop" : 1703945424277,
+      "start" : 1703954309573,
+      "stop" : 1703954309573,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "common_instance",
+    "time" : {
+      "start" : 1703954309573,
+      "stop" : 1703954309682,
+      "duration" : 109
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,9 +44,24 @@
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1703945423499,
-      "stop" : 1703945424277,
-      "duration" : 778
+      "start" : 1703954308799,
+      "stop" : 1703954309573,
+      "duration" : 774
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1703954308799,
+      "stop" : 1703954308799,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,11 +76,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "1b3ef89da7b54d78",
+      "uid" : "d61d9b9c78279ae7",
       "name" : "log",
-      "source" : "1b3ef89da7b54d78.txt",
+      "source" : "d61d9b9c78279ae7.txt",
       "type" : "text/plain",
-      "size" : 1967
+      "size" : 79
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -89,11 +89,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "setup_sorting_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703945424697,
-      "stop" : 1703945424754,
-      "duration" : 57
+      "start" : 1703954310279,
+      "stop" : 1703954310279,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -104,11 +104,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "screenshot_on_failures::0",
+    "name" : "common_instance::0",
     "time" : {
-      "start" : 1703945424754,
-      "stop" : 1703945424754,
-      "duration" : 0
+      "start" : 1703954310222,
+      "stop" : 1703954310279,
+      "duration" : 57
     },
     "status" : "passed",
     "steps" : [ ],
@@ -120,17 +120,20 @@
     "hasContent" : false
   } ],
   "labels" : [ {
+    "name" : "tag",
+    "value" : "common"
+  }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_sort_by"
+    "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az700-154"
+    "value" : "fv-az1206-584"
   }, {
     "name" : "thread",
-    "value" : "4215-MainThread"
+    "value" : "4233-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -139,12 +142,18 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_sort_by"
+    "value" : "tests.test_common"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "index",
+    "value" : "5"
+  }, {
+    "name" : "url",
+    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -152,8 +161,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ ]
+    "tags" : [ "common" ]
   },
-  "source" : "f3a6908b479f8092.json",
-  "parameterValues" : [ ]
+  "source" : "154171229c4c4d04.json",
+  "parameterValues" : [ "5", "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'" ]
 }

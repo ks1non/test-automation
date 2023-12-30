@@ -1,12 +1,12 @@
 {
-  "uid" : "3a53b70599f5f85d",
-  "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
-  "fullName" : "tests.test_common#test_back_per_pages_parametrize",
-  "historyId" : "ef79e85e3cd147d830893cffa721b233",
+  "uid" : "751b00f9530176ab",
+  "name" : "test_validation[1-Not in range]",
+  "fullName" : "tests.test_check_and_validation#test_validation",
+  "historyId" : "2b8dae27f188b70e625095d86e69ea48",
   "time" : {
-    "start" : 1703945409758,
-    "stop" : 1703945410169,
-    "duration" : 411
+    "start" : 1703954294339,
+    "stop" : 1703954294420,
+    "duration" : 81
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,23 @@
   "beforeStages" : [ {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1703945409656,
-      "stop" : 1703945409656,
+      "start" : 1703954294217,
+      "stop" : 1703954294217,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1703954293417,
+      "stop" : 1703954293417,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,9 +44,9 @@
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1703945408874,
-      "stop" : 1703945409655,
-      "duration" : 781
+      "start" : 1703954293417,
+      "stop" : 1703954294217,
+      "duration" : 800
     },
     "status" : "passed",
     "steps" : [ ],
@@ -42,26 +57,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "common_instance",
+    "name" : "check_and_validation_instance",
     "time" : {
-      "start" : 1703945409656,
-      "stop" : 1703945409757,
-      "duration" : 101
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_chrome_options",
-    "time" : {
-      "start" : 1703945408874,
-      "stop" : 1703945408874,
-      "duration" : 0
+      "start" : 1703954294218,
+      "stop" : 1703954294338,
+      "duration" : 120
     },
     "status" : "passed",
     "steps" : [ ],
@@ -74,16 +74,52 @@
   } ],
   "testStage" : {
     "status" : "passed",
-    "steps" : [ ],
+    "steps" : [ {
+      "name" : "Вводим значение в инпут",
+      "time" : {
+        "start" : 1703954294339,
+        "stop" : 1703954294394,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "'1'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "проверяем вывод соответствующего сообщения",
+      "time" : {
+        "start" : 1703954294394,
+        "stop" : 1703954294420,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'Not in range'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
     "attachments" : [ {
-      "uid" : "15b7ebaba3d67026",
+      "uid" : "abeb5b405ead15ef",
       "name" : "log",
-      "source" : "15b7ebaba3d67026.txt",
+      "source" : "abeb5b405ead15ef.txt",
       "type" : "text/plain",
-      "size" : 79
+      "size" : 174
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
+    "stepsCount" : 2,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -91,9 +127,9 @@
   "afterStages" : [ {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703945410227,
-      "stop" : 1703945410227,
-      "duration" : 0
+      "start" : 1703954294479,
+      "stop" : 1703954294480,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -104,11 +140,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "common_instance::0",
+    "name" : "check_and_validation_instance::0",
     "time" : {
-      "start" : 1703945410170,
-      "stop" : 1703945410226,
-      "duration" : 56
+      "start" : 1703954294421,
+      "stop" : 1703954294479,
+      "duration" : 58
     },
     "status" : "passed",
     "steps" : [ ],
@@ -121,19 +157,19 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "common"
+    "value" : "check_and_validation"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_common"
+    "value" : "test_check_and_validation"
   }, {
     "name" : "host",
-    "value" : "fv-az700-154"
+    "value" : "fv-az1206-584"
   }, {
     "name" : "thread",
-    "value" : "4215-MainThread"
+    "value" : "4233-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,17 +178,17 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_common"
+    "value" : "tests.test_check_and_validation"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
-    "name" : "index",
-    "value" : "3"
+    "name" : "text",
+    "value" : "'Not in range'"
   }, {
-    "name" : "url",
-    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'"
+    "name" : "value",
+    "value" : "'1'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -161,8 +197,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "common" ]
+    "tags" : [ "check_and_validation" ]
   },
-  "source" : "3a53b70599f5f85d.json",
-  "parameterValues" : [ "3", "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'" ]
+  "source" : "751b00f9530176ab.json",
+  "parameterValues" : [ "'Not in range'", "'1'" ]
 }
