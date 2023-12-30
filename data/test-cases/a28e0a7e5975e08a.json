@@ -1,56 +1,41 @@
 {
-  "uid" : "c980c7e5275996d4",
+  "uid" : "a28e0a7e5975e08a",
   "name" : "Unsuccessful login",
   "fullName" : "tests.test_index_page#test_unsuccessful_login",
   "historyId" : "c8af2a131b02258090acaa95b6d362a5",
   "time" : {
-    "start" : 1703954697645,
-    "stop" : 1703954697814,
-    "duration" : 169
+    "start" : 1703954831442,
+    "stop" : 1703954831600,
+    "duration" : 158
   },
   "description" : "Unsuccess login",
   "descriptionHtml" : "<p>Unsuccess login</p>\n",
   "status" : "failed",
   "statusMessage" : "AssertionError: expected txt: Username field cannot be emp2ty, but actual txt: Username field cannot be empty",
-  "statusTrace" : "index_page_instance = <pages.index_page.IndexPage object at 0x7fc022686c50>\nun_login = '', un_password = 'correct_username'\nun_text = 'Username field cannot be emp2ty'\n\n    @allure.description('Unsuccess login')\n    @allure.label('owner', 'Sergey')\n    @allure.title('Unsuccessful login')\n    @allure.suite('Authorization suite')\n    @mark.index\n    @pytest.mark.parametrize('un_login, un_password, un_text', (incorrect_1, incorrect_2, incorrect_3, incorrect_4))\n    def test_unsuccessful_login(index_page_instance, un_login, un_password, un_text):\n        index_page_instance.enter_username(un_login)\n        index_page_instance.enter_password(un_password)\n        index_page_instance.click_to_login_btn()\n>       index_page_instance.verify_incorrect_login(un_text)\n\ntests/test_index_page.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/index_page.py:46: in verify_incorrect_login\n    self.assert_equal(self.get_text(self.ERROR_TEXT), expected=text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nactual = 'Username field cannot be empty'\nexpected = 'Username field cannot be emp2ty'\n\n    @staticmethod\n    def assert_equal(actual, expected):\n>       assert actual == expected, AssertionsErrors.ERROR_EQUAL.format(expected, actual)\nE       AssertionError: expected txt: Username field cannot be emp2ty, but actual txt: Username field cannot be empty\n\nsupport/assertions.py:7: AssertionError",
+  "statusTrace" : "index_page_instance = <pages.index_page.IndexPage object at 0x7fbe562015a0>\nun_login = '', un_password = 'correct_username'\nun_text = 'Username field cannot be emp2ty'\n\n    @allure.description('Unsuccess login')\n    @allure.label('owner', 'Sergey')\n    @allure.title('Unsuccessful login')\n    @allure.suite('Authorization suite')\n    @mark.index\n    @pytest.mark.parametrize('un_login, un_password, un_text', (incorrect_1, incorrect_2, incorrect_3, incorrect_4))\n    def test_unsuccessful_login(index_page_instance, un_login, un_password, un_text):\n        index_page_instance.enter_username(un_login)\n        index_page_instance.enter_password(un_password)\n        index_page_instance.click_to_login_btn()\n>       index_page_instance.verify_incorrect_login(un_text)\n\ntests/test_index_page.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/index_page.py:46: in verify_incorrect_login\n    self.assert_equal(self.get_text(self.ERROR_TEXT), expected=text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nactual = 'Username field cannot be empty'\nexpected = 'Username field cannot be emp2ty'\n\n    @staticmethod\n    def assert_equal(actual, expected):\n>       assert actual == expected, AssertionsErrors.ERROR_EQUAL.format(expected, actual)\nE       AssertionError: expected txt: Username field cannot be emp2ty, but actual txt: Username field cannot be empty\n\nsupport/assertions.py:7: AssertionError",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "index_page_instance",
-    "time" : {
-      "start" : 1703954697545,
-      "stop" : 1703954697644,
-      "duration" : 99
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_webdriver",
-    "time" : {
-      "start" : 1703954696756,
-      "stop" : 1703954697545,
-      "duration" : 789
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1703954697545,
-      "stop" : 1703954697545,
+      "start" : 1703954831355,
+      "stop" : 1703954831355,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "index_page_instance",
+    "time" : {
+      "start" : 1703954831355,
+      "stop" : 1703954831441,
+      "duration" : 86
     },
     "status" : "passed",
     "steps" : [ ],
@@ -63,9 +48,24 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1703954696755,
-      "stop" : 1703954696755,
+      "start" : 1703954830581,
+      "stop" : 1703954830581,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1703954830581,
+      "stop" : 1703954831354,
+      "duration" : 773
     },
     "status" : "passed",
     "steps" : [ ],
@@ -80,13 +80,13 @@
     "description" : "Unsuccess login",
     "status" : "failed",
     "statusMessage" : "AssertionError: expected txt: Username field cannot be emp2ty, but actual txt: Username field cannot be empty",
-    "statusTrace" : "index_page_instance = <pages.index_page.IndexPage object at 0x7fc022686c50>\nun_login = '', un_password = 'correct_username'\nun_text = 'Username field cannot be emp2ty'\n\n    @allure.description('Unsuccess login')\n    @allure.label('owner', 'Sergey')\n    @allure.title('Unsuccessful login')\n    @allure.suite('Authorization suite')\n    @mark.index\n    @pytest.mark.parametrize('un_login, un_password, un_text', (incorrect_1, incorrect_2, incorrect_3, incorrect_4))\n    def test_unsuccessful_login(index_page_instance, un_login, un_password, un_text):\n        index_page_instance.enter_username(un_login)\n        index_page_instance.enter_password(un_password)\n        index_page_instance.click_to_login_btn()\n>       index_page_instance.verify_incorrect_login(un_text)\n\ntests/test_index_page.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/index_page.py:46: in verify_incorrect_login\n    self.assert_equal(self.get_text(self.ERROR_TEXT), expected=text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nactual = 'Username field cannot be empty'\nexpected = 'Username field cannot be emp2ty'\n\n    @staticmethod\n    def assert_equal(actual, expected):\n>       assert actual == expected, AssertionsErrors.ERROR_EQUAL.format(expected, actual)\nE       AssertionError: expected txt: Username field cannot be emp2ty, but actual txt: Username field cannot be empty\n\nsupport/assertions.py:7: AssertionError",
+    "statusTrace" : "index_page_instance = <pages.index_page.IndexPage object at 0x7fbe562015a0>\nun_login = '', un_password = 'correct_username'\nun_text = 'Username field cannot be emp2ty'\n\n    @allure.description('Unsuccess login')\n    @allure.label('owner', 'Sergey')\n    @allure.title('Unsuccessful login')\n    @allure.suite('Authorization suite')\n    @mark.index\n    @pytest.mark.parametrize('un_login, un_password, un_text', (incorrect_1, incorrect_2, incorrect_3, incorrect_4))\n    def test_unsuccessful_login(index_page_instance, un_login, un_password, un_text):\n        index_page_instance.enter_username(un_login)\n        index_page_instance.enter_password(un_password)\n        index_page_instance.click_to_login_btn()\n>       index_page_instance.verify_incorrect_login(un_text)\n\ntests/test_index_page.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/index_page.py:46: in verify_incorrect_login\n    self.assert_equal(self.get_text(self.ERROR_TEXT), expected=text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nactual = 'Username field cannot be empty'\nexpected = 'Username field cannot be emp2ty'\n\n    @staticmethod\n    def assert_equal(actual, expected):\n>       assert actual == expected, AssertionsErrors.ERROR_EQUAL.format(expected, actual)\nE       AssertionError: expected txt: Username field cannot be emp2ty, but actual txt: Username field cannot be empty\n\nsupport/assertions.py:7: AssertionError",
     "steps" : [ {
       "name" : "ввели логин",
       "time" : {
-        "start" : 1703954697645,
-        "stop" : 1703954697699,
-        "duration" : 54
+        "start" : 1703954831442,
+        "stop" : 1703954831493,
+        "duration" : 51
       },
       "status" : "passed",
       "steps" : [ ],
@@ -102,9 +102,9 @@
     }, {
       "name" : "ввели пароль",
       "time" : {
-        "start" : 1703954697700,
-        "stop" : 1703954697748,
-        "duration" : 48
+        "start" : 1703954831493,
+        "stop" : 1703954831539,
+        "duration" : 46
       },
       "status" : "passed",
       "steps" : [ ],
@@ -120,9 +120,9 @@
     }, {
       "name" : "нажали на кнопку логина",
       "time" : {
-        "start" : 1703954697748,
-        "stop" : 1703954697790,
-        "duration" : 42
+        "start" : 1703954831539,
+        "stop" : 1703954831578,
+        "duration" : 39
       },
       "status" : "passed",
       "steps" : [ ],
@@ -135,9 +135,9 @@
     }, {
       "name" : "проверка соответствия ошибки авторизации",
       "time" : {
-        "start" : 1703954697790,
-        "stop" : 1703954697814,
-        "duration" : 24
+        "start" : 1703954831578,
+        "stop" : 1703954831600,
+        "duration" : 22
       },
       "status" : "failed",
       "statusMessage" : "AssertionError: expected txt: Username field cannot be emp2ty, but actual txt: Username field cannot be empty\n",
@@ -154,9 +154,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "a4226ca4f9922e98",
+      "uid" : "ef7fbe5160dfa94a",
       "name" : "log",
-      "source" : "a4226ca4f9922e98.txt",
+      "source" : "ef7fbe5160dfa94a.txt",
       "type" : "text/plain",
       "size" : 523
     } ],
@@ -167,11 +167,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "index_page_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703954697818,
-      "stop" : 1703954697875,
-      "duration" : 57
+      "start" : 1703954831660,
+      "stop" : 1703954831660,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -182,11 +182,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "screenshot_on_failures::0",
+    "name" : "index_page_instance::0",
     "time" : {
-      "start" : 1703954697875,
-      "stop" : 1703954697875,
-      "duration" : 0
+      "start" : 1703954831603,
+      "stop" : 1703954831660,
+      "duration" : 57
     },
     "status" : "passed",
     "steps" : [ ],
@@ -198,11 +198,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "owner",
-    "value" : "Sergey"
-  }, {
     "name" : "suite",
     "value" : "Authorization suite"
+  }, {
+    "name" : "owner",
+    "value" : "Sergey"
   }, {
     "name" : "tag",
     "value" : "index"
@@ -211,10 +211,10 @@
     "value" : "tests"
   }, {
     "name" : "host",
-    "value" : "fv-az1205-759"
+    "value" : "fv-az569-346"
   }, {
     "name" : "thread",
-    "value" : "4229-MainThread"
+    "value" : "4179-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -245,6 +245,6 @@
     "categories" : [ ],
     "tags" : [ "index" ]
   },
-  "source" : "c980c7e5275996d4.json",
+  "source" : "a28e0a7e5975e08a.json",
   "parameterValues" : [ "''", "'correct_username'", "'Username field cannot be emp2ty'" ]
 }

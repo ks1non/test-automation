@@ -1,0 +1,250 @@
+{
+  "uid" : "ad2df75e921dff2b",
+  "name" : "Unsuccessful login",
+  "fullName" : "tests.test_index_page#test_unsuccessful_login",
+  "historyId" : "e6d4890461d9b8a59d34debeeea65ce8",
+  "time" : {
+    "start" : 1703954820528,
+    "stop" : 1703954820681,
+    "duration" : 153
+  },
+  "description" : "Unsuccess login",
+  "descriptionHtml" : "<p>Unsuccess login</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: expected txt: Username and password fields cannot be empty2, but actual txt: Username and password fields cannot be empty",
+  "statusTrace" : "index_page_instance = <pages.index_page.IndexPage object at 0x7fbe5644f010>\nun_login = '', un_password = ''\nun_text = 'Username and password fields cannot be empty2'\n\n    @allure.description('Unsuccess login')\n    @allure.label('owner', 'Sergey')\n    @allure.title('Unsuccessful login')\n    @allure.suite('Authorization suite')\n    @mark.index\n    @pytest.mark.parametrize('un_login, un_password, un_text', (incorrect_1, incorrect_2, incorrect_3, incorrect_4))\n    def test_unsuccessful_login(index_page_instance, un_login, un_password, un_text):\n        index_page_instance.enter_username(un_login)\n        index_page_instance.enter_password(un_password)\n        index_page_instance.click_to_login_btn()\n>       index_page_instance.verify_incorrect_login(un_text)\n\ntests/test_index_page.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/index_page.py:46: in verify_incorrect_login\n    self.assert_equal(self.get_text(self.ERROR_TEXT), expected=text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nactual = 'Username and password fields cannot be empty'\nexpected = 'Username and password fields cannot be empty2'\n\n    @staticmethod\n    def assert_equal(actual, expected):\n>       assert actual == expected, AssertionsErrors.ERROR_EQUAL.format(expected, actual)\nE       AssertionError: expected txt: Username and password fields cannot be empty2, but actual txt: Username and password fields cannot be empty\n\nsupport/assertions.py:7: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "index_page_instance",
+    "time" : {
+      "start" : 1703954820445,
+      "stop" : 1703954820528,
+      "duration" : 83
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1703954819671,
+      "stop" : 1703954819671,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1703954820445,
+      "stop" : 1703954820445,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1703954819671,
+      "stop" : 1703954820445,
+      "duration" : 774
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Unsuccess login",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: expected txt: Username and password fields cannot be empty2, but actual txt: Username and password fields cannot be empty",
+    "statusTrace" : "index_page_instance = <pages.index_page.IndexPage object at 0x7fbe5644f010>\nun_login = '', un_password = ''\nun_text = 'Username and password fields cannot be empty2'\n\n    @allure.description('Unsuccess login')\n    @allure.label('owner', 'Sergey')\n    @allure.title('Unsuccessful login')\n    @allure.suite('Authorization suite')\n    @mark.index\n    @pytest.mark.parametrize('un_login, un_password, un_text', (incorrect_1, incorrect_2, incorrect_3, incorrect_4))\n    def test_unsuccessful_login(index_page_instance, un_login, un_password, un_text):\n        index_page_instance.enter_username(un_login)\n        index_page_instance.enter_password(un_password)\n        index_page_instance.click_to_login_btn()\n>       index_page_instance.verify_incorrect_login(un_text)\n\ntests/test_index_page.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/index_page.py:46: in verify_incorrect_login\n    self.assert_equal(self.get_text(self.ERROR_TEXT), expected=text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nactual = 'Username and password fields cannot be empty'\nexpected = 'Username and password fields cannot be empty2'\n\n    @staticmethod\n    def assert_equal(actual, expected):\n>       assert actual == expected, AssertionsErrors.ERROR_EQUAL.format(expected, actual)\nE       AssertionError: expected txt: Username and password fields cannot be empty2, but actual txt: Username and password fields cannot be empty\n\nsupport/assertions.py:7: AssertionError",
+    "steps" : [ {
+      "name" : "ввели логин",
+      "time" : {
+        "start" : 1703954820528,
+        "stop" : 1703954820580,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "''"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "ввели пароль",
+      "time" : {
+        "start" : 1703954820580,
+        "stop" : 1703954820621,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "''"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "нажали на кнопку логина",
+      "time" : {
+        "start" : 1703954820621,
+        "stop" : 1703954820659,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "проверка соответствия ошибки авторизации",
+      "time" : {
+        "start" : 1703954820659,
+        "stop" : 1703954820680,
+        "duration" : 21
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: expected txt: Username and password fields cannot be empty2, but actual txt: Username and password fields cannot be empty\n",
+      "statusTrace" : "  File \"/home/runner/.local/lib/python3.10/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/home/runner/work/test-automation/test-automation/pages/index_page.py\", line 46, in verify_incorrect_login\n    self.assert_equal(self.get_text(self.ERROR_TEXT), expected=text)\n  File \"/home/runner/work/test-automation/test-automation/support/assertions.py\", line 7, in assert_equal\n    assert actual == expected, AssertionsErrors.ERROR_EQUAL.format(expected, actual)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'Username and password fields cannot be empty2'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "21ba5f79a27e12ca",
+      "name" : "log",
+      "source" : "21ba5f79a27e12ca.txt",
+      "type" : "text/plain",
+      "size" : 261
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "index_page_instance::0",
+    "time" : {
+      "start" : 1703954820688,
+      "stop" : 1703954820744,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures::0",
+    "time" : {
+      "start" : 1703954820745,
+      "stop" : 1703954820745,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Authorization suite"
+  }, {
+    "name" : "owner",
+    "value" : "Sergey"
+  }, {
+    "name" : "tag",
+    "value" : "index"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az569-346"
+  }, {
+    "name" : "thread",
+    "value" : "4179-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_index_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "un_login",
+    "value" : "''"
+  }, {
+    "name" : "un_password",
+    "value" : "''"
+  }, {
+    "name" : "un_text",
+    "value" : "'Username and password fields cannot be empty2'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "index" ]
+  },
+  "source" : "ad2df75e921dff2b.json",
+  "parameterValues" : [ "''", "''", "'Username and password fields cannot be empty2'" ]
+}
