@@ -1,9 +1,0 @@
-INFO     BaseObject:base_objeckt.py:31 ('css selector', '.input-container #username') is visible
-INFO     BaseObject:base_objeckt.py:31 ('xpath', "//*[@id='password']") is visible
-INFO     BaseObject:base_objeckt.py:31 ('xpath', '//*[@id="message"]') is visible
-INFO     BaseObject:base_objeckt.py:31 ('css selector', '.input-container #username') is visible
-INFO     BaseObject:base_objeckt.py:31 ('xpath', "//*[@id='password']") is visible
-INFO     BaseObject:base_objeckt.py:31 ('xpath', '//*[@id="message"]') is visible
-INFO     BaseObject:base_objeckt.py:31 ('css selector', '.input-container #username') is visible
-INFO     BaseObject:base_objeckt.py:31 ('xpath', "//*[@id='password']") is visible
-INFO     BaseObject:base_objeckt.py:31 ('xpath', '//*[@id="message"]') is visible
