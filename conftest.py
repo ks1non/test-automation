@@ -19,6 +19,7 @@ def get_chrome_options():
     '''scope рядом с каждой фекстурой , по дефолту фанкшен'''
     options = ChromeOptions()
     options.add_argument('headless')
+    # options.add_argument('--start-maximized')
     return options
 
 

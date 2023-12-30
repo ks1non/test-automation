@@ -34,10 +34,14 @@ jobs:
           rm allure-2.13.8.tgz
 
       - name: Run tests
+        env:
+          LOGIN: ${{ secrets.LOGIN }}
+          PASSWORD: ${{ secrets.PASSWORD }}
         run: |
           pytest --junitxml=result.xml -o junit_family="xunit1" --pyreport --telegram-pyreport -4016254849 5602276003:AAH4of9Uzl0iLU2DtozL4PATWNMZHUMUutE --server https://ks1non.github.io/test-automation/
 
       - name: Generate Allure report
+        if: always()
         run: |
           allure generate allure-results --clean -o allure-report
 
