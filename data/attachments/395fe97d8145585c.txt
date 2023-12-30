@@ -1,0 +1,6 @@
+INFO     BaseObject:base_objeckt.py:31 ('css selector', '.input-container #username') is visible
+INFO     BaseObject:base_objeckt.py:31 ('xpath', "//*[@id='password']") is visible
+INFO     BaseObject:base_objeckt.py:31 ('xpath', '//*[@id="message"]') is visible
+WARNING  urllib3.connectionpool:connectionpool.py:781 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe9f463b6d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/8a31a8527cfbeb15dd8e5e6b720c44fc/screenshot
+WARNING  urllib3.connectionpool:connectionpool.py:781 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe9f463a1a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/8a31a8527cfbeb15dd8e5e6b720c44fc/screenshot
+WARNING  urllib3.connectionpool:connectionpool.py:781 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe9f463b1f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/8a31a8527cfbeb15dd8e5e6b720c44fc/screenshot

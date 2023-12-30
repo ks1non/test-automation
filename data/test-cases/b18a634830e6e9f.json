@@ -1,0 +1,253 @@
+{
+  "uid" : "b18a634830e6e9f",
+  "name" : "Successful login",
+  "fullName" : "tests.test_index_page#test_success_login",
+  "historyId" : "51c7b77fdc695a2cfe94086853d8c992",
+  "time" : {
+    "start" : 1703963702786,
+    "stop" : 1703963702996,
+    "duration" : 210
+  },
+  "description" : "Success login",
+  "descriptionHtml" : "<p>Success login</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: expected txt: Log outt, but actual txt: Log out",
+  "statusTrace" : "index_page_instance = <pages.index_page.IndexPage object at 0x7fe9f4a3d7b0>\n\n    @allure.description('Success login')\n    @allure.label('owner', 'Sergey')\n    @allure.title('Successful login')\n    @allure.suite('Authorization suite')\n    @allure.severity(allure.severity_level.BLOCKER)\n    @mark.smoke\n    def test_success_login(index_page_instance):\n        index_page_instance.enter_username(LOGIN)\n        index_page_instance.enter_password(PASSWORD)\n        index_page_instance.click_to_login_btn()\n>       index_page_instance.verify_login('Log outt')\n\ntests/test_index_page.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/index_page.py:39: in verify_login\n    self.assert_equal(self.get_text(self.LOGOUT_BTN), expected=text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nactual = 'Log out', expected = 'Log outt'\n\n    @staticmethod\n    def assert_equal(actual, expected):\n>       assert actual == expected, AssertionsErrors.ERROR_EQUAL.format(expected, actual)\nE       AssertionError: expected txt: Log outt, but actual txt: Log out\n\nsupport/assertions.py:7: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "index_page_instance",
+    "time" : {
+      "start" : 1703963702656,
+      "stop" : 1703963702786,
+      "duration" : 130
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1703963701851,
+      "stop" : 1703963702656,
+      "duration" : 805
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1703963701851,
+      "stop" : 1703963701851,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1703963702656,
+      "stop" : 1703963702656,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Success login",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: expected txt: Log outt, but actual txt: Log out",
+    "statusTrace" : "index_page_instance = <pages.index_page.IndexPage object at 0x7fe9f4a3d7b0>\n\n    @allure.description('Success login')\n    @allure.label('owner', 'Sergey')\n    @allure.title('Successful login')\n    @allure.suite('Authorization suite')\n    @allure.severity(allure.severity_level.BLOCKER)\n    @mark.smoke\n    def test_success_login(index_page_instance):\n        index_page_instance.enter_username(LOGIN)\n        index_page_instance.enter_password(PASSWORD)\n        index_page_instance.click_to_login_btn()\n>       index_page_instance.verify_login('Log outt')\n\ntests/test_index_page.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/index_page.py:39: in verify_login\n    self.assert_equal(self.get_text(self.LOGOUT_BTN), expected=text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nactual = 'Log out', expected = 'Log outt'\n\n    @staticmethod\n    def assert_equal(actual, expected):\n>       assert actual == expected, AssertionsErrors.ERROR_EQUAL.format(expected, actual)\nE       AssertionError: expected txt: Log outt, but actual txt: Log out\n\nsupport/assertions.py:7: AssertionError",
+    "steps" : [ {
+      "name" : "ввели логин",
+      "time" : {
+        "start" : 1703963702787,
+        "stop" : 1703963702849,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "'correct_username'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "ввели пароль",
+      "time" : {
+        "start" : 1703963702850,
+        "stop" : 1703963702900,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'correct_password'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "нажали на кнопку логина",
+      "time" : {
+        "start" : 1703963702900,
+        "stop" : 1703963702971,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "проверка соответствия текста после логина",
+      "time" : {
+        "start" : 1703963702971,
+        "stop" : 1703963702996,
+        "duration" : 25
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: expected txt: Log outt, but actual txt: Log out\n",
+      "statusTrace" : "  File \"/home/runner/.local/lib/python3.10/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/home/runner/work/test-automation/test-automation/pages/index_page.py\", line 39, in verify_login\n    self.assert_equal(self.get_text(self.LOGOUT_BTN), expected=text)\n  File \"/home/runner/work/test-automation/test-automation/support/assertions.py\", line 7, in assert_equal\n    assert actual == expected, AssertionsErrors.ERROR_EQUAL.format(expected, actual)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'Log outt'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "10dccfe5dbdf7f10",
+      "name" : "log",
+      "source" : "10dccfe5dbdf7f10.txt",
+      "type" : "text/plain",
+      "size" : 1368
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "index_page_instance::0",
+    "time" : {
+      "start" : 1703963703003,
+      "stop" : 1703963703060,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures::0",
+    "time" : {
+      "start" : 1703963703060,
+      "stop" : 1703963703064,
+      "duration" : 4
+    },
+    "status" : "broken",
+    "statusMessage" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=49811): Max retries exceeded with url: /session/7debded9d9f6d6959789095e57a9c171/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe9f4abf820>: Failed to establish a new connection: [Errno 111] Connection refused'))\n",
+    "statusTrace" : "  File \"/home/runner/.local/lib/python3.10/site-packages/allure_commons/_allure.py\", line 221, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"/home/runner/.local/lib/python3.10/site-packages/_pytest/fixtures.py\", line 911, in _teardown_yield_fixture\n    next(it)\n  File \"/home/runner/work/test-automation/test-automation/conftest.py\", line 97, in screenshot_on_failures\n    get_webdriver.get_screenshot_as_file(screenshot)\n  File \"/home/runner/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 805, in get_screenshot_as_file\n    png = self.get_screenshot_as_png()\n  File \"/home/runner/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 839, in get_screenshot_as_png\n    return b64decode(self.get_screenshot_as_base64().encode(\"ascii\"))\n  File \"/home/runner/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 850, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)[\"value\"]\n  File \"/home/runner/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File \"/home/runner/.local/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py\", line 300, in execute\n    return self._request(command_info[0], url, body=data)\n  File \"/home/runner/.local/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py\", line 321, in _request\n    response = self._conn.request(method, url, body=body, headers=headers)\n  File \"/usr/lib/python3/dist-packages/urllib3/request.py\", line 74, in request\n    return self.request_encode_url(\n  File \"/usr/lib/python3/dist-packages/urllib3/request.py\", line 96, in request_encode_url\n    return self.urlopen(method, url, **extra_kw)\n  File \"/usr/lib/python3/dist-packages/urllib3/poolmanager.py\", line 375, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File \"/usr/lib/python3/dist-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3/dist-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3/dist-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3/dist-packages/urllib3/connectionpool.py\", line 756, in urlopen\n    retries = retries.increment(\n  File \"/usr/lib/python3/dist-packages/urllib3/util/retry.py\", line 574, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "owner",
+    "value" : "Sergey"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "suite",
+    "value" : "Authorization suite"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az532-920"
+  }, {
+    "name" : "thread",
+    "value" : "4152-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_index_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "owner" : "Sergey",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "b18a634830e6e9f.json",
+  "parameterValues" : [ ]
+}

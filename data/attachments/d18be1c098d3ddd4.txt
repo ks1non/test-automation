@@ -1,0 +1,2 @@
+INFO     BaseObject:base_objeckt.py:31 ('xpath', '//*[@id="dataInput"]') is visible
+INFO     BaseObject:base_objeckt.py:31 ('xpath', '//*[@id="validationSquare"]') is visible
