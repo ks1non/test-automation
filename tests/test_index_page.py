@@ -7,13 +7,14 @@ import allure
 incorrect_1 = ['', '', 'Username and password fields cannot be empty']
 incorrect_2 = ['correct_username', 'correct_username', 'Password or username is incorrect']
 incorrect_3 = ['correct_username', '', 'Password field cannot be empty']
-incorrect_4 = ['', 'correct_username', 'Username field cannot be empty']
+incorrect_4 = ['', 'correct_username', 'Username field cannot be emp2ty']
 
 
 @allure.description('Success login')
 @allure.label('owner', 'Sergey')
 @allure.title('Successful login')
 @allure.suite('Authorization suite')
+@allure.attach
 @allure.severity(allure.severity_level.BLOCKER)
 @mark.smoke
 def test_success_login(index_page_instance):
@@ -27,6 +28,7 @@ def test_success_login(index_page_instance):
 @allure.label('owner', 'Sergey')
 @allure.title('Unsuccessful login')
 @allure.suite('Authorization suite')
+@allure.attach()
 @mark.index
 @pytest.mark.parametrize('un_login, un_password, un_text', (incorrect_1, incorrect_2, incorrect_3, incorrect_4))
 def test_unsuccessful_login(index_page_instance, un_login, un_password, un_text):
