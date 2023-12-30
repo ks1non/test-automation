@@ -4,9 +4,9 @@ from pytest import mark
 from env_setup import LOGIN, PASSWORD
 import allure
 
-incorrect_1 = ['', '', 'Username and password fields cannot be empty']
-incorrect_2 = ['correct_username', 'correct_username', 'Password or username is incorrect']
-incorrect_3 = ['correct_username', '', 'Password field cannot be empty']
+incorrect_1 = ['', '', 'Username and password fields cannot be empty2']
+incorrect_2 = ['correct_username', 'correct_username', 'Password or us2ername is incorrect']
+incorrect_3 = ['correct_username', '', 'Password field cannot be empt2y']
 incorrect_4 = ['', 'correct_username', 'Username field cannot be emp2ty']
 
 
