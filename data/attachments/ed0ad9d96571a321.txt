@@ -1,5 +1,0 @@
-INFO     BaseObject:base_objeckt.py:31 ('class name', 'select-text') is visible
-INFO     BaseObject:base_objeckt.py:31 ('class name', 'select-text') is visible
-INFO     BaseObject:base_objeckt.py:31 ('class name', 'select-text') is visible
-INFO     BaseObject:base_objeckt.py:31 ('class name', 'select-text') is visible
-INFO     BaseObject:base_objeckt.py:31 ('class name', 'select-text') is visible
