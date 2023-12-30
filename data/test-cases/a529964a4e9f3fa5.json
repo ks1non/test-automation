@@ -1,52 +1,22 @@
 {
-  "uid" : "65ae2d4ce235d97a",
+  "uid" : "a529964a4e9f3fa5",
   "name" : "test_back_per_pages",
   "fullName" : "tests.test_common#test_back_per_pages",
   "historyId" : "20791a68dd3f57c56c3f88114d253350",
   "time" : {
-    "start" : 1703954300601,
-    "stop" : 1703954303255,
-    "duration" : 2654
+    "start" : 1703954678794,
+    "stop" : 1703954680708,
+    "duration" : 1914
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "get_webdriver",
-    "time" : {
-      "start" : 1703954299486,
-      "stop" : 1703954300258,
-      "duration" : 772
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1703954300258,
-      "stop" : 1703954300258,
+      "start" : 1703954678681,
+      "stop" : 1703954678681,
       "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_chrome_options",
-    "time" : {
-      "start" : 1703954299485,
-      "stop" : 1703954299486,
-      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,9 +29,39 @@
   }, {
     "name" : "common_instance",
     "time" : {
-      "start" : 1703954300258,
-      "stop" : 1703954300601,
-      "duration" : 343
+      "start" : 1703954678681,
+      "stop" : 1703954678793,
+      "duration" : 112
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1703954677883,
+      "stop" : 1703954678681,
+      "duration" : 798
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1703954677883,
+      "stop" : 1703954677883,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,9 +76,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "ef25180eb8a4096f",
+      "uid" : "d30180463d32caea",
       "name" : "log",
-      "source" : "ef25180eb8a4096f.txt",
+      "source" : "d30180463d32caea.txt",
       "type" : "text/plain",
       "size" : 399
     } ],
@@ -91,8 +91,8 @@
   "afterStages" : [ {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703954303313,
-      "stop" : 1703954303313,
+      "start" : 1703954680766,
+      "stop" : 1703954680766,
       "duration" : 0
     },
     "status" : "passed",
@@ -106,8 +106,8 @@
   }, {
     "name" : "common_instance::0",
     "time" : {
-      "start" : 1703954303256,
-      "stop" : 1703954303313,
+      "start" : 1703954680708,
+      "stop" : 1703954680765,
       "duration" : 57
     },
     "status" : "passed",
@@ -130,10 +130,10 @@
     "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az1206-584"
+    "value" : "fv-az1205-759"
   }, {
     "name" : "thread",
-    "value" : "4233-MainThread"
+    "value" : "4229-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -157,6 +157,6 @@
     "categories" : [ ],
     "tags" : [ "common" ]
   },
-  "source" : "65ae2d4ce235d97a.json",
+  "source" : "a529964a4e9f3fa5.json",
   "parameterValues" : [ ]
 }
