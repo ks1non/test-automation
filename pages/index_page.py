@@ -5,7 +5,6 @@ from selenium.webdriver.common.by import By
 import allure
 from selenium.common.exceptions import TimeoutException
 import selenium
-
 class IndexPage(BaseObject, Assertions):
     """fff"""
 

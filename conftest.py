@@ -18,7 +18,7 @@ import allure
 def get_chrome_options():
     '''scope рядом с каждой фекстурой , по дефолту фанкшен'''
     options = ChromeOptions()
-    options.add_argument('headless')
+    # options.add_argument('headless')
     # options.add_argument('--start-maximized')
     return options
 
@@ -85,6 +85,8 @@ def setup_sorting_instance(get_webdriver):
     get_webdriver.quit()
 
 
+import logging
+
 @pytest.fixture(scope='function', autouse=True)
 def screenshot_on_failures(get_webdriver, request):
     failed_tests_count = request.session.testsfailed
@@ -94,3 +96,4 @@ def screenshot_on_failures(get_webdriver, request):
         screenshot = 'screenshot_on_failures' + f'_{test_case_name}' + '.png'
         get_webdriver.get_screenshot_as_file(screenshot)
         allure.attach.file(screenshot, 'screenshot_on_failures.png', attachment_type=allure.attachment_type.PNG)
+        logging.info(f"Screenshot taken for {test_case_name}")
