@@ -1,7 +1,7 @@
-# import os
-# import json
+import os
+import json
 # для доступа к данным в папке files
-# ROOT_PATH = os.path.dirname(os.path.realpath(__file__))
+ROOT_PATH = os.path.dirname(os.path.realpath(__file__))
 # path = os.path.join(ROOT_PATH, "files", "index_creds.json")
 #
 # with open(path, 'r') as f:

@@ -13,3 +13,5 @@ new.py
 **/.env
 .env
 **/allure-report
+screens
+**/screens

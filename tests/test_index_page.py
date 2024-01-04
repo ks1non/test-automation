@@ -7,7 +7,7 @@ import allure
 incorrect_1 = ['', '', 'Username and password fields cannot be empty']
 incorrect_2 = ['correct_username', 'correct_username', 'Password or username is incorrect']
 incorrect_3 = ['correct_username', '', 'Password field cannot be empty']
-incorrect_4 = ['', 'correct_username', 'Username field cannot be emp2ty']
+incorrect_4 = ['', 'correct_username', 'Username field cannot be empty']
 
 
 @allure.description('Success login')
@@ -20,7 +20,7 @@ def test_success_login(index_page_instance):
     index_page_instance.enter_username(LOGIN)
     index_page_instance.enter_password(PASSWORD)
     index_page_instance.click_to_login_btn()
-    index_page_instance.verify_login('Log outt')
+    index_page_instance.verify_login('Log ouеt')
 
 
 @allure.description('Unsuccess login')
