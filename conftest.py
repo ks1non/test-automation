@@ -12,8 +12,6 @@ from pages.drag_and_drop_page import DragAndDropPage
 from pages.checkboxes_and_scroll_page import CheckboxesAndScroll
 from pages.sort_by_page import SortByPage
 import allure
-from env_setup import ROOT_PATH
-import os
 
 
 @pytest.fixture(scope='function')
@@ -85,6 +83,6 @@ def screenshot_on_failures(get_webdriver, request):
     yield
     if request.session.testsfailed > failed_tests_count:
         test_case_name = request.node.name
-        screenshot = os.path.join(ROOT_PATH, "screens", f"screenshot_on_failures_{test_case_name}.png")
+        screenshot = 'screenshot_on_failures' + f'_{test_case_name}' + '.png'
         get_webdriver.get_screenshot_as_file(screenshot)
         allure.attach.file(screenshot, 'screenshot_on_failures.png', attachment_type=allure.attachment_type.PNG)
