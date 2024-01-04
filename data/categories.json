@@ -6,13 +6,13 @@
       "name" : "AssertionError: expected txt: Log ouеt, but actual txt: Log out",
       "children" : [ {
         "name" : "Successful login",
-        "uid" : "a5ef7442335efa6",
+        "uid" : "84efc1d9196d5393",
         "parentUid" : "3b9f9629e703c43c12f7a50a8dafcc50",
         "status" : "failed",
         "time" : {
-          "start" : 1704402595674,
-          "stop" : 1704402595941,
-          "duration" : 267
+          "start" : 1704402987296,
+          "stop" : 1704402987611,
+          "duration" : 315
         },
         "flaky" : false,
         "newFailed" : false,

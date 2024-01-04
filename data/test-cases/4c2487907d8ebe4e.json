@@ -1,22 +1,22 @@
 {
-  "uid" : "8a6c0248f7d1614c",
-  "name" : "test_back_per_pages_parametrize[1-https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html]",
-  "fullName" : "tests.test_common#test_back_per_pages_parametrize",
-  "historyId" : "c8fe1442e5851d63f9f3785b6a9f994f",
+  "uid" : "4c2487907d8ebe4e",
+  "name" : "test_back_per_pages",
+  "fullName" : "tests.test_common#test_back_per_pages",
+  "historyId" : "20791a68dd3f57c56c3f88114d253350",
   "time" : {
-    "start" : 1704402585123,
-    "stop" : 1704402585516,
-    "duration" : 393
+    "start" : 1704402973180,
+    "stop" : 1704402975241,
+    "duration" : 2061
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "common_instance",
+    "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1704402585013,
-      "stop" : 1704402585122,
-      "duration" : 109
+      "start" : 1704402973032,
+      "stop" : 1704402973032,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "get_chrome_options",
+    "name" : "common_instance",
     "time" : {
-      "start" : 1704402584187,
-      "stop" : 1704402584187,
-      "duration" : 0
+      "start" : 1704402973032,
+      "stop" : 1704402973180,
+      "duration" : 148
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,9 +44,9 @@
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1704402584187,
-      "stop" : 1704402585012,
-      "duration" : 825
+      "start" : 1704402972224,
+      "stop" : 1704402973031,
+      "duration" : 807
     },
     "status" : "passed",
     "steps" : [ ],
@@ -57,10 +57,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "screenshot_on_failures",
+    "name" : "get_chrome_options",
     "time" : {
-      "start" : 1704402585013,
-      "stop" : 1704402585013,
+      "start" : 1704402972224,
+      "stop" : 1704402972224,
       "duration" : 0
     },
     "status" : "passed",
@@ -76,11 +76,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "5e7f0f091e8ca15a",
+      "uid" : "220fcf0aa8dc3fa3",
       "name" : "log",
-      "source" : "5e7f0f091e8ca15a.txt",
+      "source" : "220fcf0aa8dc3fa3.txt",
       "type" : "text/plain",
-      "size" : 79
+      "size" : 399
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -89,10 +89,10 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "common_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1704402585517,
-      "stop" : 1704402585517,
+      "start" : 1704402975242,
+      "stop" : 1704402975242,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,10 +104,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "screenshot_on_failures::0",
+    "name" : "common_instance::0",
     "time" : {
-      "start" : 1704402585518,
-      "stop" : 1704402585518,
+      "start" : 1704402975242,
+      "stop" : 1704402975242,
       "duration" : 0
     },
     "status" : "passed",
@@ -130,10 +130,10 @@
     "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az1535-841"
+    "value" : "fv-az888-535"
   }, {
     "name" : "thread",
-    "value" : "4228-MainThread"
+    "value" : "4183-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -147,13 +147,7 @@
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "index",
-    "value" : "1"
-  }, {
-    "name" : "url",
-    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html'"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -163,6 +157,6 @@
     "categories" : [ ],
     "tags" : [ "common" ]
   },
-  "source" : "8a6c0248f7d1614c.json",
-  "parameterValues" : [ "1", "'https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html'" ]
+  "source" : "4c2487907d8ebe4e.json",
+  "parameterValues" : [ ]
 }

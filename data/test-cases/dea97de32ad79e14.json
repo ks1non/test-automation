@@ -1,51 +1,21 @@
 {
-  "uid" : "ff58e7c6de29978d",
-  "name" : "test_back_per_pages",
-  "fullName" : "tests.test_common#test_back_per_pages",
-  "historyId" : "20791a68dd3f57c56c3f88114d253350",
+  "uid" : "dea97de32ad79e14",
+  "name" : "test_back_per_pages_parametrize[5-https://toghrulmirzayev.github.io/ui-simulator/sorting.html]",
+  "fullName" : "tests.test_common#test_back_per_pages_parametrize",
+  "historyId" : "fdb936303ecada5f5a44f0441610721e",
   "time" : {
-    "start" : 1704402581769,
-    "stop" : 1704402584131,
-    "duration" : 2362
+    "start" : 1704402981972,
+    "stop" : 1704402982409,
+    "duration" : 437
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "get_webdriver",
-    "time" : {
-      "start" : 1704402580736,
-      "stop" : 1704402581528,
-      "duration" : 792
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "common_instance",
-    "time" : {
-      "start" : 1704402581529,
-      "stop" : 1704402581768,
-      "duration" : 239
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1704402580736,
-      "stop" : 1704402580736,
+      "start" : 1704402981008,
+      "stop" : 1704402981008,
       "duration" : 0
     },
     "status" : "passed",
@@ -59,9 +29,39 @@
   }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1704402581528,
-      "stop" : 1704402581529,
-      "duration" : 1
+      "start" : 1704402981823,
+      "stop" : 1704402981823,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1704402981008,
+      "stop" : 1704402981822,
+      "duration" : 814
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "common_instance",
+    "time" : {
+      "start" : 1704402981823,
+      "stop" : 1704402981971,
+      "duration" : 148
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,11 +76,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "5df0b987af459130",
+      "uid" : "c4a29b0a4733beb",
       "name" : "log",
-      "source" : "5df0b987af459130.txt",
+      "source" : "c4a29b0a4733beb.txt",
       "type" : "text/plain",
-      "size" : 399
+      "size" : 79
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -89,10 +89,10 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "common_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1704402584132,
-      "stop" : 1704402584132,
+      "start" : 1704402982410,
+      "stop" : 1704402982410,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,10 +104,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "screenshot_on_failures::0",
+    "name" : "common_instance::0",
     "time" : {
-      "start" : 1704402584132,
-      "stop" : 1704402584132,
+      "start" : 1704402982410,
+      "stop" : 1704402982410,
       "duration" : 0
     },
     "status" : "passed",
@@ -130,10 +130,10 @@
     "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az1535-841"
+    "value" : "fv-az888-535"
   }, {
     "name" : "thread",
-    "value" : "4228-MainThread"
+    "value" : "4183-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -147,7 +147,13 @@
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "index",
+    "value" : "5"
+  }, {
+    "name" : "url",
+    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -157,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ "common" ]
   },
-  "source" : "ff58e7c6de29978d.json",
-  "parameterValues" : [ ]
+  "source" : "dea97de32ad79e14.json",
+  "parameterValues" : [ "5", "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'" ]
 }

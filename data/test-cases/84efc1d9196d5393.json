@@ -1,0 +1,257 @@
+{
+  "uid" : "84efc1d9196d5393",
+  "name" : "Successful login",
+  "fullName" : "tests.test_index_page#test_success_login",
+  "historyId" : "51c7b77fdc695a2cfe94086853d8c992",
+  "time" : {
+    "start" : 1704402987296,
+    "stop" : 1704402987611,
+    "duration" : 315
+  },
+  "description" : "Success login",
+  "descriptionHtml" : "<p>Success login</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: expected txt: Log ouеt, but actual txt: Log out",
+  "statusTrace" : "index_page_instance = <pages.index_page.IndexPage object at 0x7f875bc342e0>\n\n    @allure.description('Success login')\n    @allure.label('owner', 'Sergey')\n    @allure.title('Successful login')\n    @allure.suite('Authorization suite')\n    @allure.severity(allure.severity_level.BLOCKER)\n    @mark.smoke\n    def test_success_login(index_page_instance):\n        index_page_instance.enter_username(LOGIN)\n        index_page_instance.enter_password(PASSWORD)\n        index_page_instance.click_to_login_btn()\n>       index_page_instance.verify_login('Log ouеt')\n\ntests/test_index_page.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/index_page.py:39: in verify_login\n    self.assert_equal(self.get_text(self.LOGOUT_BTN), expected=text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nactual = 'Log out', expected = 'Log ouеt'\n\n    @staticmethod\n    def assert_equal(actual, expected):\n>       assert actual == expected, AssertionsErrors.ERROR_EQUAL.format(expected, actual)\nE       AssertionError: expected txt: Log ouеt, but actual txt: Log out\n\nsupport/assertions.py:7: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1704402987160,
+      "stop" : 1704402987160,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1704402986348,
+      "stop" : 1704402987160,
+      "duration" : 812
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "index_page_instance",
+    "time" : {
+      "start" : 1704402987160,
+      "stop" : 1704402987295,
+      "duration" : 135
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1704402986348,
+      "stop" : 1704402986348,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Success login",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: expected txt: Log ouеt, but actual txt: Log out",
+    "statusTrace" : "index_page_instance = <pages.index_page.IndexPage object at 0x7f875bc342e0>\n\n    @allure.description('Success login')\n    @allure.label('owner', 'Sergey')\n    @allure.title('Successful login')\n    @allure.suite('Authorization suite')\n    @allure.severity(allure.severity_level.BLOCKER)\n    @mark.smoke\n    def test_success_login(index_page_instance):\n        index_page_instance.enter_username(LOGIN)\n        index_page_instance.enter_password(PASSWORD)\n        index_page_instance.click_to_login_btn()\n>       index_page_instance.verify_login('Log ouеt')\n\ntests/test_index_page.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/index_page.py:39: in verify_login\n    self.assert_equal(self.get_text(self.LOGOUT_BTN), expected=text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nactual = 'Log out', expected = 'Log ouеt'\n\n    @staticmethod\n    def assert_equal(actual, expected):\n>       assert actual == expected, AssertionsErrors.ERROR_EQUAL.format(expected, actual)\nE       AssertionError: expected txt: Log ouеt, but actual txt: Log out\n\nsupport/assertions.py:7: AssertionError",
+    "steps" : [ {
+      "name" : "ввели логин",
+      "time" : {
+        "start" : 1704402987296,
+        "stop" : 1704402987364,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "'correct_username'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "ввели пароль",
+      "time" : {
+        "start" : 1704402987365,
+        "stop" : 1704402987421,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'correct_password'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "нажали на кнопку логина",
+      "time" : {
+        "start" : 1704402987421,
+        "stop" : 1704402987585,
+        "duration" : 164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "проверка соответствия текста после логина",
+      "time" : {
+        "start" : 1704402987585,
+        "stop" : 1704402987611,
+        "duration" : 26
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: expected txt: Log ouеt, but actual txt: Log out\n",
+      "statusTrace" : "  File \"/home/runner/.local/lib/python3.10/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/home/runner/work/test-automation/test-automation/pages/index_page.py\", line 39, in verify_login\n    self.assert_equal(self.get_text(self.LOGOUT_BTN), expected=text)\n  File \"/home/runner/work/test-automation/test-automation/support/assertions.py\", line 7, in assert_equal\n    assert actual == expected, AssertionsErrors.ERROR_EQUAL.format(expected, actual)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'Log ouеt'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "73f5a3054bcb941",
+      "name" : "log",
+      "source" : "73f5a3054bcb941.txt",
+      "type" : "text/plain",
+      "size" : 261
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "screenshot_on_failures::0",
+    "time" : {
+      "start" : 1704402987620,
+      "stop" : 1704402987697,
+      "duration" : 77
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f60a8cadd9fcf7b4",
+      "name" : "screenshot_on_failures.png",
+      "source" : "f60a8cadd9fcf7b4.png",
+      "type" : "image/png",
+      "size" : 26125
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "index_page_instance::0",
+    "time" : {
+      "start" : 1704402987619,
+      "stop" : 1704402987619,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "owner",
+    "value" : "Sergey"
+  }, {
+    "name" : "suite",
+    "value" : "Authorization suite"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az888-535"
+  }, {
+    "name" : "thread",
+    "value" : "4183-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_index_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "owner" : "Sergey",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "84efc1d9196d5393.json",
+  "parameterValues" : [ ]
+}

@@ -1,22 +1,22 @@
 {
-  "uid" : "7523dfa99f7d4dc1",
+  "uid" : "a2c0e57b4cecabcf",
   "name" : "test_checkbox_click",
   "fullName" : "tests.test_checkboxes_and_scroll#test_checkbox_click",
   "historyId" : "e6097249ec439bd87002ff1207efc20e",
   "time" : {
-    "start" : 1704402578909,
-    "stop" : 1704402580680,
-    "duration" : 1771
+    "start" : 1704402970272,
+    "stop" : 1704402972168,
+    "duration" : 1896
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "screenshot_on_failures",
+    "name" : "get_chrome_options",
     "time" : {
-      "start" : 1704402578697,
-      "stop" : 1704402578698,
-      "duration" : 1
+      "start" : 1704402969309,
+      "stop" : 1704402969309,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +29,24 @@
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1704402577916,
-      "stop" : 1704402578697,
-      "duration" : 781
+      "start" : 1704402969309,
+      "stop" : 1704402970119,
+      "duration" : 810
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1704402970120,
+      "stop" : 1704402970120,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,24 +59,9 @@
   }, {
     "name" : "checkboxes_and_scroll_instance",
     "time" : {
-      "start" : 1704402578698,
-      "stop" : 1704402578908,
-      "duration" : 210
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_chrome_options",
-    "time" : {
-      "start" : 1704402577916,
-      "stop" : 1704402577916,
-      "duration" : 0
+      "start" : 1704402970120,
+      "stop" : 1704402970272,
+      "duration" : 152
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,9 +76,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "630854b33d6ec6af",
+      "uid" : "2ff4b96936191190",
       "name" : "log",
-      "source" : "630854b33d6ec6af.txt",
+      "source" : "2ff4b96936191190.txt",
       "type" : "text/plain",
       "size" : 2039
     } ],
@@ -91,8 +91,8 @@
   "afterStages" : [ {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1704402580681,
-      "stop" : 1704402580681,
+      "start" : 1704402972169,
+      "stop" : 1704402972169,
       "duration" : 0
     },
     "status" : "passed",
@@ -106,8 +106,8 @@
   }, {
     "name" : "checkboxes_and_scroll_instance::0",
     "time" : {
-      "start" : 1704402580681,
-      "stop" : 1704402580681,
+      "start" : 1704402972169,
+      "stop" : 1704402972169,
       "duration" : 0
     },
     "status" : "passed",
@@ -130,10 +130,10 @@
     "value" : "test_checkboxes_and_scroll"
   }, {
     "name" : "host",
-    "value" : "fv-az1535-841"
+    "value" : "fv-az888-535"
   }, {
     "name" : "thread",
-    "value" : "4228-MainThread"
+    "value" : "4183-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -157,6 +157,6 @@
     "categories" : [ ],
     "tags" : [ "checkbox_and_scroll" ]
   },
-  "source" : "7523dfa99f7d4dc1.json",
+  "source" : "a2c0e57b4cecabcf.json",
   "parameterValues" : [ ]
 }
