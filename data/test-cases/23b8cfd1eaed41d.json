@@ -1,52 +1,37 @@
 {
-  "uid" : "9abb1c02e278a1ef",
+  "uid" : "23b8cfd1eaed41d",
   "name" : "test_back_per_pages_parametrize[5-https://toghrulmirzayev.github.io/ui-simulator/sorting.html]",
   "fullName" : "tests.test_common#test_back_per_pages_parametrize",
   "historyId" : "fdb936303ecada5f5a44f0441610721e",
   "time" : {
-    "start" : 1703963697470,
-    "stop" : 1703963697883,
-    "duration" : 413
+    "start" : 1704402590451,
+    "stop" : 1704402590848,
+    "duration" : 397
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "get_webdriver",
-    "time" : {
-      "start" : 1703963696537,
-      "stop" : 1703963697345,
-      "duration" : 808
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "screenshot_on_failures",
-    "time" : {
-      "start" : 1703963697345,
-      "stop" : 1703963697345,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "common_instance",
     "time" : {
-      "start" : 1703963697345,
-      "stop" : 1703963697469,
-      "duration" : 124
+      "start" : 1704402590349,
+      "stop" : 1704402590450,
+      "duration" : 101
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1704402589567,
+      "stop" : 1704402590348,
+      "duration" : 781
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,8 +44,23 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1703963696536,
-      "stop" : 1703963696536,
+      "start" : 1704402589567,
+      "stop" : 1704402589567,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1704402590349,
+      "stop" : 1704402590349,
       "duration" : 0
     },
     "status" : "passed",
@@ -76,9 +76,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "98a1daf7d4ac7ea",
+      "uid" : "ee650839b75b2064",
       "name" : "log",
-      "source" : "98a1daf7d4ac7ea.txt",
+      "source" : "ee650839b75b2064.txt",
       "type" : "text/plain",
       "size" : 79
     } ],
@@ -89,10 +89,10 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "screenshot_on_failures::0",
+    "name" : "common_instance::0",
     "time" : {
-      "start" : 1703963697941,
-      "stop" : 1703963697941,
+      "start" : 1704402590849,
+      "stop" : 1704402590849,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,11 +104,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "common_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703963697883,
-      "stop" : 1703963697940,
-      "duration" : 57
+      "start" : 1704402590849,
+      "stop" : 1704402590849,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -130,10 +130,10 @@
     "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az532-920"
+    "value" : "fv-az1535-841"
   }, {
     "name" : "thread",
-    "value" : "4152-MainThread"
+    "value" : "4228-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -163,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ "common" ]
   },
-  "source" : "9abb1c02e278a1ef.json",
+  "source" : "23b8cfd1eaed41d.json",
   "parameterValues" : [ "5", "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'" ]
 }

@@ -3,39 +3,22 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: expected txt: Log outt, but actual txt: Log out",
+      "name" : "AssertionError: expected txt: Log ouеt, but actual txt: Log out",
       "children" : [ {
         "name" : "Successful login",
-        "uid" : "b18a634830e6e9f",
-        "parentUid" : "e970144f750d3558e6b61027aaa5c1c5",
+        "uid" : "a5ef7442335efa6",
+        "parentUid" : "3b9f9629e703c43c12f7a50a8dafcc50",
         "status" : "failed",
         "time" : {
-          "start" : 1703963702786,
-          "stop" : 1703963702996,
-          "duration" : 210
+          "start" : 1704402595674,
+          "stop" : 1704402595941,
+          "duration" : 267
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e970144f750d3558e6b61027aaa5c1c5"
-    }, {
-      "name" : "AssertionError: expected txt: Username field cannot be emp2ty, but actual txt: Username field cannot be empty",
-      "children" : [ {
-        "name" : "Unsuccessful login",
-        "uid" : "3d328564dccde1c",
-        "parentUid" : "66bd4a171cd9867cea1c19a55bc59011",
-        "status" : "failed",
-        "time" : {
-          "start" : 1703963707618,
-          "stop" : 1703963707791,
-          "duration" : 173
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "''", "'correct_username'", "'Username field cannot be emp2ty'" ]
-      } ],
-      "uid" : "66bd4a171cd9867cea1c19a55bc59011"
+      "uid" : "3b9f9629e703c43c12f7a50a8dafcc50"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

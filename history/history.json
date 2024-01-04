@@ -9,11 +9,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "94ca5024ea8197e7",
+      "uid" : "46f1ab076d2366c1",
       "status" : "passed",
       "time" : {
-        "start" : 1703963704103,
-        "stop" : 1703963704267,
+        "start" : 1704402596953,
+        "stop" : 1704402597117,
         "duration" : 164
       }
     } ]
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9fccb6515aec2afa",
+      "uid" : "8a6c0248f7d1614c",
       "status" : "passed",
       "time" : {
-        "start" : 1703963691885,
-        "stop" : 1703963692292,
-        "duration" : 407
+        "start" : 1704402585123,
+        "stop" : 1704402585516,
+        "duration" : 393
       }
     } ]
   },
@@ -47,12 +47,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9abb1c02e278a1ef",
+      "uid" : "23b8cfd1eaed41d",
       "status" : "passed",
       "time" : {
-        "start" : 1703963697470,
-        "stop" : 1703963697883,
-        "duration" : 413
+        "start" : 1704402590451,
+        "stop" : 1704402590848,
+        "duration" : 397
       }
     } ]
   },
@@ -66,12 +66,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5f1fc8291785589c",
+      "uid" : "f7dc4dd65e2faa03",
       "status" : "passed",
       "time" : {
-        "start" : 1703963696069,
-        "stop" : 1703963696476,
-        "duration" : 407
+        "start" : 1704402589118,
+        "stop" : 1704402589511,
+        "duration" : 393
       }
     } ]
   },
@@ -85,12 +85,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1a4b51202aacc963",
+      "uid" : "8114f53455bd62d",
       "status" : "passed",
       "time" : {
-        "start" : 1703963710149,
-        "stop" : 1703963710429,
-        "duration" : 280
+        "start" : 1704402602626,
+        "stop" : 1704402602900,
+        "duration" : 274
       }
     } ]
   },
@@ -104,12 +104,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "24959641dad40c08",
+      "uid" : "7818487693c04ec1",
       "status" : "passed",
       "time" : {
-        "start" : 1703963693284,
-        "stop" : 1703963693691,
-        "duration" : 407
+        "start" : 1704402586447,
+        "stop" : 1704402586842,
+        "duration" : 395
       }
     } ]
   },
@@ -123,12 +123,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eab535fab7a48d03",
+      "uid" : "7523dfa99f7d4dc1",
       "status" : "passed",
       "time" : {
-        "start" : 1703963685935,
-        "stop" : 1703963687808,
-        "duration" : 1873
+        "start" : 1704402578909,
+        "stop" : 1704402580680,
+        "duration" : 1771
       }
     } ]
   },
@@ -142,12 +142,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "24e8a523e4edab1b",
+      "uid" : "5e9e5155a06a4d27",
       "status" : "passed",
       "time" : {
-        "start" : 1703963694676,
-        "stop" : 1703963695081,
-        "duration" : 405
+        "start" : 1704402587785,
+        "stop" : 1704402588186,
+        "duration" : 401
       }
     } ]
   },
@@ -161,31 +161,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "676e54ea1119d95f",
+      "uid" : "3954a8ce9d6a5bc4",
       "status" : "passed",
       "time" : {
-        "start" : 1703963683790,
-        "stop" : 1703963683874,
-        "duration" : 84
-      }
-    } ]
-  },
-  "96f31f4135cd340fe3c0786af0f98ba6" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1160f44f92a260fa",
-      "status" : "passed",
-      "time" : {
-        "start" : 1703963698867,
-        "stop" : 1703963701792,
-        "duration" : 2925
+        "start" : 1704402576760,
+        "stop" : 1704402576842,
+        "duration" : 82
       }
     } ]
   },
@@ -199,12 +180,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ad6c071bc9c876fb",
+      "uid" : "cf251bab947dce99",
       "status" : "passed",
       "time" : {
-        "start" : 1703963682719,
-        "stop" : 1703963682802,
-        "duration" : 83
+        "start" : 1704402575751,
+        "stop" : 1704402575831,
+        "duration" : 80
+      }
+    } ]
+  },
+  "96f31f4135cd340fe3c0786af0f98ba6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c0e45702f4e41f8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704402591781,
+        "stop" : 1704402594621,
+        "duration" : 2840
       }
     } ]
   },
@@ -218,12 +218,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "78475fdefe6cb7b0",
+      "uid" : "ff58e7c6de29978d",
       "status" : "passed",
       "time" : {
-        "start" : 1703963688855,
-        "stop" : 1703963690882,
-        "duration" : 2027
+        "start" : 1704402581769,
+        "stop" : 1704402584131,
+        "duration" : 2362
       }
     } ]
   },
@@ -237,12 +237,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dedd50b6d930a427",
+      "uid" : "87c82793306eca15",
       "status" : "passed",
       "time" : {
-        "start" : 1703963711487,
-        "stop" : 1703963711849,
-        "duration" : 362
+        "start" : 1704402603992,
+        "stop" : 1704402604338,
+        "duration" : 346
       }
     } ]
   },
@@ -256,12 +256,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "77ca2927db5b7456",
+      "uid" : "81c68afe1a702c88",
       "status" : "passed",
       "time" : {
-        "start" : 1703963708914,
-        "stop" : 1703963709158,
-        "duration" : 244
+        "start" : 1704402601454,
+        "stop" : 1704402601692,
+        "duration" : 238
       }
     } ]
   },
@@ -275,11 +275,30 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c04a7874da9b2ef0",
+      "uid" : "8020b2951d259d87",
       "status" : "passed",
       "time" : {
-        "start" : 1703963706461,
-        "stop" : 1703963706637,
+        "start" : 1704402599243,
+        "stop" : 1704402599412,
+        "duration" : 169
+      }
+    } ]
+  },
+  "19b0a9a93a5e49c48e1ae9179d330712" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ad4face31c55e93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704402600346,
+        "stop" : 1704402600522,
         "duration" : 176
       }
     } ]
@@ -294,32 +313,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8deebff314a257db",
+      "uid" : "3520986a4187e81d",
       "status" : "passed",
       "time" : {
-        "start" : 1703963705293,
-        "stop" : 1703963705472,
-        "duration" : 179
-      }
-    } ]
-  },
-  "c8af2a131b02258090acaa95b6d362a5" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3d328564dccde1c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: expected txt: Username field cannot be emp2ty, but actual txt: Username field cannot be empty",
-      "time" : {
-        "start" : 1703963707618,
-        "stop" : 1703963707791,
-        "duration" : 173
+        "start" : 1704402598121,
+        "stop" : 1704402598303,
+        "duration" : 182
       }
     } ]
   },
@@ -333,32 +332,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ec8914984532f480",
+      "uid" : "bc9075cf77514a24",
       "status" : "passed",
       "time" : {
-        "start" : 1703963680686,
-        "stop" : 1703963681708,
-        "duration" : 1022
-      }
-    } ]
-  },
-  "51c7b77fdc695a2cfe94086853d8c992" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b18a634830e6e9f",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: expected txt: Log outt, but actual txt: Log out",
-      "time" : {
-        "start" : 1703963702786,
-        "stop" : 1703963702996,
-        "duration" : 210
+        "start" : 1704402574337,
+        "stop" : 1704402574813,
+        "duration" : 476
       }
     } ]
   },
@@ -372,12 +351,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "268672df35dad2f4",
+      "uid" : "7de8600a490b34ea",
       "status" : "passed",
       "time" : {
-        "start" : 1703963684857,
-        "stop" : 1703963684941,
-        "duration" : 84
+        "start" : 1704402577779,
+        "stop" : 1704402577860,
+        "duration" : 81
+      }
+    } ]
+  },
+  "51c7b77fdc695a2cfe94086853d8c992" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5ef7442335efa6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected txt: Log ouеt, but actual txt: Log out",
+      "time" : {
+        "start" : 1704402595674,
+        "stop" : 1704402595941,
+        "duration" : 267
       }
     } ]
   }

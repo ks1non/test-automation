@@ -2,181 +2,181 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "test_validation[15-Valid]",
-    "uid" : "ec8914984532f480",
+    "uid" : "bc9075cf77514a24",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963680686,
-      "stop" : 1703963681708,
-      "duration" : 1022
+      "start" : 1704402574337,
+      "stop" : 1704402574813,
+      "duration" : 476
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'Valid'", "'15'" ]
   }, {
     "name" : "test_validation[1-Not in range]",
-    "uid" : "ad6c071bc9c876fb",
+    "uid" : "cf251bab947dce99",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963682719,
-      "stop" : 1703963682802,
-      "duration" : 83
+      "start" : 1704402575751,
+      "stop" : 1704402575831,
+      "duration" : 80
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'Not in range'", "'1'" ]
   }, {
     "name" : "test_validation[h-Not a number]",
-    "uid" : "676e54ea1119d95f",
+    "uid" : "3954a8ce9d6a5bc4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963683790,
-      "stop" : 1703963683874,
-      "duration" : 84
+      "start" : 1704402576760,
+      "stop" : 1704402576842,
+      "duration" : 82
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'Not a number'", "'h'" ]
   }, {
     "name" : "test_validation[-1-Negative integer]",
-    "uid" : "268672df35dad2f4",
+    "uid" : "7de8600a490b34ea",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963684857,
-      "stop" : 1703963684941,
-      "duration" : 84
+      "start" : 1704402577779,
+      "stop" : 1704402577860,
+      "duration" : 81
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'Negative integer'", "'-1'" ]
   }, {
     "name" : "test_checkbox_click",
-    "uid" : "eab535fab7a48d03",
+    "uid" : "7523dfa99f7d4dc1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963685935,
-      "stop" : 1703963687808,
-      "duration" : 1873
+      "start" : 1704402578909,
+      "stop" : 1704402580680,
+      "duration" : 1771
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_back_per_pages",
-    "uid" : "78475fdefe6cb7b0",
+    "uid" : "ff58e7c6de29978d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963688855,
-      "stop" : 1703963690882,
-      "duration" : 2027
+      "start" : 1704402581769,
+      "stop" : 1704402584131,
+      "duration" : 2362
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_back_per_pages_parametrize[1-https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html]",
-    "uid" : "9fccb6515aec2afa",
+    "uid" : "8a6c0248f7d1614c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963691885,
-      "stop" : 1703963692292,
-      "duration" : 407
+      "start" : 1704402585123,
+      "stop" : 1704402585516,
+      "duration" : 393
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "1", "'https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html'" ]
   }, {
     "name" : "test_back_per_pages_parametrize[2-https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html]",
-    "uid" : "24959641dad40c08",
+    "uid" : "7818487693c04ec1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963693284,
-      "stop" : 1703963693691,
-      "duration" : 407
+      "start" : 1704402586447,
+      "stop" : 1704402586842,
+      "duration" : 395
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "2", "'https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html'" ]
   }, {
     "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
-    "uid" : "24e8a523e4edab1b",
+    "uid" : "5e9e5155a06a4d27",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963694676,
-      "stop" : 1703963695081,
-      "duration" : 405
+      "start" : 1704402587785,
+      "stop" : 1704402588186,
+      "duration" : 401
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "3", "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'" ]
   }, {
     "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
-    "uid" : "5f1fc8291785589c",
+    "uid" : "f7dc4dd65e2faa03",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963696069,
-      "stop" : 1703963696476,
-      "duration" : 407
+      "start" : 1704402589118,
+      "stop" : 1704402589511,
+      "duration" : 393
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "4", "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'" ]
   }, {
     "name" : "test_back_per_pages_parametrize[5-https://toghrulmirzayev.github.io/ui-simulator/sorting.html]",
-    "uid" : "9abb1c02e278a1ef",
+    "uid" : "23b8cfd1eaed41d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963697470,
-      "stop" : 1703963697883,
-      "duration" : 413
+      "start" : 1704402590451,
+      "stop" : 1704402590848,
+      "duration" : 397
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "5", "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'" ]
   }, {
     "name" : "test_dnd",
-    "uid" : "1160f44f92a260fa",
+    "uid" : "c0e45702f4e41f8b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963698867,
-      "stop" : 1703963701792,
-      "duration" : 2925
+      "start" : 1704402591781,
+      "stop" : 1704402594621,
+      "duration" : 2840
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Successful login",
-    "uid" : "b18a634830e6e9f",
+    "uid" : "a5ef7442335efa6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1703963702786,
-      "stop" : 1703963702996,
-      "duration" : 210
+      "start" : 1704402595674,
+      "stop" : 1704402595941,
+      "duration" : 267
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Unsuccessful login",
-    "uid" : "94ca5024ea8197e7",
+    "uid" : "46f1ab076d2366c1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963704103,
-      "stop" : 1703963704267,
+      "start" : 1704402596953,
+      "stop" : 1704402597117,
       "duration" : 164
     },
     "flaky" : false,
@@ -184,78 +184,78 @@
     "parameters" : [ "''", "''", "'Username and password fields cannot be empty'" ]
   }, {
     "name" : "Unsuccessful login",
-    "uid" : "8deebff314a257db",
+    "uid" : "3520986a4187e81d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963705293,
-      "stop" : 1703963705472,
-      "duration" : 179
+      "start" : 1704402598121,
+      "stop" : 1704402598303,
+      "duration" : 182
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'correct_username'", "'correct_username'", "'Password or username is incorrect'" ]
   }, {
     "name" : "Unsuccessful login",
-    "uid" : "c04a7874da9b2ef0",
+    "uid" : "8020b2951d259d87",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963706461,
-      "stop" : 1703963706637,
-      "duration" : 176
+      "start" : 1704402599243,
+      "stop" : 1704402599412,
+      "duration" : 169
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'correct_username'", "''", "'Password field cannot be empty'" ]
   }, {
     "name" : "Unsuccessful login",
-    "uid" : "3d328564dccde1c",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1703963707618,
-      "stop" : 1703963707791,
-      "duration" : 173
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "''", "'correct_username'", "'Username field cannot be emp2ty'" ]
-  }, {
-    "name" : "test_del_value",
-    "uid" : "77ca2927db5b7456",
+    "uid" : "3ad4face31c55e93",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963708914,
-      "stop" : 1703963709158,
-      "duration" : 244
+      "start" : 1704402600346,
+      "stop" : 1704402600522,
+      "duration" : 176
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "''", "'correct_username'", "'Username field cannot be empty'" ]
+  }, {
+    "name" : "test_del_value",
+    "uid" : "81c68afe1a702c88",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1704402601454,
+      "stop" : 1704402601692,
+      "duration" : 238
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_adding_multiple_values",
-    "uid" : "1a4b51202aacc963",
+    "uid" : "8114f53455bd62d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963710149,
-      "stop" : 1703963710429,
-      "duration" : 280
+      "start" : 1704402602626,
+      "stop" : 1704402602900,
+      "duration" : 274
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_sort",
-    "uid" : "dedd50b6d930a427",
+    "uid" : "87c82793306eca15",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1703963711487,
-      "stop" : 1703963711849,
-      "duration" : 362
+      "start" : 1704402603992,
+      "stop" : 1704402604338,
+      "duration" : 346
     },
     "flaky" : false,
     "newFailed" : false,

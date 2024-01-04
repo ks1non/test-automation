@@ -1,200 +1,200 @@
 [ {
-  "uid" : "8deebff314a257db",
-  "name" : "Unsuccessful login",
-  "time" : {
-    "start" : 1703963705293,
-    "stop" : 1703963705472,
-    "duration" : 179
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "24e8a523e4edab1b",
+  "uid" : "5e9e5155a06a4d27",
   "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
   "time" : {
-    "start" : 1703963694676,
-    "stop" : 1703963695081,
-    "duration" : 405
+    "start" : 1704402587785,
+    "stop" : 1704402588186,
+    "duration" : 401
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "78475fdefe6cb7b0",
-  "name" : "test_back_per_pages",
-  "time" : {
-    "start" : 1703963688855,
-    "stop" : 1703963690882,
-    "duration" : 2027
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ad6c071bc9c876fb",
-  "name" : "test_validation[1-Not in range]",
-  "time" : {
-    "start" : 1703963682719,
-    "stop" : 1703963682802,
-    "duration" : 83
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1160f44f92a260fa",
-  "name" : "test_dnd",
-  "time" : {
-    "start" : 1703963698867,
-    "stop" : 1703963701792,
-    "duration" : 2925
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "94ca5024ea8197e7",
-  "name" : "Unsuccessful login",
-  "time" : {
-    "start" : 1703963704103,
-    "stop" : 1703963704267,
-    "duration" : 164
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eab535fab7a48d03",
-  "name" : "test_checkbox_click",
-  "time" : {
-    "start" : 1703963685935,
-    "stop" : 1703963687808,
-    "duration" : 1873
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "268672df35dad2f4",
-  "name" : "test_validation[-1-Negative integer]",
-  "time" : {
-    "start" : 1703963684857,
-    "stop" : 1703963684941,
-    "duration" : 84
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9fccb6515aec2afa",
-  "name" : "test_back_per_pages_parametrize[1-https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html]",
-  "time" : {
-    "start" : 1703963691885,
-    "stop" : 1703963692292,
-    "duration" : 407
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "77ca2927db5b7456",
-  "name" : "test_del_value",
-  "time" : {
-    "start" : 1703963708914,
-    "stop" : 1703963709158,
-    "duration" : 244
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5f1fc8291785589c",
-  "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
-  "time" : {
-    "start" : 1703963696069,
-    "stop" : 1703963696476,
-    "duration" : 407
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "24959641dad40c08",
-  "name" : "test_back_per_pages_parametrize[2-https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html]",
-  "time" : {
-    "start" : 1703963693284,
-    "stop" : 1703963693691,
-    "duration" : 407
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b18a634830e6e9f",
-  "name" : "Successful login",
-  "time" : {
-    "start" : 1703963702786,
-    "stop" : 1703963702996,
-    "duration" : 210
-  },
-  "status" : "failed",
-  "severity" : "blocker"
-}, {
-  "uid" : "dedd50b6d930a427",
-  "name" : "test_sort",
-  "time" : {
-    "start" : 1703963711487,
-    "stop" : 1703963711849,
-    "duration" : 362
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "676e54ea1119d95f",
-  "name" : "test_validation[h-Not a number]",
-  "time" : {
-    "start" : 1703963683790,
-    "stop" : 1703963683874,
-    "duration" : 84
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9abb1c02e278a1ef",
+  "uid" : "23b8cfd1eaed41d",
   "name" : "test_back_per_pages_parametrize[5-https://toghrulmirzayev.github.io/ui-simulator/sorting.html]",
   "time" : {
-    "start" : 1703963697470,
-    "stop" : 1703963697883,
-    "duration" : 413
+    "start" : 1704402590451,
+    "stop" : 1704402590848,
+    "duration" : 397
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3d328564dccde1c",
+  "uid" : "3ad4face31c55e93",
   "name" : "Unsuccessful login",
   "time" : {
-    "start" : 1703963707618,
-    "stop" : 1703963707791,
-    "duration" : 173
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1a4b51202aacc963",
-  "name" : "test_adding_multiple_values",
-  "time" : {
-    "start" : 1703963710149,
-    "stop" : 1703963710429,
-    "duration" : 280
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c04a7874da9b2ef0",
-  "name" : "Unsuccessful login",
-  "time" : {
-    "start" : 1703963706461,
-    "stop" : 1703963706637,
+    "start" : 1704402600346,
+    "stop" : 1704402600522,
     "duration" : 176
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ec8914984532f480",
+  "uid" : "8114f53455bd62d",
+  "name" : "test_adding_multiple_values",
+  "time" : {
+    "start" : 1704402602626,
+    "stop" : 1704402602900,
+    "duration" : 274
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf251bab947dce99",
+  "name" : "test_validation[1-Not in range]",
+  "time" : {
+    "start" : 1704402575751,
+    "stop" : 1704402575831,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7dc4dd65e2faa03",
+  "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
+  "time" : {
+    "start" : 1704402589118,
+    "stop" : 1704402589511,
+    "duration" : 393
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81c68afe1a702c88",
+  "name" : "test_del_value",
+  "time" : {
+    "start" : 1704402601454,
+    "stop" : 1704402601692,
+    "duration" : 238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87c82793306eca15",
+  "name" : "test_sort",
+  "time" : {
+    "start" : 1704402603992,
+    "stop" : 1704402604338,
+    "duration" : 346
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3520986a4187e81d",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1704402598121,
+    "stop" : 1704402598303,
+    "duration" : 182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3954a8ce9d6a5bc4",
+  "name" : "test_validation[h-Not a number]",
+  "time" : {
+    "start" : 1704402576760,
+    "stop" : 1704402576842,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7523dfa99f7d4dc1",
+  "name" : "test_checkbox_click",
+  "time" : {
+    "start" : 1704402578909,
+    "stop" : 1704402580680,
+    "duration" : 1771
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a6c0248f7d1614c",
+  "name" : "test_back_per_pages_parametrize[1-https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html]",
+  "time" : {
+    "start" : 1704402585123,
+    "stop" : 1704402585516,
+    "duration" : 393
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5ef7442335efa6",
+  "name" : "Successful login",
+  "time" : {
+    "start" : 1704402595674,
+    "stop" : 1704402595941,
+    "duration" : 267
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7818487693c04ec1",
+  "name" : "test_back_per_pages_parametrize[2-https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html]",
+  "time" : {
+    "start" : 1704402586447,
+    "stop" : 1704402586842,
+    "duration" : 395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8020b2951d259d87",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1704402599243,
+    "stop" : 1704402599412,
+    "duration" : 169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7de8600a490b34ea",
+  "name" : "test_validation[-1-Negative integer]",
+  "time" : {
+    "start" : 1704402577779,
+    "stop" : 1704402577860,
+    "duration" : 81
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff58e7c6de29978d",
+  "name" : "test_back_per_pages",
+  "time" : {
+    "start" : 1704402581769,
+    "stop" : 1704402584131,
+    "duration" : 2362
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46f1ab076d2366c1",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1704402596953,
+    "stop" : 1704402597117,
+    "duration" : 164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc9075cf77514a24",
   "name" : "test_validation[15-Valid]",
   "time" : {
-    "start" : 1703963680686,
-    "stop" : 1703963681708,
-    "duration" : 1022
+    "start" : 1704402574337,
+    "stop" : 1704402574813,
+    "duration" : 476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0e45702f4e41f8b",
+  "name" : "test_dnd",
+  "time" : {
+    "start" : 1704402591781,
+    "stop" : 1704402594621,
+    "duration" : 2840
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,12 +1,12 @@
 {
-  "uid" : "5f1fc8291785589c",
-  "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
+  "uid" : "5e9e5155a06a4d27",
+  "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
   "fullName" : "tests.test_common#test_back_per_pages_parametrize",
-  "historyId" : "8789cf8e2e158c371ef3a203e865de9a",
+  "historyId" : "ef79e85e3cd147d830893cffa721b233",
   "time" : {
-    "start" : 1703963696069,
-    "stop" : 1703963696476,
-    "duration" : 407
+    "start" : 1704402587785,
+    "stop" : 1704402588186,
+    "duration" : 401
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,24 +14,9 @@
   "beforeStages" : [ {
     "name" : "common_instance",
     "time" : {
-      "start" : 1703963695945,
-      "stop" : 1703963696069,
-      "duration" : 124
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_webdriver",
-    "time" : {
-      "start" : 1703963695141,
-      "stop" : 1703963695945,
-      "duration" : 804
+      "start" : 1704402587678,
+      "stop" : 1704402587784,
+      "duration" : 106
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,9 +29,24 @@
   }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1703963695945,
-      "stop" : 1703963695945,
+      "start" : 1704402587678,
+      "stop" : 1704402587678,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1704402586900,
+      "stop" : 1704402587678,
+      "duration" : 778
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,8 +59,8 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1703963695141,
-      "stop" : 1703963695141,
+      "start" : 1704402586900,
+      "stop" : 1704402586900,
       "duration" : 0
     },
     "status" : "passed",
@@ -76,9 +76,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "834823947e316db",
+      "uid" : "1420578977059e28",
       "name" : "log",
-      "source" : "834823947e316db.txt",
+      "source" : "1420578977059e28.txt",
       "type" : "text/plain",
       "size" : 79
     } ],
@@ -91,9 +91,9 @@
   "afterStages" : [ {
     "name" : "common_instance::0",
     "time" : {
-      "start" : 1703963696477,
-      "stop" : 1703963696534,
-      "duration" : 57
+      "start" : 1704402588187,
+      "stop" : 1704402588187,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -106,8 +106,8 @@
   }, {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703963696534,
-      "stop" : 1703963696534,
+      "start" : 1704402588187,
+      "stop" : 1704402588187,
       "duration" : 0
     },
     "status" : "passed",
@@ -130,10 +130,10 @@
     "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az532-920"
+    "value" : "fv-az1535-841"
   }, {
     "name" : "thread",
-    "value" : "4152-MainThread"
+    "value" : "4228-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -149,10 +149,10 @@
   } ],
   "parameters" : [ {
     "name" : "index",
-    "value" : "4"
+    "value" : "3"
   }, {
     "name" : "url",
-    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'"
+    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -163,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ "common" ]
   },
-  "source" : "5f1fc8291785589c.json",
-  "parameterValues" : [ "4", "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'" ]
+  "source" : "5e9e5155a06a4d27.json",
+  "parameterValues" : [ "3", "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'" ]
 }

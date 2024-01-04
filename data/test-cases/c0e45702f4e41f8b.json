@@ -1,22 +1,37 @@
 {
-  "uid" : "eab535fab7a48d03",
-  "name" : "test_checkbox_click",
-  "fullName" : "tests.test_checkboxes_and_scroll#test_checkbox_click",
-  "historyId" : "e6097249ec439bd87002ff1207efc20e",
+  "uid" : "c0e45702f4e41f8b",
+  "name" : "test_dnd",
+  "fullName" : "tests.test_drag_and_drop#test_dnd",
+  "historyId" : "96f31f4135cd340fe3c0786af0f98ba6",
   "time" : {
-    "start" : 1703963685935,
-    "stop" : 1703963687808,
-    "duration" : 1873
+    "start" : 1704402591781,
+    "stop" : 1704402594621,
+    "duration" : 2840
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "checkboxes_and_scroll_instance",
+    "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1703963685808,
-      "stop" : 1703963685935,
-      "duration" : 127
+      "start" : 1704402591682,
+      "stop" : 1704402591683,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "drag_and_drop_instance",
+    "time" : {
+      "start" : 1704402591683,
+      "stop" : 1704402591780,
+      "duration" : 97
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,24 +44,9 @@
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1703963685001,
-      "stop" : 1703963685807,
-      "duration" : 806
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "screenshot_on_failures",
-    "time" : {
-      "start" : 1703963685808,
-      "stop" : 1703963685808,
-      "duration" : 0
+      "start" : 1704402590904,
+      "stop" : 1704402591682,
+      "duration" : 778
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,8 +59,8 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1703963685001,
-      "stop" : 1703963685001,
+      "start" : 1704402590904,
+      "stop" : 1704402590904,
       "duration" : 0
     },
     "status" : "passed",
@@ -76,11 +76,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "6e9b7b2744570fb8",
+      "uid" : "840c408cc2f9f3bb",
       "name" : "log",
-      "source" : "6e9b7b2744570fb8.txt",
+      "source" : "840c408cc2f9f3bb.txt",
       "type" : "text/plain",
-      "size" : 2039
+      "size" : 1055
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -89,11 +89,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "checkboxes_and_scroll_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1703963687808,
-      "stop" : 1703963687865,
-      "duration" : 57
+      "start" : 1704402594622,
+      "stop" : 1704402594622,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -104,10 +104,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "screenshot_on_failures::0",
+    "name" : "drag_and_drop_instance::0",
     "time" : {
-      "start" : 1703963687865,
-      "stop" : 1703963687865,
+      "start" : 1704402594622,
+      "stop" : 1704402594622,
       "duration" : 0
     },
     "status" : "passed",
@@ -121,19 +121,19 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "checkbox_and_scroll"
+    "value" : "test_dnd"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_checkboxes_and_scroll"
+    "value" : "test_drag_and_drop"
   }, {
     "name" : "host",
-    "value" : "fv-az532-920"
+    "value" : "fv-az1535-841"
   }, {
     "name" : "thread",
-    "value" : "4152-MainThread"
+    "value" : "4228-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,7 +142,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_checkboxes_and_scroll"
+    "value" : "tests.test_drag_and_drop"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -155,8 +155,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "checkbox_and_scroll" ]
+    "tags" : [ "test_dnd" ]
   },
-  "source" : "eab535fab7a48d03.json",
+  "source" : "c0e45702f4e41f8b.json",
   "parameterValues" : [ ]
 }

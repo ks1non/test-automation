@@ -1,0 +1,257 @@
+{
+  "uid" : "a5ef7442335efa6",
+  "name" : "Successful login",
+  "fullName" : "tests.test_index_page#test_success_login",
+  "historyId" : "51c7b77fdc695a2cfe94086853d8c992",
+  "time" : {
+    "start" : 1704402595674,
+    "stop" : 1704402595941,
+    "duration" : 267
+  },
+  "description" : "Success login",
+  "descriptionHtml" : "<p>Success login</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: expected txt: Log ouеt, but actual txt: Log out",
+  "statusTrace" : "index_page_instance = <pages.index_page.IndexPage object at 0x7fc669c44e50>\n\n    @allure.description('Success login')\n    @allure.label('owner', 'Sergey')\n    @allure.title('Successful login')\n    @allure.suite('Authorization suite')\n    @allure.severity(allure.severity_level.BLOCKER)\n    @mark.smoke\n    def test_success_login(index_page_instance):\n        index_page_instance.enter_username(LOGIN)\n        index_page_instance.enter_password(PASSWORD)\n        index_page_instance.click_to_login_btn()\n>       index_page_instance.verify_login('Log ouеt')\n\ntests/test_index_page.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/index_page.py:39: in verify_login\n    self.assert_equal(self.get_text(self.LOGOUT_BTN), expected=text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nactual = 'Log out', expected = 'Log ouеt'\n\n    @staticmethod\n    def assert_equal(actual, expected):\n>       assert actual == expected, AssertionsErrors.ERROR_EQUAL.format(expected, actual)\nE       AssertionError: expected txt: Log ouеt, but actual txt: Log out\n\nsupport/assertions.py:7: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1704402594677,
+      "stop" : 1704402595457,
+      "duration" : 780
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "index_page_instance",
+    "time" : {
+      "start" : 1704402595458,
+      "stop" : 1704402595674,
+      "duration" : 216
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1704402595458,
+      "stop" : 1704402595458,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1704402594677,
+      "stop" : 1704402594677,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Success login",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: expected txt: Log ouеt, but actual txt: Log out",
+    "statusTrace" : "index_page_instance = <pages.index_page.IndexPage object at 0x7fc669c44e50>\n\n    @allure.description('Success login')\n    @allure.label('owner', 'Sergey')\n    @allure.title('Successful login')\n    @allure.suite('Authorization suite')\n    @allure.severity(allure.severity_level.BLOCKER)\n    @mark.smoke\n    def test_success_login(index_page_instance):\n        index_page_instance.enter_username(LOGIN)\n        index_page_instance.enter_password(PASSWORD)\n        index_page_instance.click_to_login_btn()\n>       index_page_instance.verify_login('Log ouеt')\n\ntests/test_index_page.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/index_page.py:39: in verify_login\n    self.assert_equal(self.get_text(self.LOGOUT_BTN), expected=text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nactual = 'Log out', expected = 'Log ouеt'\n\n    @staticmethod\n    def assert_equal(actual, expected):\n>       assert actual == expected, AssertionsErrors.ERROR_EQUAL.format(expected, actual)\nE       AssertionError: expected txt: Log ouеt, but actual txt: Log out\n\nsupport/assertions.py:7: AssertionError",
+    "steps" : [ {
+      "name" : "ввели логин",
+      "time" : {
+        "start" : 1704402595674,
+        "stop" : 1704402595737,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "'correct_username'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "ввели пароль",
+      "time" : {
+        "start" : 1704402595738,
+        "stop" : 1704402595795,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'correct_password'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "нажали на кнопку логина",
+      "time" : {
+        "start" : 1704402595795,
+        "stop" : 1704402595915,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "проверка соответствия текста после логина",
+      "time" : {
+        "start" : 1704402595915,
+        "stop" : 1704402595940,
+        "duration" : 25
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: expected txt: Log ouеt, but actual txt: Log out\n",
+      "statusTrace" : "  File \"/home/runner/.local/lib/python3.10/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/home/runner/work/test-automation/test-automation/pages/index_page.py\", line 39, in verify_login\n    self.assert_equal(self.get_text(self.LOGOUT_BTN), expected=text)\n  File \"/home/runner/work/test-automation/test-automation/support/assertions.py\", line 7, in assert_equal\n    assert actual == expected, AssertionsErrors.ERROR_EQUAL.format(expected, actual)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'Log ouеt'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8865d4e3742e24d3",
+      "name" : "log",
+      "source" : "8865d4e3742e24d3.txt",
+      "type" : "text/plain",
+      "size" : 261
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "index_page_instance::0",
+    "time" : {
+      "start" : 1704402595949,
+      "stop" : 1704402595949,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures::0",
+    "time" : {
+      "start" : 1704402595949,
+      "stop" : 1704402596023,
+      "duration" : 74
+    },
+    "status" : "broken",
+    "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/test-automation/test-automation/screens/screenshot_on_failures_test_success_login.png'\n",
+    "statusTrace" : "  File \"/home/runner/.local/lib/python3.10/site-packages/allure_commons/_allure.py\", line 221, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"/home/runner/.local/lib/python3.10/site-packages/_pytest/fixtures.py\", line 911, in _teardown_yield_fixture\n    next(it)\n  File \"/home/runner/work/test-automation/test-automation/conftest.py\", line 90, in screenshot_on_failures\n    allure.attach.file(screenshot, 'screenshot_on_failures.png', attachment_type=allure.attachment_type.PNG)\n  File \"/home/runner/.local/lib/python3.10/site-packages/allure_commons/_allure.py\", line 203, in file\n    plugin_manager.hook.attach_file(source=source, name=name, attachment_type=attachment_type, extension=extension)\n  File \"/home/runner/.local/lib/python3.10/site-packages/pluggy/_hooks.py\", line 493, in __call__\n    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)\n  File \"/home/runner/.local/lib/python3.10/site-packages/pluggy/_manager.py\", line 115, in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n  File \"/home/runner/.local/lib/python3.10/site-packages/pluggy/_callers.py\", line 113, in _multicall\n    raise exception.with_traceback(exception.__traceback__)\n  File \"/home/runner/.local/lib/python3.10/site-packages/pluggy/_callers.py\", line 77, in _multicall\n    res = hook_impl.function(*args)\n  File \"/home/runner/.local/lib/python3.10/site-packages/allure_pytest/listener.py\", line 253, in attach_file\n    self.allure_logger.attach_file(uuid4(), source, name=name, attachment_type=attachment_type, extension=extension)\n  File \"/home/runner/.local/lib/python3.10/site-packages/allure_commons/reporter.py\", line 160, in attach_file\n    plugin_manager.hook.report_attached_file(source=source, file_name=file_name)\n  File \"/home/runner/.local/lib/python3.10/site-packages/pluggy/_hooks.py\", line 493, in __call__\n    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)\n  File \"/home/runner/.local/lib/python3.10/site-packages/pluggy/_manager.py\", line 115, in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n  File \"/home/runner/.local/lib/python3.10/site-packages/pluggy/_callers.py\", line 113, in _multicall\n    raise exception.with_traceback(exception.__traceback__)\n  File \"/home/runner/.local/lib/python3.10/site-packages/pluggy/_callers.py\", line 77, in _multicall\n    res = hook_impl.function(*args)\n  File \"/home/runner/.local/lib/python3.10/site-packages/allure_commons/logger.py\", line 44, in report_attached_file\n    shutil.copy2(source, destination)\n  File \"/usr/lib/python3.10/shutil.py\", line 434, in copy2\n    copyfile(src, dst, follow_symlinks=follow_symlinks)\n  File \"/usr/lib/python3.10/shutil.py\", line 254, in copyfile\n    with open(src, 'rb') as fsrc:\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "screenshot_on_failures.png",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "owner",
+    "value" : "Sergey"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "suite",
+    "value" : "Authorization suite"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1535-841"
+  }, {
+    "name" : "thread",
+    "value" : "4228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_index_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "owner" : "Sergey",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "a5ef7442335efa6.json",
+  "parameterValues" : [ ]
+}
