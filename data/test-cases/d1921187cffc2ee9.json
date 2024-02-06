@@ -1,12 +1,12 @@
 {
-  "uid" : "3c69e5cfd8b426ed",
-  "name" : "test_back_per_pages_parametrize[5-https://toghrulmirzayev.github.io/ui-simulator/sorting.html]",
+  "uid" : "d1921187cffc2ee9",
+  "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
   "fullName" : "tests.test_common#test_back_per_pages_parametrize",
-  "historyId" : "fdb936303ecada5f5a44f0441610721e",
+  "historyId" : "ef79e85e3cd147d830893cffa721b233",
   "time" : {
-    "start" : 1707258155742,
-    "stop" : 1707258157066,
-    "duration" : 1324
+    "start" : 1707259531141,
+    "stop" : 1707259532707,
+    "duration" : 1566
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,24 @@
   "beforeStages" : [ {
     "name" : "common_instance",
     "time" : {
-      "start" : 1707258154798,
-      "stop" : 1707258155740,
-      "duration" : 942
+      "start" : 1707259530444,
+      "stop" : 1707259531140,
+      "duration" : 696
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1707259525726,
+      "stop" : 1707259530443,
+      "duration" : 4717
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +44,8 @@
   }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1707258154797,
-      "stop" : 1707258154797,
+      "start" : 1707259530444,
+      "stop" : 1707259530444,
       "duration" : 0
     },
     "status" : "passed",
@@ -44,24 +59,9 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707258145500,
-      "stop" : 1707258145500,
+      "start" : 1707259525726,
+      "stop" : 1707259525726,
       "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_webdriver",
-    "time" : {
-      "start" : 1707258145500,
-      "stop" : 1707258154797,
-      "duration" : 9297
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,9 +76,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "2a9e3b2df9d3e27e",
+      "uid" : "40f3971a84be7a17",
       "name" : "log",
-      "source" : "2a9e3b2df9d3e27e.txt",
+      "source" : "40f3971a84be7a17.txt",
       "type" : "text/plain",
       "size" : 79
     } ],
@@ -91,8 +91,8 @@
   "afterStages" : [ {
     "name" : "common_instance::0",
     "time" : {
-      "start" : 1707258157068,
-      "stop" : 1707258157068,
+      "start" : 1707259532708,
+      "stop" : 1707259532708,
       "duration" : 0
     },
     "status" : "passed",
@@ -106,9 +106,9 @@
   }, {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707258157068,
-      "stop" : 1707258157068,
-      "duration" : 0
+      "start" : 1707259532709,
+      "stop" : 1707259532710,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -130,7 +130,7 @@
     "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az888-965"
+    "value" : "fv-az564-192"
   }, {
     "name" : "thread",
     "value" : "4185-MainThread"
@@ -149,10 +149,10 @@
   } ],
   "parameters" : [ {
     "name" : "index",
-    "value" : "5"
+    "value" : "3"
   }, {
     "name" : "url",
-    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'"
+    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -163,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ "common" ]
   },
-  "source" : "3c69e5cfd8b426ed.json",
-  "parameterValues" : [ "5", "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'" ]
+  "source" : "d1921187cffc2ee9.json",
+  "parameterValues" : [ "3", "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'" ]
 }

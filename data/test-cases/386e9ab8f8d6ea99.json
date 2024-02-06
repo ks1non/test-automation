@@ -1,12 +1,12 @@
 {
-  "uid" : "c84cc45da19a9cb1",
-  "name" : "test_validation[1-Not in range]",
-  "fullName" : "tests.test_check_and_validation#test_validation",
-  "historyId" : "2b8dae27f188b70e625095d86e69ea48",
+  "uid" : "386e9ab8f8d6ea99",
+  "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
+  "fullName" : "tests.test_common#test_back_per_pages_parametrize",
+  "historyId" : "8789cf8e2e158c371ef3a203e865de9a",
   "time" : {
-    "start" : 1707258155727,
-    "stop" : 1707258156645,
-    "duration" : 918
+    "start" : 1707259530538,
+    "stop" : 1707259532206,
+    "duration" : 1668
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,39 +14,9 @@
   "beforeStages" : [ {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1707258154713,
-      "stop" : 1707258154713,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_chrome_options",
-    "time" : {
-      "start" : 1707258145511,
-      "stop" : 1707258145511,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "check_and_validation_instance",
-    "time" : {
-      "start" : 1707258154714,
-      "stop" : 1707258155726,
-      "duration" : 1012
+      "start" : 1707259529903,
+      "stop" : 1707259529904,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,9 +29,39 @@
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1707258145511,
-      "stop" : 1707258154712,
-      "duration" : 9201
+      "start" : 1707259525727,
+      "stop" : 1707259529903,
+      "duration" : 4176
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "common_instance",
+    "time" : {
+      "start" : 1707259529904,
+      "stop" : 1707259530537,
+      "duration" : 633
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1707259525727,
+      "stop" : 1707259525727,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -74,52 +74,16 @@
   } ],
   "testStage" : {
     "status" : "passed",
-    "steps" : [ {
-      "name" : "Вводим значение в инпут",
-      "time" : {
-        "start" : 1707258155727,
-        "stop" : 1707258156332,
-        "duration" : 605
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "value",
-        "value" : "'1'"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "проверяем вывод соответствующего сообщения",
-      "time" : {
-        "start" : 1707258156332,
-        "stop" : 1707258156645,
-        "duration" : 313
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "text",
-        "value" : "'Not in range'"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    } ],
+    "steps" : [ ],
     "attachments" : [ {
-      "uid" : "4067b6d4a54ae3a",
+      "uid" : "e108287ebe69065f",
       "name" : "log",
-      "source" : "4067b6d4a54ae3a.txt",
+      "source" : "e108287ebe69065f.txt",
       "type" : "text/plain",
-      "size" : 174
+      "size" : 79
     } ],
     "parameters" : [ ],
-    "stepsCount" : 2,
+    "stepsCount" : 0,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -127,8 +91,8 @@
   "afterStages" : [ {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707258156648,
-      "stop" : 1707258156648,
+      "start" : 1707259532209,
+      "stop" : 1707259532209,
       "duration" : 0
     },
     "status" : "passed",
@@ -140,10 +104,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "check_and_validation_instance::0",
+    "name" : "common_instance::0",
     "time" : {
-      "start" : 1707258156647,
-      "stop" : 1707258156647,
+      "start" : 1707259532208,
+      "stop" : 1707259532208,
       "duration" : 0
     },
     "status" : "passed",
@@ -157,19 +121,19 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "check_and_validation"
+    "value" : "common"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_check_and_validation"
+    "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az888-965"
+    "value" : "fv-az564-192"
   }, {
     "name" : "thread",
-    "value" : "4140-MainThread"
+    "value" : "4191-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -178,17 +142,17 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_check_and_validation"
+    "value" : "tests.test_common"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
-    "name" : "text",
-    "value" : "'Not in range'"
+    "name" : "index",
+    "value" : "4"
   }, {
-    "name" : "value",
-    "value" : "'1'"
+    "name" : "url",
+    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -197,8 +161,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "check_and_validation" ]
+    "tags" : [ "common" ]
   },
-  "source" : "c84cc45da19a9cb1.json",
-  "parameterValues" : [ "'Not in range'", "'1'" ]
+  "source" : "386e9ab8f8d6ea99.json",
+  "parameterValues" : [ "4", "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'" ]
 }
