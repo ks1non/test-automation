@@ -21,4 +21,4 @@ class CheckAndValidationPage(BaseObject, Assertions):
 
     @allure.step("проверяем вывод соответствующего сообщения")
     def validation_text(self, text):
-        self.assert_text(self.get_text(self.VALIDATION_SQUARE), expected=text)
+        self.assert_equal(self.get_text(self.VALIDATION_SQUARE), expected=text)

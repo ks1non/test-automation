@@ -5,4 +5,3 @@ pytest-rerunfailures
 pytest-pyreport
 pytest-xdist
 allure-pytest
-Flask

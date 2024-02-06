@@ -5,7 +5,6 @@ from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.common.action_chains import ActionChains
 from support.logger import log_func
-import logging as log
 
 class BaseObject:
     """fff"""
@@ -67,8 +66,3 @@ class BaseObject:
         actions = ActionChains(self.driver)
         actions.drag_and_drop(drag, drop).perform()
 
-    # def add_item_in_list(self, lrange, locator):
-    #     spisok = []
-    #     for i in range(1, lrange):
-    #         spisok.append(locator(i, lrange))
-    #     return spisok

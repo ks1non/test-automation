@@ -28,18 +28,3 @@ class SortByPage(BaseObject, Assertions):
         for i in range(1, row + 1):
             actual.append(self.get_text(self.SINGLE_ROW(i, 1)))
         self.assert_equal(actual, expected)
-
-    # def get_name_spisok(self):
-    #     name_spisok = []
-    #     for i in range(1, 9):
-    #         name_spisok.append(self.SINGLE_ROW(i, 1))
-    #
-    # def get_age_spisok(self):
-    #     age_spisok = []
-    #     for i in range(1, 9):
-    #         age_spisok.append(self.get_text(self.SINGLE_ROW(i, 2)))
-    #
-    # def get_role_spisok(self):
-    #     role_spisok = []
-    #     for i in range(1, 9):
-    #         role_spisok.append(self.SINGLE_ROW(i, 1))
