@@ -1,52 +1,22 @@
 {
-  "uid" : "5187e403d568b791",
+  "uid" : "abb32104d8592b6a",
   "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
   "fullName" : "tests.test_common#test_back_per_pages_parametrize",
   "historyId" : "8789cf8e2e158c371ef3a203e865de9a",
   "time" : {
-    "start" : 1707258148157,
-    "stop" : 1707258149509,
-    "duration" : 1352
+    "start" : 1707258155771,
+    "stop" : 1707258157052,
+    "duration" : 1281
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "screenshot_on_failures",
-    "time" : {
-      "start" : 1707258147487,
-      "stop" : 1707258147487,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "common_instance",
     "time" : {
-      "start" : 1707258147487,
-      "stop" : 1707258148156,
-      "duration" : 669
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_webdriver",
-    "time" : {
-      "start" : 1707258142453,
-      "stop" : 1707258147486,
-      "duration" : 5033
+      "start" : 1707258154696,
+      "stop" : 1707258155769,
+      "duration" : 1073
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,8 +29,38 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707258142453,
-      "stop" : 1707258142453,
+      "start" : 1707258145502,
+      "stop" : 1707258145502,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1707258145502,
+      "stop" : 1707258154693,
+      "duration" : 9191
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1707258154696,
+      "stop" : 1707258154696,
       "duration" : 0
     },
     "status" : "passed",
@@ -76,9 +76,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "89df6f8dbb845377",
+      "uid" : "8bc8946d0d8545c5",
       "name" : "log",
-      "source" : "89df6f8dbb845377.txt",
+      "source" : "8bc8946d0d8545c5.txt",
       "type" : "text/plain",
       "size" : 79
     } ],
@@ -89,10 +89,10 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "screenshot_on_failures::0",
+    "name" : "common_instance::0",
     "time" : {
-      "start" : 1707258149511,
-      "stop" : 1707258149511,
+      "start" : 1707258157053,
+      "stop" : 1707258157053,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,10 +104,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "common_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707258149511,
-      "stop" : 1707258149511,
+      "start" : 1707258157054,
+      "stop" : 1707258157054,
       "duration" : 0
     },
     "status" : "passed",
@@ -130,10 +130,10 @@
     "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az661-814"
+    "value" : "fv-az888-965"
   }, {
     "name" : "thread",
-    "value" : "4165-MainThread"
+    "value" : "4179-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -163,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ "common" ]
   },
-  "source" : "5187e403d568b791.json",
+  "source" : "abb32104d8592b6a.json",
   "parameterValues" : [ "4", "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'" ]
 }

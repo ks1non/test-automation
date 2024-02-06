@@ -1,51 +1,21 @@
 {
-  "uid" : "7186251762771e89",
-  "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
-  "fullName" : "tests.test_common#test_back_per_pages_parametrize",
-  "historyId" : "ef79e85e3cd147d830893cffa721b233",
+  "uid" : "95bba5a043cb103f",
+  "name" : "test_checkbox_click",
+  "fullName" : "tests.test_checkboxes_and_scroll#test_checkbox_click",
+  "historyId" : "e6097249ec439bd87002ff1207efc20e",
   "time" : {
-    "start" : 1707258147632,
-    "stop" : 1707258149249,
-    "duration" : 1617
+    "start" : 1707258155786,
+    "stop" : 1707258159207,
+    "duration" : 3421
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "get_webdriver",
-    "time" : {
-      "start" : 1707258142455,
-      "stop" : 1707258146992,
-      "duration" : 4537
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "common_instance",
-    "time" : {
-      "start" : 1707258146993,
-      "stop" : 1707258147631,
-      "duration" : 638
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707258142454,
-      "stop" : 1707258142455,
+      "start" : 1707258145505,
+      "stop" : 1707258145506,
       "duration" : 1
     },
     "status" : "passed",
@@ -59,9 +29,39 @@
   }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1707258146993,
-      "stop" : 1707258146993,
+      "start" : 1707258154749,
+      "stop" : 1707258154749,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1707258145506,
+      "stop" : 1707258154748,
+      "duration" : 9242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "checkboxes_and_scroll_instance",
+    "time" : {
+      "start" : 1707258154749,
+      "stop" : 1707258155785,
+      "duration" : 1036
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,11 +76,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "f83ffbce5a1836ed",
+      "uid" : "af103e2f2a1e46fb",
       "name" : "log",
-      "source" : "f83ffbce5a1836ed.txt",
+      "source" : "af103e2f2a1e46fb.txt",
       "type" : "text/plain",
-      "size" : 79
+      "size" : 2039
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -89,10 +89,10 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "common_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707258149251,
-      "stop" : 1707258149251,
+      "start" : 1707258159208,
+      "stop" : 1707258159208,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,10 +104,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "screenshot_on_failures::0",
+    "name" : "checkboxes_and_scroll_instance::0",
     "time" : {
-      "start" : 1707258149251,
-      "stop" : 1707258149251,
+      "start" : 1707258159207,
+      "stop" : 1707258159207,
       "duration" : 0
     },
     "status" : "passed",
@@ -121,19 +121,19 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "common"
+    "value" : "checkbox_and_scroll"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_common"
+    "value" : "test_checkboxes_and_scroll"
   }, {
     "name" : "host",
-    "value" : "fv-az661-814"
+    "value" : "fv-az888-965"
   }, {
     "name" : "thread",
-    "value" : "4156-MainThread"
+    "value" : "4149-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,18 +142,12 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_common"
+    "value" : "tests.test_checkboxes_and_scroll"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "index",
-    "value" : "3"
-  }, {
-    "name" : "url",
-    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -161,8 +155,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "common" ]
+    "tags" : [ "checkbox_and_scroll" ]
   },
-  "source" : "7186251762771e89.json",
-  "parameterValues" : [ "3", "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'" ]
+  "source" : "95bba5a043cb103f.json",
+  "parameterValues" : [ ]
 }

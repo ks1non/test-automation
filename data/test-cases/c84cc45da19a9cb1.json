@@ -1,52 +1,22 @@
 {
-  "uid" : "70b9509dd670fd8f",
-  "name" : "test_validation[15-Valid]",
+  "uid" : "c84cc45da19a9cb1",
+  "name" : "test_validation[1-Not in range]",
   "fullName" : "tests.test_check_and_validation#test_validation",
-  "historyId" : "d1069b0f8b53bf512c2c7d1627e92621",
+  "historyId" : "2b8dae27f188b70e625095d86e69ea48",
   "time" : {
-    "start" : 1707258148079,
-    "stop" : 1707258148782,
-    "duration" : 703
+    "start" : 1707258155727,
+    "stop" : 1707258156645,
+    "duration" : 918
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "check_and_validation_instance",
-    "time" : {
-      "start" : 1707258147473,
-      "stop" : 1707258148078,
-      "duration" : 605
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1707258147473,
-      "stop" : 1707258147473,
+      "start" : 1707258154713,
+      "stop" : 1707258154713,
       "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_webdriver",
-    "time" : {
-      "start" : 1707258142449,
-      "stop" : 1707258147472,
-      "duration" : 5023
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,9 +29,39 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707258142449,
-      "stop" : 1707258142449,
+      "start" : 1707258145511,
+      "stop" : 1707258145511,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "check_and_validation_instance",
+    "time" : {
+      "start" : 1707258154714,
+      "stop" : 1707258155726,
+      "duration" : 1012
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1707258145511,
+      "stop" : 1707258154712,
+      "duration" : 9201
     },
     "status" : "passed",
     "steps" : [ ],
@@ -77,16 +77,16 @@
     "steps" : [ {
       "name" : "Вводим значение в инпут",
       "time" : {
-        "start" : 1707258148079,
-        "stop" : 1707258148515,
-        "duration" : 436
+        "start" : 1707258155727,
+        "stop" : 1707258156332,
+        "duration" : 605
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "value",
-        "value" : "'15'"
+        "value" : "'1'"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -95,16 +95,16 @@
     }, {
       "name" : "проверяем вывод соответствующего сообщения",
       "time" : {
-        "start" : 1707258148515,
-        "stop" : 1707258148782,
-        "duration" : 267
+        "start" : 1707258156332,
+        "stop" : 1707258156645,
+        "duration" : 313
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "text",
-        "value" : "'Valid'"
+        "value" : "'Not in range'"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -112,9 +112,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "b2b692ae04da15e0",
+      "uid" : "4067b6d4a54ae3a",
       "name" : "log",
-      "source" : "b2b692ae04da15e0.txt",
+      "source" : "4067b6d4a54ae3a.txt",
       "type" : "text/plain",
       "size" : 174
     } ],
@@ -125,10 +125,10 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "check_and_validation_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707258148784,
-      "stop" : 1707258148784,
+      "start" : 1707258156648,
+      "stop" : 1707258156648,
       "duration" : 0
     },
     "status" : "passed",
@@ -140,10 +140,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "screenshot_on_failures::0",
+    "name" : "check_and_validation_instance::0",
     "time" : {
-      "start" : 1707258148784,
-      "stop" : 1707258148784,
+      "start" : 1707258156647,
+      "stop" : 1707258156647,
       "duration" : 0
     },
     "status" : "passed",
@@ -166,10 +166,10 @@
     "value" : "test_check_and_validation"
   }, {
     "name" : "host",
-    "value" : "fv-az661-814"
+    "value" : "fv-az888-965"
   }, {
     "name" : "thread",
-    "value" : "4120-MainThread"
+    "value" : "4140-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -185,10 +185,10 @@
   } ],
   "parameters" : [ {
     "name" : "text",
-    "value" : "'Valid'"
+    "value" : "'Not in range'"
   }, {
     "name" : "value",
-    "value" : "'15'"
+    "value" : "'1'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -199,6 +199,6 @@
     "categories" : [ ],
     "tags" : [ "check_and_validation" ]
   },
-  "source" : "70b9509dd670fd8f.json",
-  "parameterValues" : [ "'Valid'", "'15'" ]
+  "source" : "c84cc45da19a9cb1.json",
+  "parameterValues" : [ "'Not in range'", "'1'" ]
 }

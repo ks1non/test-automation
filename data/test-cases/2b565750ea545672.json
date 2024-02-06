@@ -1,22 +1,22 @@
 {
-  "uid" : "2c5953057b5c30f2",
-  "name" : "test_back_per_pages",
-  "fullName" : "tests.test_common#test_back_per_pages",
-  "historyId" : "20791a68dd3f57c56c3f88114d253350",
+  "uid" : "2b565750ea545672",
+  "name" : "test_validation[h-Not a number]",
+  "fullName" : "tests.test_check_and_validation#test_validation",
+  "historyId" : "7f82eac8eab311797d710b4122348077",
   "time" : {
-    "start" : 1707258148076,
-    "stop" : 1707258151156,
-    "duration" : 3080
+    "start" : 1707258155756,
+    "stop" : 1707258156397,
+    "duration" : 641
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "common_instance",
+    "name" : "get_webdriver",
     "time" : {
-      "start" : 1707258147264,
-      "stop" : 1707258148075,
-      "duration" : 811
+      "start" : 1707258145500,
+      "stop" : 1707258154711,
+      "duration" : 9211
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "get_webdriver",
+    "name" : "check_and_validation_instance",
     "time" : {
-      "start" : 1707258142454,
-      "stop" : 1707258147264,
-      "duration" : 4810
+      "start" : 1707258154714,
+      "stop" : 1707258155754,
+      "duration" : 1040
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,8 +44,8 @@
   }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1707258147264,
-      "stop" : 1707258147264,
+      "start" : 1707258154713,
+      "stop" : 1707258154713,
       "duration" : 0
     },
     "status" : "passed",
@@ -59,8 +59,8 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707258142454,
-      "stop" : 1707258142454,
+      "start" : 1707258145500,
+      "stop" : 1707258145500,
       "duration" : 0
     },
     "status" : "passed",
@@ -74,25 +74,61 @@
   } ],
   "testStage" : {
     "status" : "passed",
-    "steps" : [ ],
+    "steps" : [ {
+      "name" : "Вводим значение в инпут",
+      "time" : {
+        "start" : 1707258155756,
+        "stop" : 1707258156167,
+        "duration" : 411
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "'h'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "проверяем вывод соответствующего сообщения",
+      "time" : {
+        "start" : 1707258156168,
+        "stop" : 1707258156397,
+        "duration" : 229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'Not a number'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
     "attachments" : [ {
-      "uid" : "50ddaa0e7af1d820",
+      "uid" : "802d302acf3a38b7",
       "name" : "log",
-      "source" : "50ddaa0e7af1d820.txt",
+      "source" : "802d302acf3a38b7.txt",
       "type" : "text/plain",
-      "size" : 399
+      "size" : 174
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
+    "stepsCount" : 2,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "common_instance::0",
+    "name" : "check_and_validation_instance::0",
     "time" : {
-      "start" : 1707258151156,
-      "stop" : 1707258151156,
+      "start" : 1707258156399,
+      "stop" : 1707258156399,
       "duration" : 0
     },
     "status" : "passed",
@@ -106,8 +142,8 @@
   }, {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707258151157,
-      "stop" : 1707258151157,
+      "start" : 1707258156399,
+      "stop" : 1707258156399,
       "duration" : 0
     },
     "status" : "passed",
@@ -121,19 +157,19 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "common"
+    "value" : "check_and_validation"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_common"
+    "value" : "test_check_and_validation"
   }, {
     "name" : "host",
-    "value" : "fv-az661-814"
+    "value" : "fv-az888-965"
   }, {
     "name" : "thread",
-    "value" : "4144-MainThread"
+    "value" : "4146-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,12 +178,18 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_common"
+    "value" : "tests.test_check_and_validation"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "text",
+    "value" : "'Not a number'"
+  }, {
+    "name" : "value",
+    "value" : "'h'"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -155,8 +197,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "common" ]
+    "tags" : [ "check_and_validation" ]
   },
-  "source" : "2c5953057b5c30f2.json",
-  "parameterValues" : [ ]
+  "source" : "2b565750ea545672.json",
+  "parameterValues" : [ "'Not a number'", "'h'" ]
 }
