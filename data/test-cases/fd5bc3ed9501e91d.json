@@ -1,37 +1,22 @@
 {
-  "uid" : "11854313ee16fb85",
-  "name" : "test_back_per_pages_parametrize[2-https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html]",
-  "fullName" : "tests.test_common#test_back_per_pages_parametrize",
-  "historyId" : "7170a5a74d8770ce06abdfbbb15de995",
+  "uid" : "fd5bc3ed9501e91d",
+  "name" : "test_validation[h-Not a number]",
+  "fullName" : "tests.test_check_and_validation#test_validation",
+  "historyId" : "7f82eac8eab311797d710b4122348077",
   "time" : {
-    "start" : 1707258051223,
-    "stop" : 1707258052606,
-    "duration" : 1383
+    "start" : 1707258147689,
+    "stop" : 1707258148509,
+    "duration" : 820
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "screenshot_on_failures",
+    "name" : "get_webdriver",
     "time" : {
-      "start" : 1707258050268,
-      "stop" : 1707258050268,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "common_instance",
-    "time" : {
-      "start" : 1707258050268,
-      "stop" : 1707258051222,
-      "duration" : 954
+      "start" : 1707258142452,
+      "stop" : 1707258147000,
+      "duration" : 4548
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,8 +29,8 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707258040146,
-      "stop" : 1707258040146,
+      "start" : 1707258142452,
+      "stop" : 1707258142452,
       "duration" : 0
     },
     "status" : "passed",
@@ -57,11 +42,26 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "get_webdriver",
+    "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1707258040146,
-      "stop" : 1707258050268,
-      "duration" : 10122
+      "start" : 1707258147001,
+      "stop" : 1707258147001,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "check_and_validation_instance",
+    "time" : {
+      "start" : 1707258147001,
+      "stop" : 1707258147687,
+      "duration" : 686
     },
     "status" : "passed",
     "steps" : [ ],
@@ -74,16 +74,52 @@
   } ],
   "testStage" : {
     "status" : "passed",
-    "steps" : [ ],
+    "steps" : [ {
+      "name" : "Вводим значение в инпут",
+      "time" : {
+        "start" : 1707258147689,
+        "stop" : 1707258148320,
+        "duration" : 631
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "'h'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "проверяем вывод соответствующего сообщения",
+      "time" : {
+        "start" : 1707258148321,
+        "stop" : 1707258148509,
+        "duration" : 188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'Not a number'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
     "attachments" : [ {
-      "uid" : "dc3753af54d2ebec",
+      "uid" : "f3ba5ae9694988c7",
       "name" : "log",
-      "source" : "dc3753af54d2ebec.txt",
+      "source" : "f3ba5ae9694988c7.txt",
       "type" : "text/plain",
-      "size" : 79
+      "size" : 174
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
+    "stepsCount" : 2,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -91,8 +127,8 @@
   "afterStages" : [ {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707258052608,
-      "stop" : 1707258052608,
+      "start" : 1707258148511,
+      "stop" : 1707258148511,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,10 +140,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "common_instance::0",
+    "name" : "check_and_validation_instance::0",
     "time" : {
-      "start" : 1707258052608,
-      "stop" : 1707258052608,
+      "start" : 1707258148511,
+      "stop" : 1707258148511,
       "duration" : 0
     },
     "status" : "passed",
@@ -121,19 +157,19 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "common"
+    "value" : "check_and_validation"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_common"
+    "value" : "test_check_and_validation"
   }, {
     "name" : "host",
-    "value" : "fv-az1426-423"
+    "value" : "fv-az661-814"
   }, {
     "name" : "thread",
-    "value" : "4161-MainThread"
+    "value" : "4129-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,17 +178,17 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_common"
+    "value" : "tests.test_check_and_validation"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
-    "name" : "index",
-    "value" : "2"
+    "name" : "text",
+    "value" : "'Not a number'"
   }, {
-    "name" : "url",
-    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html'"
+    "name" : "value",
+    "value" : "'h'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -161,8 +197,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "common" ]
+    "tags" : [ "check_and_validation" ]
   },
-  "source" : "11854313ee16fb85.json",
-  "parameterValues" : [ "2", "'https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html'" ]
+  "source" : "fd5bc3ed9501e91d.json",
+  "parameterValues" : [ "'Not a number'", "'h'" ]
 }

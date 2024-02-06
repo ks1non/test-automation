@@ -1,52 +1,37 @@
 {
-  "uid" : "928221b0f78ac5b2",
-  "name" : "test_sort",
-  "fullName" : "tests.test_sort_by#test_sort",
-  "historyId" : "ef7797c3370b6ba80d57696a8b7ee5ec",
+  "uid" : "bad4ffe7e48970d7",
+  "name" : "test_back_per_pages_parametrize[2-https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html]",
+  "fullName" : "tests.test_common#test_back_per_pages_parametrize",
+  "historyId" : "7170a5a74d8770ce06abdfbbb15de995",
   "time" : {
-    "start" : 1707258051246,
-    "stop" : 1707258053156,
-    "duration" : 1910
+    "start" : 1707258148026,
+    "stop" : 1707258149428,
+    "duration" : 1402
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "screenshot_on_failures",
-    "time" : {
-      "start" : 1707258050246,
-      "stop" : 1707258050246,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "setup_sorting_instance",
-    "time" : {
-      "start" : 1707258050246,
-      "stop" : 1707258051245,
-      "duration" : 999
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707258040151,
-      "stop" : 1707258040151,
+      "start" : 1707258142460,
+      "stop" : 1707258142460,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "common_instance",
+    "time" : {
+      "start" : 1707258147452,
+      "stop" : 1707258148025,
+      "duration" : 573
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,9 +44,24 @@
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1707258040151,
-      "stop" : 1707258050246,
-      "duration" : 10095
+      "start" : 1707258142460,
+      "stop" : 1707258147452,
+      "duration" : 4992
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1707258147452,
+      "stop" : 1707258147452,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,11 +76,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a37640666327a409",
+      "uid" : "11706b7a4047a670",
       "name" : "log",
-      "source" : "a37640666327a409.txt",
+      "source" : "11706b7a4047a670.txt",
       "type" : "text/plain",
-      "size" : 1967
+      "size" : 79
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -89,10 +89,10 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "screenshot_on_failures::0",
+    "name" : "common_instance::0",
     "time" : {
-      "start" : 1707258053157,
-      "stop" : 1707258053157,
+      "start" : 1707258149429,
+      "stop" : 1707258149429,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,10 +104,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "setup_sorting_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707258053157,
-      "stop" : 1707258053157,
+      "start" : 1707258149429,
+      "stop" : 1707258149429,
       "duration" : 0
     },
     "status" : "passed",
@@ -120,17 +120,20 @@
     "hasContent" : false
   } ],
   "labels" : [ {
+    "name" : "tag",
+    "value" : "common"
+  }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_sort_by"
+    "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az1426-423"
+    "value" : "fv-az661-814"
   }, {
     "name" : "thread",
-    "value" : "4239-MainThread"
+    "value" : "4150-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -139,12 +142,18 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_sort_by"
+    "value" : "tests.test_common"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "index",
+    "value" : "2"
+  }, {
+    "name" : "url",
+    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html'"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -152,8 +161,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ ]
+    "tags" : [ "common" ]
   },
-  "source" : "928221b0f78ac5b2.json",
-  "parameterValues" : [ ]
+  "source" : "bad4ffe7e48970d7.json",
+  "parameterValues" : [ "2", "'https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html'" ]
 }

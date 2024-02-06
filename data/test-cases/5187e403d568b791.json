@@ -1,22 +1,22 @@
 {
-  "uid" : "cd40bf3250a97b5a",
-  "name" : "test_back_per_pages_parametrize[1-https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html]",
+  "uid" : "5187e403d568b791",
+  "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
   "fullName" : "tests.test_common#test_back_per_pages_parametrize",
-  "historyId" : "c8fe1442e5851d63f9f3785b6a9f994f",
+  "historyId" : "8789cf8e2e158c371ef3a203e865de9a",
   "time" : {
-    "start" : 1707258051280,
-    "stop" : 1707258052632,
+    "start" : 1707258148157,
+    "stop" : 1707258149509,
     "duration" : 1352
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "common_instance",
+    "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1707258050227,
-      "stop" : 1707258051279,
-      "duration" : 1052
+      "start" : 1707258147487,
+      "stop" : 1707258147487,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "screenshot_on_failures",
+    "name" : "common_instance",
     "time" : {
-      "start" : 1707258050227,
-      "stop" : 1707258050227,
-      "duration" : 0
+      "start" : 1707258147487,
+      "stop" : 1707258148156,
+      "duration" : 669
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,9 +44,9 @@
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1707258040150,
-      "stop" : 1707258050226,
-      "duration" : 10076
+      "start" : 1707258142453,
+      "stop" : 1707258147486,
+      "duration" : 5033
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,8 +59,8 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707258040150,
-      "stop" : 1707258040150,
+      "start" : 1707258142453,
+      "stop" : 1707258142453,
       "duration" : 0
     },
     "status" : "passed",
@@ -76,9 +76,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "5acbdbb93e864ed",
+      "uid" : "89df6f8dbb845377",
       "name" : "log",
-      "source" : "5acbdbb93e864ed.txt",
+      "source" : "89df6f8dbb845377.txt",
       "type" : "text/plain",
       "size" : 79
     } ],
@@ -89,10 +89,10 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "common_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707258052634,
-      "stop" : 1707258052634,
+      "start" : 1707258149511,
+      "stop" : 1707258149511,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,10 +104,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "screenshot_on_failures::0",
+    "name" : "common_instance::0",
     "time" : {
-      "start" : 1707258052634,
-      "stop" : 1707258052634,
+      "start" : 1707258149511,
+      "stop" : 1707258149511,
       "duration" : 0
     },
     "status" : "passed",
@@ -130,10 +130,10 @@
     "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az1426-423"
+    "value" : "fv-az661-814"
   }, {
     "name" : "thread",
-    "value" : "4152-MainThread"
+    "value" : "4165-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -149,10 +149,10 @@
   } ],
   "parameters" : [ {
     "name" : "index",
-    "value" : "1"
+    "value" : "4"
   }, {
     "name" : "url",
-    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html'"
+    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -163,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ "common" ]
   },
-  "source" : "cd40bf3250a97b5a.json",
-  "parameterValues" : [ "1", "'https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html'" ]
+  "source" : "5187e403d568b791.json",
+  "parameterValues" : [ "4", "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'" ]
 }
