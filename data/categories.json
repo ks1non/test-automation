@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: expected txt: Log ouеt, but actual txt: Log out",
-      "children" : [ {
-        "name" : "Successful login",
-        "uid" : "84efc1d9196d5393",
-        "parentUid" : "3b9f9629e703c43c12f7a50a8dafcc50",
-        "status" : "failed",
-        "time" : {
-          "start" : 1704402987296,
-          "stop" : 1704402987611,
-          "duration" : 315
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3b9f9629e703c43c12f7a50a8dafcc50"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }

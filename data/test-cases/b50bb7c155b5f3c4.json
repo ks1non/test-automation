@@ -1,0 +1,162 @@
+{
+  "uid" : "b50bb7c155b5f3c4",
+  "name" : "test_checkbox_click",
+  "fullName" : "tests.test_checkboxes_and_scroll#test_checkbox_click",
+  "historyId" : "e6097249ec439bd87002ff1207efc20e",
+  "time" : {
+    "start" : 1707257262588,
+    "stop" : 1707257266177,
+    "duration" : 3589
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1707257257357,
+      "stop" : 1707257261945,
+      "duration" : 4588
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "checkboxes_and_scroll_instance",
+    "time" : {
+      "start" : 1707257261946,
+      "stop" : 1707257262587,
+      "duration" : 641
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1707257261946,
+      "stop" : 1707257261946,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1707257257356,
+      "stop" : 1707257257357,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a7c814ae2152efef",
+      "name" : "log",
+      "source" : "a7c814ae2152efef.txt",
+      "type" : "text/plain",
+      "size" : 2039
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "checkboxes_and_scroll_instance::0",
+    "time" : {
+      "start" : 1707257266178,
+      "stop" : 1707257266178,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures::0",
+    "time" : {
+      "start" : 1707257266178,
+      "stop" : 1707257266178,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "checkbox_and_scroll"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_checkboxes_and_scroll"
+  }, {
+    "name" : "host",
+    "value" : "fv-az887-850"
+  }, {
+    "name" : "thread",
+    "value" : "4127-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_checkboxes_and_scroll"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "checkbox_and_scroll" ]
+  },
+  "source" : "b50bb7c155b5f3c4.json",
+  "parameterValues" : [ ]
+}

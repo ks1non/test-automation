@@ -1,0 +1,3 @@
+INFO     BaseObject:base_objeckt.py:30 ('xpath', '//*[@id="inputText"]') is visible
+INFO     BaseObject:base_objeckt.py:30 ('xpath', '//*[@id="inputText"]') is visible
+INFO     BaseObject:base_objeckt.py:30 ('xpath', '//*[@id="inputText"]') is visible
