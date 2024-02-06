@@ -1,265 +1,265 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "test_validation[h-Not a number]",
-    "uid" : "bb47f6247ce20571",
+    "name" : "test_sort",
+    "uid" : "957093595bf9d701",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1707257262496,
-      "stop" : 1707257263344,
-      "duration" : 848
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "'Not a number'", "'h'" ]
-  }, {
-    "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
-    "uid" : "67221a582d8fa775",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1707257262544,
-      "stop" : 1707257264121,
-      "duration" : 1577
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "4", "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'" ]
-  }, {
-    "name" : "Unsuccessful login",
-    "uid" : "88bac06ce11416fe",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1707257262581,
-      "stop" : 1707257264257,
-      "duration" : 1676
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "'correct_username'", "''", "'Password field cannot be empty'" ]
-  }, {
-    "name" : "test_checkbox_click",
-    "uid" : "b50bb7c155b5f3c4",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1707257262588,
-      "stop" : 1707257266177,
-      "duration" : 3589
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_adding_multiple_values",
-    "uid" : "d0f0fe8a7ff8f1ce",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1707257262635,
-      "stop" : 1707257264544,
-      "duration" : 1909
+      "start" : 1707257856984,
+      "stop" : 1707257859036,
+      "duration" : 2052
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Unsuccessful login",
-    "uid" : "8adaa9bfb052924b",
+    "uid" : "3e5e090f2c80e98",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1707257262669,
-      "stop" : 1707257264087,
-      "duration" : 1418
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "'correct_username'", "'correct_username'", "'Password or username is incorrect'" ]
-  }, {
-    "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
-    "uid" : "a106c32ce3983978",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1707257262699,
-      "stop" : 1707257264339,
-      "duration" : 1640
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "3", "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'" ]
-  }, {
-    "name" : "Unsuccessful login",
-    "uid" : "dc33a77c7b3df249",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1707257262731,
-      "stop" : 1707257264270,
-      "duration" : 1539
+      "start" : 1707257856990,
+      "stop" : 1707257858591,
+      "duration" : 1601
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "''", "'correct_username'", "'Username field cannot be empty'" ]
   }, {
-    "name" : "test_validation[1-Not in range]",
-    "uid" : "e0a97836944ee49e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1707257262741,
-      "stop" : 1707257263363,
-      "duration" : 622
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "'Not in range'", "'1'" ]
-  }, {
-    "name" : "test_validation[-1-Negative integer]",
-    "uid" : "f49bc0b637dec9e0",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1707257262746,
-      "stop" : 1707257263460,
-      "duration" : 714
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "'Negative integer'", "'-1'" ]
-  }, {
     "name" : "Unsuccessful login",
-    "uid" : "f8e0fdfe1b4ccb2c",
+    "uid" : "8651bf47d6c69fc5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1707257262773,
-      "stop" : 1707257264073,
-      "duration" : 1300
+      "start" : 1707257857041,
+      "stop" : 1707257858821,
+      "duration" : 1780
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "''", "''", "'Username and password fields cannot be empty'" ]
-  }, {
-    "name" : "test_sort",
-    "uid" : "ddbf7623cc33d52e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1707257262783,
-      "stop" : 1707257264682,
-      "duration" : 1899
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_del_value",
-    "uid" : "e2754390cb4c08ba",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1707257262805,
-      "stop" : 1707257264478,
-      "duration" : 1673
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_back_per_pages",
-    "uid" : "ee7aae1c60568ca3",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1707257262811,
-      "stop" : 1707257265998,
-      "duration" : 3187
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
+    "parameters" : [ "'correct_username'", "'correct_username'", "'Password or username is incorrect'" ]
   }, {
     "name" : "test_validation[15-Valid]",
-    "uid" : "928662ca664d1981",
+    "uid" : "8c5da5d8ef293088",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1707257262835,
-      "stop" : 1707257263580,
-      "duration" : 745
+      "start" : 1707257857054,
+      "stop" : 1707257857673,
+      "duration" : 619
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'Valid'", "'15'" ]
   }, {
-    "name" : "test_dnd",
-    "uid" : "fd3cea83df123922",
+    "name" : "Successful login",
+    "uid" : "3bfdaba67cd4ba4c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1707257262851,
-      "stop" : 1707257266184,
-      "duration" : 3333
+      "start" : 1707257857060,
+      "stop" : 1707257858738,
+      "duration" : 1678
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "test_back_per_pages_parametrize[1-https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html]",
-    "uid" : "1ff2e79a5745c5bb",
+    "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
+    "uid" : "5b48dfcbb4a88455",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1707257262860,
-      "stop" : 1707257264282,
-      "duration" : 1422
+      "start" : 1707257857091,
+      "stop" : 1707257858577,
+      "duration" : 1486
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "1", "'https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html'" ]
+    "parameters" : [ "4", "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'" ]
   }, {
-    "name" : "test_back_per_pages_parametrize[5-https://toghrulmirzayev.github.io/ui-simulator/sorting.html]",
-    "uid" : "58b2a806752c8055",
+    "name" : "test_back_per_pages",
+    "uid" : "5179a360a458dc57",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1707257262881,
-      "stop" : 1707257264244,
-      "duration" : 1363
+      "start" : 1707257857107,
+      "stop" : 1707257860505,
+      "duration" : 3398
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "5", "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'" ]
+    "parameters" : [ ]
+  }, {
+    "name" : "test_validation[1-Not in range]",
+    "uid" : "3cd5af25c1de7dbe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1707257857115,
+      "stop" : 1707257857909,
+      "duration" : 794
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'Not in range'", "'1'" ]
   }, {
     "name" : "test_back_per_pages_parametrize[2-https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html]",
-    "uid" : "c2c5e9ee8fc8cc0b",
+    "uid" : "fb26e2a0c602b4f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1707257262882,
-      "stop" : 1707257264234,
-      "duration" : 1352
+      "start" : 1707257857127,
+      "stop" : 1707257858649,
+      "duration" : 1522
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "2", "'https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html'" ]
   }, {
-    "name" : "Successful login",
-    "uid" : "972234921d308c8e",
+    "name" : "Unsuccessful login",
+    "uid" : "4c359d9012b3f56e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1707257263036,
-      "stop" : 1707257264484,
-      "duration" : 1448
+      "start" : 1707257857157,
+      "stop" : 1707257858471,
+      "duration" : 1314
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'correct_username'", "''", "'Password field cannot be empty'" ]
+  }, {
+    "name" : "Unsuccessful login",
+    "uid" : "f28f4b1e2f1057d5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1707257857160,
+      "stop" : 1707257858566,
+      "duration" : 1406
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "''", "''", "'Username and password fields cannot be empty'" ]
+  }, {
+    "name" : "test_dnd",
+    "uid" : "63cd013044619368",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1707257857183,
+      "stop" : 1707257860600,
+      "duration" : 3417
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
+  }, {
+    "name" : "test_back_per_pages_parametrize[5-https://toghrulmirzayev.github.io/ui-simulator/sorting.html]",
+    "uid" : "6732bdc2003b8302",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1707257857186,
+      "stop" : 1707257858594,
+      "duration" : 1408
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5", "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'" ]
+  }, {
+    "name" : "test_validation[h-Not a number]",
+    "uid" : "db65ccf7bdd97008",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1707257857213,
+      "stop" : 1707257858052,
+      "duration" : 839
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'Not a number'", "'h'" ]
+  }, {
+    "name" : "test_back_per_pages_parametrize[1-https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html]",
+    "uid" : "19fa7243813f34ec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1707257857238,
+      "stop" : 1707257858672,
+      "duration" : 1434
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1", "'https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html'" ]
+  }, {
+    "name" : "test_adding_multiple_values",
+    "uid" : "432f496cf7871b7d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1707257857241,
+      "stop" : 1707257858917,
+      "duration" : 1676
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_validation[-1-Negative integer]",
+    "uid" : "c2860b17001de4d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1707257857303,
+      "stop" : 1707257858085,
+      "duration" : 782
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'Negative integer'", "'-1'" ]
+  }, {
+    "name" : "test_del_value",
+    "uid" : "4a2748669b0e12ce",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1707257857419,
+      "stop" : 1707257859048,
+      "duration" : 1629
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_checkbox_click",
+    "uid" : "88b745a4d354a425",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1707257857758,
+      "stop" : 1707257860804,
+      "duration" : 3046
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
+    "uid" : "656df0591de63b83",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1707257857831,
+      "stop" : 1707257859000,
+      "duration" : 1169
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "3", "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'" ]
   } ],
   "name" : "behaviors"
 }

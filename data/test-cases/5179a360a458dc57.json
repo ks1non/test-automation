@@ -1,22 +1,37 @@
 {
-  "uid" : "fd3cea83df123922",
-  "name" : "test_dnd",
-  "fullName" : "tests.test_drag_and_drop#test_dnd",
-  "historyId" : "96f31f4135cd340fe3c0786af0f98ba6",
+  "uid" : "5179a360a458dc57",
+  "name" : "test_back_per_pages",
+  "fullName" : "tests.test_common#test_back_per_pages",
+  "historyId" : "20791a68dd3f57c56c3f88114d253350",
   "time" : {
-    "start" : 1707257262851,
-    "stop" : 1707257266184,
-    "duration" : 3333
+    "start" : 1707257857107,
+    "stop" : 1707257860505,
+    "duration" : 3398
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "drag_and_drop_instance",
+    "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1707257262061,
-      "stop" : 1707257262850,
-      "duration" : 789
+      "start" : 1707257856288,
+      "stop" : 1707257856288,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "common_instance",
+    "time" : {
+      "start" : 1707257856288,
+      "stop" : 1707257857106,
+      "duration" : 818
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,23 +44,8 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707257257361,
-      "stop" : 1707257257361,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "screenshot_on_failures",
-    "time" : {
-      "start" : 1707257262061,
-      "stop" : 1707257262061,
+      "start" : 1707257851650,
+      "stop" : 1707257851650,
       "duration" : 0
     },
     "status" : "passed",
@@ -59,9 +59,9 @@
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1707257257361,
-      "stop" : 1707257262061,
-      "duration" : 4700
+      "start" : 1707257851651,
+      "stop" : 1707257856288,
+      "duration" : 4637
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,11 +76,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a01a755d37b9a735",
+      "uid" : "94b3d80428a76dbd",
       "name" : "log",
-      "source" : "a01a755d37b9a735.txt",
+      "source" : "94b3d80428a76dbd.txt",
       "type" : "text/plain",
-      "size" : 1055
+      "size" : 399
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -89,10 +89,10 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "drag_and_drop_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707257266185,
-      "stop" : 1707257266185,
+      "start" : 1707257860507,
+      "stop" : 1707257860507,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,10 +104,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "screenshot_on_failures::0",
+    "name" : "common_instance::0",
     "time" : {
-      "start" : 1707257266185,
-      "stop" : 1707257266185,
+      "start" : 1707257860506,
+      "stop" : 1707257860506,
       "duration" : 0
     },
     "status" : "passed",
@@ -121,19 +121,19 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "test_dnd"
+    "value" : "common"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_drag_and_drop"
+    "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az887-850"
+    "value" : "fv-az1269-505"
   }, {
     "name" : "thread",
-    "value" : "4167-MainThread"
+    "value" : "4155-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,7 +142,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_drag_and_drop"
+    "value" : "tests.test_common"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -155,8 +155,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "test_dnd" ]
+    "tags" : [ "common" ]
   },
-  "source" : "fd3cea83df123922.json",
+  "source" : "5179a360a458dc57.json",
   "parameterValues" : [ ]
 }

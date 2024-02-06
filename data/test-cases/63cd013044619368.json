@@ -1,21 +1,51 @@
 {
-  "uid" : "ee7aae1c60568ca3",
-  "name" : "test_back_per_pages",
-  "fullName" : "tests.test_common#test_back_per_pages",
-  "historyId" : "20791a68dd3f57c56c3f88114d253350",
+  "uid" : "63cd013044619368",
+  "name" : "test_dnd",
+  "fullName" : "tests.test_drag_and_drop#test_dnd",
+  "historyId" : "96f31f4135cd340fe3c0786af0f98ba6",
   "time" : {
-    "start" : 1707257262811,
-    "stop" : 1707257265998,
-    "duration" : 3187
+    "start" : 1707257857183,
+    "stop" : 1707257860600,
+    "duration" : 3417
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "drag_and_drop_instance",
+    "time" : {
+      "start" : 1707257856324,
+      "stop" : 1707257857182,
+      "duration" : 858
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1707257851648,
+      "stop" : 1707257856324,
+      "duration" : 4676
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1707257261967,
-      "stop" : 1707257261967,
+      "start" : 1707257856324,
+      "stop" : 1707257856324,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,39 +59,9 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707257257353,
-      "stop" : 1707257257353,
+      "start" : 1707257851647,
+      "stop" : 1707257851647,
       "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_webdriver",
-    "time" : {
-      "start" : 1707257257353,
-      "stop" : 1707257261966,
-      "duration" : 4613
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "common_instance",
-    "time" : {
-      "start" : 1707257261967,
-      "stop" : 1707257262810,
-      "duration" : 843
     },
     "status" : "passed",
     "steps" : [ ],
@@ -76,11 +76,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "b9e67c3073704a15",
+      "uid" : "1d645dad463b6c2a",
       "name" : "log",
-      "source" : "b9e67c3073704a15.txt",
+      "source" : "1d645dad463b6c2a.txt",
       "type" : "text/plain",
-      "size" : 399
+      "size" : 1055
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -89,11 +89,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "screenshot_on_failures::0",
+    "name" : "drag_and_drop_instance::0",
     "time" : {
-      "start" : 1707257265999,
-      "stop" : 1707257266000,
-      "duration" : 1
+      "start" : 1707257860601,
+      "stop" : 1707257860601,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -104,10 +104,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "common_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707257265999,
-      "stop" : 1707257265999,
+      "start" : 1707257860601,
+      "stop" : 1707257860601,
       "duration" : 0
     },
     "status" : "passed",
@@ -121,19 +121,19 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "common"
+    "value" : "test_dnd"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_common"
+    "value" : "test_drag_and_drop"
   }, {
     "name" : "host",
-    "value" : "fv-az887-850"
+    "value" : "fv-az1269-505"
   }, {
     "name" : "thread",
-    "value" : "4133-MainThread"
+    "value" : "4197-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,7 +142,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_common"
+    "value" : "tests.test_drag_and_drop"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -155,8 +155,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "common" ]
+    "tags" : [ "test_dnd" ]
   },
-  "source" : "ee7aae1c60568ca3.json",
+  "source" : "63cd013044619368.json",
   "parameterValues" : [ ]
 }

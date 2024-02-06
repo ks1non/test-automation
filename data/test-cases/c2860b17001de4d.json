@@ -1,36 +1,21 @@
 {
-  "uid" : "bb47f6247ce20571",
-  "name" : "test_validation[h-Not a number]",
+  "uid" : "c2860b17001de4d",
+  "name" : "test_validation[-1-Negative integer]",
   "fullName" : "tests.test_check_and_validation#test_validation",
-  "historyId" : "7f82eac8eab311797d710b4122348077",
+  "historyId" : "d4b3b4caadb2abab2b7dd67f6b67b933",
   "time" : {
-    "start" : 1707257262496,
-    "stop" : 1707257263344,
-    "duration" : 848
+    "start" : 1707257857303,
+    "stop" : 1707257858085,
+    "duration" : 782
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "get_webdriver",
-    "time" : {
-      "start" : 1707257257357,
-      "stop" : 1707257261867,
-      "duration" : 4510
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707257257357,
-      "stop" : 1707257257357,
+      "start" : 1707257851641,
+      "stop" : 1707257851641,
       "duration" : 0
     },
     "status" : "passed",
@@ -44,9 +29,24 @@
   }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1707257261867,
-      "stop" : 1707257261867,
+      "start" : 1707257856204,
+      "stop" : 1707257856204,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1707257851642,
+      "stop" : 1707257856204,
+      "duration" : 4562
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,9 +59,9 @@
   }, {
     "name" : "check_and_validation_instance",
     "time" : {
-      "start" : 1707257261867,
-      "stop" : 1707257262494,
-      "duration" : 627
+      "start" : 1707257856204,
+      "stop" : 1707257857302,
+      "duration" : 1098
     },
     "status" : "passed",
     "steps" : [ ],
@@ -77,16 +77,16 @@
     "steps" : [ {
       "name" : "Вводим значение в инпут",
       "time" : {
-        "start" : 1707257262496,
-        "stop" : 1707257263124,
-        "duration" : 628
+        "start" : 1707257857304,
+        "stop" : 1707257857761,
+        "duration" : 457
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "value",
-        "value" : "'h'"
+        "value" : "'-1'"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -95,16 +95,16 @@
     }, {
       "name" : "проверяем вывод соответствующего сообщения",
       "time" : {
-        "start" : 1707257263125,
-        "stop" : 1707257263344,
-        "duration" : 219
+        "start" : 1707257857761,
+        "stop" : 1707257858085,
+        "duration" : 324
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "text",
-        "value" : "'Not a number'"
+        "value" : "'Negative integer'"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -112,9 +112,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "2c1e8fe70755dd8",
+      "uid" : "2dae3edff3c0fe3e",
       "name" : "log",
-      "source" : "2c1e8fe70755dd8.txt",
+      "source" : "2dae3edff3c0fe3e.txt",
       "type" : "text/plain",
       "size" : 174
     } ],
@@ -127,8 +127,8 @@
   "afterStages" : [ {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707257263346,
-      "stop" : 1707257263346,
+      "start" : 1707257858087,
+      "stop" : 1707257858087,
       "duration" : 0
     },
     "status" : "passed",
@@ -142,9 +142,9 @@
   }, {
     "name" : "check_and_validation_instance::0",
     "time" : {
-      "start" : 1707257263345,
-      "stop" : 1707257263346,
-      "duration" : 1
+      "start" : 1707257858087,
+      "stop" : 1707257858087,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -166,10 +166,10 @@
     "value" : "test_check_and_validation"
   }, {
     "name" : "host",
-    "value" : "fv-az887-850"
+    "value" : "fv-az1269-505"
   }, {
     "name" : "thread",
-    "value" : "4118-MainThread"
+    "value" : "4149-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -185,10 +185,10 @@
   } ],
   "parameters" : [ {
     "name" : "text",
-    "value" : "'Not a number'"
+    "value" : "'Negative integer'"
   }, {
     "name" : "value",
-    "value" : "'h'"
+    "value" : "'-1'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -199,6 +199,6 @@
     "categories" : [ ],
     "tags" : [ "check_and_validation" ]
   },
-  "source" : "bb47f6247ce20571.json",
-  "parameterValues" : [ "'Not a number'", "'h'" ]
+  "source" : "c2860b17001de4d.json",
+  "parameterValues" : [ "'Negative integer'", "'-1'" ]
 }
