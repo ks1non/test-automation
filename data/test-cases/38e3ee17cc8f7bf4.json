@@ -1,21 +1,51 @@
 {
-  "uid" : "432f496cf7871b7d",
+  "uid" : "38e3ee17cc8f7bf4",
   "name" : "test_adding_multiple_values",
   "fullName" : "tests.test_input_and_click#test_adding_multiple_values",
   "historyId" : "b9e28d8152f1bea0ab286927320f79a5",
   "time" : {
-    "start" : 1707257857241,
-    "stop" : 1707257858917,
-    "duration" : 1676
+    "start" : 1707258051148,
+    "stop" : 1707258052957,
+    "duration" : 1809
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "input_and_click_instance",
+    "time" : {
+      "start" : 1707258050239,
+      "stop" : 1707258051147,
+      "duration" : 908
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1707258040153,
+      "stop" : 1707258050238,
+      "duration" : 10085
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1707257856441,
-      "stop" : 1707257856441,
+      "start" : 1707258050239,
+      "stop" : 1707258050239,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,39 +59,9 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707257851644,
-      "stop" : 1707257851644,
+      "start" : 1707258040153,
+      "stop" : 1707258040153,
       "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "input_and_click_instance",
-    "time" : {
-      "start" : 1707257856441,
-      "stop" : 1707257857240,
-      "duration" : 799
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_webdriver",
-    "time" : {
-      "start" : 1707257851644,
-      "stop" : 1707257856441,
-      "duration" : 4797
     },
     "status" : "passed",
     "steps" : [ ],
@@ -77,17 +77,17 @@
     "steps" : [ {
       "name" : "добавляем несколько значений",
       "time" : {
-        "start" : 1707257857242,
-        "stop" : 1707257858866,
-        "duration" : 1624
+        "start" : 1707258051149,
+        "stop" : 1707258052906,
+        "duration" : 1757
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Вводим значение в инпут",
         "time" : {
-          "start" : 1707257857242,
-          "stop" : 1707257857687,
-          "duration" : 445
+          "start" : 1707258051149,
+          "stop" : 1707258051747,
+          "duration" : 598
         },
         "status" : "passed",
         "steps" : [ ],
@@ -103,9 +103,9 @@
       }, {
         "name" : "Нажимаем кнопку 'добавить значение'",
         "time" : {
-          "start" : 1707257857687,
-          "stop" : 1707257858174,
-          "duration" : 487
+          "start" : 1707258051747,
+          "stop" : 1707258052064,
+          "duration" : 317
         },
         "status" : "passed",
         "steps" : [ ],
@@ -118,9 +118,9 @@
       }, {
         "name" : "Вводим значение в инпут",
         "time" : {
-          "start" : 1707257858174,
-          "stop" : 1707257858465,
-          "duration" : 291
+          "start" : 1707258052064,
+          "stop" : 1707258052415,
+          "duration" : 351
         },
         "status" : "passed",
         "steps" : [ ],
@@ -136,9 +136,9 @@
       }, {
         "name" : "Нажимаем кнопку 'добавить значение'",
         "time" : {
-          "start" : 1707257858465,
-          "stop" : 1707257858657,
-          "duration" : 192
+          "start" : 1707258052415,
+          "stop" : 1707258052622,
+          "duration" : 207
         },
         "status" : "passed",
         "steps" : [ ],
@@ -151,9 +151,9 @@
       }, {
         "name" : "Вводим значение в инпут",
         "time" : {
-          "start" : 1707257858657,
-          "stop" : 1707257858775,
-          "duration" : 118
+          "start" : 1707258052625,
+          "stop" : 1707258052832,
+          "duration" : 207
         },
         "status" : "passed",
         "steps" : [ ],
@@ -169,9 +169,9 @@
       }, {
         "name" : "Нажимаем кнопку 'добавить значение'",
         "time" : {
-          "start" : 1707257858775,
-          "stop" : 1707257858866,
-          "duration" : 91
+          "start" : 1707258052832,
+          "stop" : 1707258052906,
+          "duration" : 74
         },
         "status" : "passed",
         "steps" : [ ],
@@ -194,9 +194,9 @@
     }, {
       "name" : "Проверяем наличие всех значений",
       "time" : {
-        "start" : 1707257858866,
-        "stop" : 1707257858917,
-        "duration" : 51
+        "start" : 1707258052906,
+        "stop" : 1707258052956,
+        "duration" : 50
       },
       "status" : "passed",
       "steps" : [ ],
@@ -211,9 +211,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "8d3f329376ec911",
+      "uid" : "8bdbdf0e6b825850",
       "name" : "log",
-      "source" : "8d3f329376ec911.txt",
+      "source" : "8bdbdf0e6b825850.txt",
       "type" : "text/plain",
       "size" : 251
     } ],
@@ -224,10 +224,10 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "screenshot_on_failures::0",
+    "name" : "input_and_click_instance::0",
     "time" : {
-      "start" : 1707257858919,
-      "stop" : 1707257858919,
+      "start" : 1707258052957,
+      "stop" : 1707258052957,
       "duration" : 0
     },
     "status" : "passed",
@@ -239,10 +239,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "input_and_click_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707257858918,
-      "stop" : 1707257858918,
+      "start" : 1707258052958,
+      "stop" : 1707258052958,
       "duration" : 0
     },
     "status" : "passed",
@@ -265,10 +265,10 @@
     "value" : "test_input_and_click"
   }, {
     "name" : "host",
-    "value" : "fv-az1269-505"
+    "value" : "fv-az1426-423"
   }, {
     "name" : "thread",
-    "value" : "4228-MainThread"
+    "value" : "4234-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -292,6 +292,6 @@
     "categories" : [ ],
     "tags" : [ "input_and_click" ]
   },
-  "source" : "432f496cf7871b7d.json",
+  "source" : "38e3ee17cc8f7bf4.json",
   "parameterValues" : [ ]
 }

@@ -1,37 +1,22 @@
 {
-  "uid" : "5b48dfcbb4a88455",
-  "name" : "test_back_per_pages_parametrize[4-https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html]",
+  "uid" : "fdf30b12e0b55d55",
+  "name" : "test_back_per_pages_parametrize[5-https://toghrulmirzayev.github.io/ui-simulator/sorting.html]",
   "fullName" : "tests.test_common#test_back_per_pages_parametrize",
-  "historyId" : "8789cf8e2e158c371ef3a203e865de9a",
+  "historyId" : "fdb936303ecada5f5a44f0441610721e",
   "time" : {
-    "start" : 1707257857091,
-    "stop" : 1707257858577,
-    "duration" : 1486
+    "start" : 1707258051277,
+    "stop" : 1707258052828,
+    "duration" : 1551
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "common_instance",
-    "time" : {
-      "start" : 1707257856206,
-      "stop" : 1707257857090,
-      "duration" : 884
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1707257851642,
-      "stop" : 1707257856205,
-      "duration" : 4563
+      "start" : 1707258040149,
+      "stop" : 1707258050231,
+      "duration" : 10082
     },
     "status" : "passed",
     "steps" : [ ],
@@ -42,11 +27,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "screenshot_on_failures",
+    "name" : "common_instance",
     "time" : {
-      "start" : 1707257856206,
-      "stop" : 1707257856206,
-      "duration" : 0
+      "start" : 1707258050231,
+      "stop" : 1707258051276,
+      "duration" : 1045
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,8 +44,23 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707257851642,
-      "stop" : 1707257851642,
+      "start" : 1707258040149,
+      "stop" : 1707258040149,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1707258050231,
+      "stop" : 1707258050231,
       "duration" : 0
     },
     "status" : "passed",
@@ -76,9 +76,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "faf5dafc6e13ab1f",
+      "uid" : "1df5e0df209c2592",
       "name" : "log",
-      "source" : "faf5dafc6e13ab1f.txt",
+      "source" : "1df5e0df209c2592.txt",
       "type" : "text/plain",
       "size" : 79
     } ],
@@ -91,8 +91,8 @@
   "afterStages" : [ {
     "name" : "common_instance::0",
     "time" : {
-      "start" : 1707257858578,
-      "stop" : 1707257858578,
+      "start" : 1707258052830,
+      "stop" : 1707258052830,
       "duration" : 0
     },
     "status" : "passed",
@@ -106,8 +106,8 @@
   }, {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707257858579,
-      "stop" : 1707257858579,
+      "start" : 1707258052830,
+      "stop" : 1707258052830,
       "duration" : 0
     },
     "status" : "passed",
@@ -130,10 +130,10 @@
     "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az1269-505"
+    "value" : "fv-az1426-423"
   }, {
     "name" : "thread",
-    "value" : "4179-MainThread"
+    "value" : "4176-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -149,10 +149,10 @@
   } ],
   "parameters" : [ {
     "name" : "index",
-    "value" : "4"
+    "value" : "5"
   }, {
     "name" : "url",
-    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'"
+    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -163,6 +163,6 @@
     "categories" : [ ],
     "tags" : [ "common" ]
   },
-  "source" : "5b48dfcbb4a88455.json",
-  "parameterValues" : [ "4", "'https://toghrulmirzayev.github.io/ui-simulator/check_and_validate.html'" ]
+  "source" : "fdf30b12e0b55d55.json",
+  "parameterValues" : [ "5", "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'" ]
 }
