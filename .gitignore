@@ -13,3 +13,6 @@ new.py
 **/.env
 .env
 **/allure-report
+**/.png
+*.png
+**.png
