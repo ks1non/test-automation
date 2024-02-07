@@ -1,52 +1,22 @@
 {
-  "uid" : "7e9e84aba06e0d28",
+  "uid" : "1fbca7db17acafc3",
   "name" : "test_validation[h-Not a number]",
   "fullName" : "tests.test_check_and_validation#test_validation",
   "historyId" : "7f82eac8eab311797d710b4122348077",
   "time" : {
-    "start" : 1707346901432,
-    "stop" : 1707346902370,
-    "duration" : 938
+    "start" : 1707347442613,
+    "stop" : 1707347443254,
+    "duration" : 641
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "get_chrome_options",
-    "time" : {
-      "start" : 1707346895826,
-      "stop" : 1707346895826,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "screenshot_on_failures",
-    "time" : {
-      "start" : 1707346900626,
-      "stop" : 1707346900626,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1707346895827,
-      "stop" : 1707346900625,
-      "duration" : 4798
+      "start" : 1707347432563,
+      "stop" : 1707347441703,
+      "duration" : 9140
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,9 +29,39 @@
   }, {
     "name" : "check_and_validation_instance",
     "time" : {
-      "start" : 1707346900626,
-      "stop" : 1707346901430,
-      "duration" : 804
+      "start" : 1707347441704,
+      "stop" : 1707347442611,
+      "duration" : 907
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1707347441703,
+      "stop" : 1707347441703,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1707347432563,
+      "stop" : 1707347432563,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -77,9 +77,9 @@
     "steps" : [ {
       "name" : "Вводим значение в инпут",
       "time" : {
-        "start" : 1707346901432,
-        "stop" : 1707346902067,
-        "duration" : 635
+        "start" : 1707347442613,
+        "stop" : 1707347443068,
+        "duration" : 455
       },
       "status" : "passed",
       "steps" : [ ],
@@ -95,9 +95,9 @@
     }, {
       "name" : "проверяем вывод соответствующего сообщения",
       "time" : {
-        "start" : 1707346902068,
-        "stop" : 1707346902370,
-        "duration" : 302
+        "start" : 1707347443069,
+        "stop" : 1707347443254,
+        "duration" : 185
       },
       "status" : "passed",
       "steps" : [ ],
@@ -112,9 +112,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "de715ff4b8dea763",
+      "uid" : "184f21469f8d1a81",
       "name" : "log",
-      "source" : "de715ff4b8dea763.txt",
+      "source" : "184f21469f8d1a81.txt",
       "type" : "text/plain",
       "size" : 174
     } ],
@@ -125,10 +125,10 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "screenshot_on_failures::0",
+    "name" : "check_and_validation_instance::0",
     "time" : {
-      "start" : 1707346902372,
-      "stop" : 1707346902372,
+      "start" : 1707347443255,
+      "stop" : 1707347443255,
       "duration" : 0
     },
     "status" : "passed",
@@ -140,10 +140,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "check_and_validation_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707346902371,
-      "stop" : 1707346902372,
+      "start" : 1707347443255,
+      "stop" : 1707347443256,
       "duration" : 1
     },
     "status" : "passed",
@@ -166,10 +166,10 @@
     "value" : "test_check_and_validation"
   }, {
     "name" : "host",
-    "value" : "fv-az1493-250"
+    "value" : "fv-az1196-806"
   }, {
     "name" : "thread",
-    "value" : "4140-MainThread"
+    "value" : "4123-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -199,6 +199,6 @@
     "categories" : [ ],
     "tags" : [ "check_and_validation" ]
   },
-  "source" : "7e9e84aba06e0d28.json",
+  "source" : "1fbca7db17acafc3.json",
   "parameterValues" : [ "'Not a number'", "'h'" ]
 }

@@ -1,22 +1,22 @@
 {
-  "uid" : "1589ea0ff0183023",
-  "name" : "test_back_per_pages_parametrize[2-https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html]",
-  "fullName" : "tests.test_common#test_back_per_pages_parametrize",
-  "historyId" : "7170a5a74d8770ce06abdfbbb15de995",
+  "uid" : "5dc0c2c313e44ce2",
+  "name" : "test_validation[1-Not in range]",
+  "fullName" : "tests.test_check_and_validation#test_validation",
+  "historyId" : "2b8dae27f188b70e625095d86e69ea48",
   "time" : {
-    "start" : 1707346901300,
-    "stop" : 1707346902881,
-    "duration" : 1581
+    "start" : 1707347442652,
+    "stop" : 1707347443343,
+    "duration" : 691
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "get_webdriver",
+    "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707346895820,
-      "stop" : 1707346900668,
-      "duration" : 4848
+      "start" : 1707347432560,
+      "stop" : 1707347432560,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "get_chrome_options",
+    "name" : "get_webdriver",
     "time" : {
-      "start" : 1707346895820,
-      "stop" : 1707346895820,
-      "duration" : 0
+      "start" : 1707347432560,
+      "stop" : 1707347441741,
+      "duration" : 9181
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,8 +44,8 @@
   }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1707346900668,
-      "stop" : 1707346900668,
+      "start" : 1707347441741,
+      "stop" : 1707347441741,
       "duration" : 0
     },
     "status" : "passed",
@@ -57,11 +57,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "common_instance",
+    "name" : "check_and_validation_instance",
     "time" : {
-      "start" : 1707346900669,
-      "stop" : 1707346901298,
-      "duration" : 629
+      "start" : 1707347441741,
+      "stop" : 1707347442651,
+      "duration" : 910
     },
     "status" : "passed",
     "steps" : [ ],
@@ -74,16 +74,52 @@
   } ],
   "testStage" : {
     "status" : "passed",
-    "steps" : [ ],
+    "steps" : [ {
+      "name" : "Вводим значение в инпут",
+      "time" : {
+        "start" : 1707347442652,
+        "stop" : 1707347443094,
+        "duration" : 442
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "'1'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "проверяем вывод соответствующего сообщения",
+      "time" : {
+        "start" : 1707347443094,
+        "stop" : 1707347443343,
+        "duration" : 249
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'Not in range'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
     "attachments" : [ {
-      "uid" : "dedf28b6b287299d",
+      "uid" : "3b92ba85e17d94ed",
       "name" : "log",
-      "source" : "dedf28b6b287299d.txt",
+      "source" : "3b92ba85e17d94ed.txt",
       "type" : "text/plain",
-      "size" : 79
+      "size" : 174
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
+    "stepsCount" : 2,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -91,8 +127,8 @@
   "afterStages" : [ {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707346902883,
-      "stop" : 1707346902883,
+      "start" : 1707347443348,
+      "stop" : 1707347443348,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,11 +140,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "common_instance::0",
+    "name" : "check_and_validation_instance::0",
     "time" : {
-      "start" : 1707346902883,
-      "stop" : 1707346902883,
-      "duration" : 0
+      "start" : 1707347443344,
+      "stop" : 1707347443345,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -121,19 +157,19 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "common"
+    "value" : "check_and_validation"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_common"
+    "value" : "test_check_and_validation"
   }, {
     "name" : "host",
-    "value" : "fv-az1493-250"
+    "value" : "fv-az1196-806"
   }, {
     "name" : "thread",
-    "value" : "4170-MainThread"
+    "value" : "4129-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,17 +178,17 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_common"
+    "value" : "tests.test_check_and_validation"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
-    "name" : "index",
-    "value" : "2"
+    "name" : "text",
+    "value" : "'Not in range'"
   }, {
-    "name" : "url",
-    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html'"
+    "name" : "value",
+    "value" : "'1'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -161,8 +197,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "common" ]
+    "tags" : [ "check_and_validation" ]
   },
-  "source" : "1589ea0ff0183023.json",
-  "parameterValues" : [ "2", "'https://toghrulmirzayev.github.io/ui-simulator/input-and-click.html'" ]
+  "source" : "5dc0c2c313e44ce2.json",
+  "parameterValues" : [ "'Not in range'", "'1'" ]
 }
