@@ -1,12 +1,12 @@
 {
-  "uid" : "945b3973b428d11d",
+  "uid" : "e22d740e4079d145",
   "name" : "Successful login",
   "fullName" : "tests.test_index_page#test_success_login",
   "historyId" : "51c7b77fdc695a2cfe94086853d8c992",
   "time" : {
-    "start" : 1707346692028,
-    "stop" : 1707346693928,
-    "duration" : 1900
+    "start" : 1707346901682,
+    "stop" : 1707346903307,
+    "duration" : 1625
   },
   "description" : "Success login",
   "descriptionHtml" : "<p>Success login</p>\n",
@@ -14,10 +14,25 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "index_page_instance",
+    "time" : {
+      "start" : 1707346900688,
+      "stop" : 1707346901681,
+      "duration" : 993
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1707346691364,
-      "stop" : 1707346691364,
+      "start" : 1707346900688,
+      "stop" : 1707346900688,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,8 +46,8 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707346686392,
-      "stop" : 1707346686392,
+      "start" : 1707346895823,
+      "stop" : 1707346895823,
       "duration" : 0
     },
     "status" : "passed",
@@ -46,24 +61,9 @@
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1707346686392,
-      "stop" : 1707346691364,
-      "duration" : 4972
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "index_page_instance",
-    "time" : {
-      "start" : 1707346691365,
-      "stop" : 1707346692027,
-      "duration" : 662
+      "start" : 1707346895823,
+      "stop" : 1707346900688,
+      "duration" : 4865
     },
     "status" : "passed",
     "steps" : [ ],
@@ -80,9 +80,9 @@
     "steps" : [ {
       "name" : "ввели логин",
       "time" : {
-        "start" : 1707346692028,
-        "stop" : 1707346692643,
-        "duration" : 615
+        "start" : 1707346901683,
+        "stop" : 1707346902464,
+        "duration" : 781
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,8 +98,8 @@
     }, {
       "name" : "ввели пароль",
       "time" : {
-        "start" : 1707346692643,
-        "stop" : 1707346693147,
+        "start" : 1707346902465,
+        "stop" : 1707346902969,
         "duration" : 504
       },
       "status" : "passed",
@@ -116,9 +116,9 @@
     }, {
       "name" : "нажали на кнопку логина",
       "time" : {
-        "start" : 1707346693147,
-        "stop" : 1707346693746,
-        "duration" : 599
+        "start" : 1707346902969,
+        "stop" : 1707346903197,
+        "duration" : 228
       },
       "status" : "passed",
       "steps" : [ ],
@@ -131,9 +131,9 @@
     }, {
       "name" : "проверка соответствия текста после логина",
       "time" : {
-        "start" : 1707346693747,
-        "stop" : 1707346693928,
-        "duration" : 181
+        "start" : 1707346903198,
+        "stop" : 1707346903306,
+        "duration" : 108
       },
       "status" : "passed",
       "steps" : [ ],
@@ -148,9 +148,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "2d6ba3de4457f7b2",
+      "uid" : "a99a1ada58eafa91",
       "name" : "log",
-      "source" : "2d6ba3de4457f7b2.txt",
+      "source" : "a99a1ada58eafa91.txt",
       "type" : "text/plain",
       "size" : 261
     } ],
@@ -161,10 +161,10 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "screenshot_on_failures::0",
+    "name" : "index_page_instance::0",
     "time" : {
-      "start" : 1707346693930,
-      "stop" : 1707346693930,
+      "start" : 1707346903308,
+      "stop" : 1707346903308,
       "duration" : 0
     },
     "status" : "passed",
@@ -176,10 +176,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "index_page_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707346693929,
-      "stop" : 1707346693929,
+      "start" : 1707346903308,
+      "stop" : 1707346903308,
       "duration" : 0
     },
     "status" : "passed",
@@ -192,14 +192,14 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "blocker"
-  }, {
     "name" : "suite",
     "value" : "Authorization suite"
   }, {
     "name" : "owner",
     "value" : "Sergey"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
   }, {
     "name" : "tag",
     "value" : "smoke"
@@ -208,10 +208,10 @@
     "value" : "tests"
   }, {
     "name" : "host",
-    "value" : "fv-az695-943"
+    "value" : "fv-az1493-250"
   }, {
     "name" : "thread",
-    "value" : "4172-MainThread"
+    "value" : "4191-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -236,6 +236,6 @@
     "categories" : [ ],
     "tags" : [ "smoke" ]
   },
-  "source" : "945b3973b428d11d.json",
+  "source" : "e22d740e4079d145.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "f97c38006f4c7f4d",
+  "uid" : "4d3ffe3fd58f2e7c",
   "name" : "Unsuccessful login",
   "fullName" : "tests.test_index_page#test_unsuccessful_login",
-  "historyId" : "3ffef4f4d17d5e07156ff9e8459d4a9c",
+  "historyId" : "eb0bef0b50daa893535602960fc9520d",
   "time" : {
-    "start" : 1707346692158,
-    "stop" : 1707346693517,
-    "duration" : 1359
+    "start" : 1707346901567,
+    "stop" : 1707346903380,
+    "duration" : 1813
   },
   "description" : "Unsuccess login",
   "descriptionHtml" : "<p>Unsuccess login</p>\n",
@@ -14,11 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "index_page_instance",
+    "name" : "get_webdriver",
     "time" : {
-      "start" : 1707346691507,
-      "stop" : 1707346692156,
-      "duration" : 649
+      "start" : 1707346895822,
+      "stop" : 1707346900657,
+      "duration" : 4835
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,8 +31,8 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707346686395,
-      "stop" : 1707346686395,
+      "start" : 1707346895822,
+      "stop" : 1707346895822,
       "duration" : 0
     },
     "status" : "passed",
@@ -44,11 +44,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "get_webdriver",
+    "name" : "index_page_instance",
     "time" : {
-      "start" : 1707346686395,
-      "stop" : 1707346691506,
-      "duration" : 5111
+      "start" : 1707346900658,
+      "stop" : 1707346901565,
+      "duration" : 907
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,8 +61,8 @@
   }, {
     "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1707346691506,
-      "stop" : 1707346691507,
+      "start" : 1707346900657,
+      "stop" : 1707346900658,
       "duration" : 1
     },
     "status" : "passed",
@@ -80,16 +80,16 @@
     "steps" : [ {
       "name" : "ввели логин",
       "time" : {
-        "start" : 1707346692158,
-        "stop" : 1707346692674,
-        "duration" : 516
+        "start" : 1707346901567,
+        "stop" : 1707346902332,
+        "duration" : 765
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "login",
-        "value" : "''"
+        "value" : "'correct_username'"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -98,9 +98,9 @@
     }, {
       "name" : "ввели пароль",
       "time" : {
-        "start" : 1707346692674,
-        "stop" : 1707346692940,
-        "duration" : 266
+        "start" : 1707346902332,
+        "stop" : 1707346902749,
+        "duration" : 417
       },
       "status" : "passed",
       "steps" : [ ],
@@ -116,9 +116,9 @@
     }, {
       "name" : "нажали на кнопку логина",
       "time" : {
-        "start" : 1707346692940,
-        "stop" : 1707346693328,
-        "duration" : 388
+        "start" : 1707346902749,
+        "stop" : 1707346903207,
+        "duration" : 458
       },
       "status" : "passed",
       "steps" : [ ],
@@ -131,16 +131,16 @@
     }, {
       "name" : "проверка соответствия ошибки авторизации",
       "time" : {
-        "start" : 1707346693328,
-        "stop" : 1707346693517,
-        "duration" : 189
+        "start" : 1707346903207,
+        "stop" : 1707346903380,
+        "duration" : 173
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "text",
-        "value" : "'Username and password fields cannot be empty'"
+        "value" : "'Password field cannot be empty'"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -148,9 +148,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "8fa4587d3140aa7",
+      "uid" : "3816a9e5c8932e53",
       "name" : "log",
-      "source" : "8fa4587d3140aa7.txt",
+      "source" : "3816a9e5c8932e53.txt",
       "type" : "text/plain",
       "size" : 261
     } ],
@@ -163,8 +163,8 @@
   "afterStages" : [ {
     "name" : "index_page_instance::0",
     "time" : {
-      "start" : 1707346693519,
-      "stop" : 1707346693519,
+      "start" : 1707346903382,
+      "stop" : 1707346903382,
       "duration" : 0
     },
     "status" : "passed",
@@ -178,8 +178,8 @@
   }, {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707346693520,
-      "stop" : 1707346693520,
+      "start" : 1707346903383,
+      "stop" : 1707346903383,
       "duration" : 0
     },
     "status" : "passed",
@@ -205,10 +205,10 @@
     "value" : "tests"
   }, {
     "name" : "host",
-    "value" : "fv-az695-943"
+    "value" : "fv-az1493-250"
   }, {
     "name" : "thread",
-    "value" : "4184-MainThread"
+    "value" : "4224-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -224,13 +224,13 @@
   } ],
   "parameters" : [ {
     "name" : "un_login",
-    "value" : "''"
+    "value" : "'correct_username'"
   }, {
     "name" : "un_password",
     "value" : "''"
   }, {
     "name" : "un_text",
-    "value" : "'Username and password fields cannot be empty'"
+    "value" : "'Password field cannot be empty'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -242,6 +242,6 @@
     "categories" : [ ],
     "tags" : [ "index" ]
   },
-  "source" : "f97c38006f4c7f4d.json",
-  "parameterValues" : [ "''", "''", "'Username and password fields cannot be empty'" ]
+  "source" : "4d3ffe3fd58f2e7c.json",
+  "parameterValues" : [ "'correct_username'", "''", "'Password field cannot be empty'" ]
 }

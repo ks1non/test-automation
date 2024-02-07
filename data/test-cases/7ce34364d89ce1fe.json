@@ -1,22 +1,22 @@
 {
-  "uid" : "b51deeb57e1ced2e",
-  "name" : "test_validation[-1-Negative integer]",
-  "fullName" : "tests.test_check_and_validation#test_validation",
-  "historyId" : "d4b3b4caadb2abab2b7dd67f6b67b933",
+  "uid" : "7ce34364d89ce1fe",
+  "name" : "test_back_per_pages_parametrize[3-https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html]",
+  "fullName" : "tests.test_common#test_back_per_pages_parametrize",
+  "historyId" : "ef79e85e3cd147d830893cffa721b233",
   "time" : {
-    "start" : 1707346692320,
-    "stop" : 1707346693030,
-    "duration" : 710
+    "start" : 1707346901622,
+    "stop" : 1707346902981,
+    "duration" : 1359
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "screenshot_on_failures",
+    "name" : "get_webdriver",
     "time" : {
-      "start" : 1707346691604,
-      "stop" : 1707346691605,
-      "duration" : 1
+      "start" : 1707346895822,
+      "stop" : 1707346901034,
+      "duration" : 5212
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "get_webdriver",
+    "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1707346686394,
-      "stop" : 1707346691604,
-      "duration" : 5210
+      "start" : 1707346901034,
+      "stop" : 1707346901035,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,8 +44,8 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707346686394,
-      "stop" : 1707346686394,
+      "start" : 1707346895822,
+      "stop" : 1707346895822,
       "duration" : 0
     },
     "status" : "passed",
@@ -57,11 +57,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "check_and_validation_instance",
+    "name" : "common_instance",
     "time" : {
-      "start" : 1707346691605,
-      "stop" : 1707346692319,
-      "duration" : 714
+      "start" : 1707346901035,
+      "stop" : 1707346901620,
+      "duration" : 585
     },
     "status" : "passed",
     "steps" : [ ],
@@ -74,52 +74,16 @@
   } ],
   "testStage" : {
     "status" : "passed",
-    "steps" : [ {
-      "name" : "Вводим значение в инпут",
-      "time" : {
-        "start" : 1707346692320,
-        "stop" : 1707346692779,
-        "duration" : 459
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "value",
-        "value" : "'-1'"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "проверяем вывод соответствующего сообщения",
-      "time" : {
-        "start" : 1707346692779,
-        "stop" : 1707346693030,
-        "duration" : 251
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "text",
-        "value" : "'Negative integer'"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    } ],
+    "steps" : [ ],
     "attachments" : [ {
-      "uid" : "162404ac5d81ff9c",
+      "uid" : "45a0e0536c4336bf",
       "name" : "log",
-      "source" : "162404ac5d81ff9c.txt",
+      "source" : "45a0e0536c4336bf.txt",
       "type" : "text/plain",
-      "size" : 174
+      "size" : 79
     } ],
     "parameters" : [ ],
-    "stepsCount" : 2,
+    "stepsCount" : 0,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -127,8 +91,8 @@
   "afterStages" : [ {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707346693032,
-      "stop" : 1707346693032,
+      "start" : 1707346902983,
+      "stop" : 1707346902983,
       "duration" : 0
     },
     "status" : "passed",
@@ -140,10 +104,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "check_and_validation_instance::0",
+    "name" : "common_instance::0",
     "time" : {
-      "start" : 1707346693032,
-      "stop" : 1707346693032,
+      "start" : 1707346902982,
+      "stop" : 1707346902982,
       "duration" : 0
     },
     "status" : "passed",
@@ -157,19 +121,19 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "check_and_validation"
+    "value" : "common"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_check_and_validation"
+    "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az695-943"
+    "value" : "fv-az1493-250"
   }, {
     "name" : "thread",
-    "value" : "4123-MainThread"
+    "value" : "4176-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -178,17 +142,17 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_check_and_validation"
+    "value" : "tests.test_common"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
-    "name" : "text",
-    "value" : "'Negative integer'"
+    "name" : "index",
+    "value" : "3"
   }, {
-    "name" : "value",
-    "value" : "'-1'"
+    "name" : "url",
+    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -197,8 +161,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "check_and_validation" ]
+    "tags" : [ "common" ]
   },
-  "source" : "b51deeb57e1ced2e.json",
-  "parameterValues" : [ "'Negative integer'", "'-1'" ]
+  "source" : "7ce34364d89ce1fe.json",
+  "parameterValues" : [ "3", "'https://toghrulmirzayev.github.io/ui-simulator/checkbox-and-scroll.html'" ]
 }
