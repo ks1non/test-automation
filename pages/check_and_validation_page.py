@@ -6,8 +6,6 @@ import allure
 
 
 class CheckAndValidationPage(BaseObject, Assertions):
-    """fff"""
-
     DATA_INPUT = (By.XPATH, '//*[@id="dataInput"]')
     VALIDATION_SQUARE = (By.XPATH, '//*[@id="validationSquare"]')
 
