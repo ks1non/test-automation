@@ -1,21 +1,21 @@
 {
-  "uid" : "5e40054c154a75b6",
-  "name" : "test_back_per_pages_parametrize[5-https://toghrulmirzayev.github.io/ui-simulator/sorting.html]",
-  "fullName" : "tests.test_common#test_back_per_pages_parametrize",
-  "historyId" : "fdb936303ecada5f5a44f0441610721e",
+  "uid" : "7eaad84f1e44f923",
+  "name" : "test_back_per_pages",
+  "fullName" : "tests.test_common#test_back_per_pages",
+  "historyId" : "20791a68dd3f57c56c3f88114d253350",
   "time" : {
-    "start" : 1707259531066,
-    "stop" : 1707259532466,
-    "duration" : 1400
+    "start" : 1707346692227,
+    "stop" : 1707346695495,
+    "duration" : 3268
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "get_chrome_options",
+    "name" : "screenshot_on_failures",
     "time" : {
-      "start" : 1707259525727,
-      "stop" : 1707259525727,
+      "start" : 1707346691530,
+      "stop" : 1707346691530,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,9 +29,9 @@
   }, {
     "name" : "common_instance",
     "time" : {
-      "start" : 1707259529895,
-      "stop" : 1707259531065,
-      "duration" : 1170
+      "start" : 1707346691531,
+      "stop" : 1707346692226,
+      "duration" : 695
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,9 +44,9 @@
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1707259525727,
-      "stop" : 1707259529894,
-      "duration" : 4167
+      "start" : 1707346686389,
+      "stop" : 1707346691530,
+      "duration" : 5141
     },
     "status" : "passed",
     "steps" : [ ],
@@ -57,10 +57,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "screenshot_on_failures",
+    "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707259529894,
-      "stop" : 1707259529894,
+      "start" : 1707346686388,
+      "stop" : 1707346686388,
       "duration" : 0
     },
     "status" : "passed",
@@ -76,11 +76,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "e1e3f4250d3379c9",
+      "uid" : "aed785953e481de1",
       "name" : "log",
-      "source" : "e1e3f4250d3379c9.txt",
+      "source" : "aed785953e481de1.txt",
       "type" : "text/plain",
-      "size" : 79
+      "size" : 399
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -89,10 +89,10 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "common_instance::0",
+    "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707259532468,
-      "stop" : 1707259532468,
+      "start" : 1707346695496,
+      "stop" : 1707346695496,
       "duration" : 0
     },
     "status" : "passed",
@@ -104,10 +104,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "screenshot_on_failures::0",
+    "name" : "common_instance::0",
     "time" : {
-      "start" : 1707259532468,
-      "stop" : 1707259532468,
+      "start" : 1707346695496,
+      "stop" : 1707346695496,
       "duration" : 0
     },
     "status" : "passed",
@@ -130,10 +130,10 @@
     "value" : "test_common"
   }, {
     "name" : "host",
-    "value" : "fv-az564-192"
+    "value" : "fv-az695-943"
   }, {
     "name" : "thread",
-    "value" : "4203-MainThread"
+    "value" : "4139-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -147,13 +147,7 @@
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "index",
-    "value" : "5"
-  }, {
-    "name" : "url",
-    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -163,6 +157,6 @@
     "categories" : [ ],
     "tags" : [ "common" ]
   },
-  "source" : "5e40054c154a75b6.json",
-  "parameterValues" : [ "5", "'https://toghrulmirzayev.github.io/ui-simulator/sorting.html'" ]
+  "source" : "7eaad84f1e44f923.json",
+  "parameterValues" : [ ]
 }

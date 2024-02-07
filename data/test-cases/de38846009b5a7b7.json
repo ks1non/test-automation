@@ -1,52 +1,22 @@
 {
-  "uid" : "a8600d4788ba43fd",
-  "name" : "test_back_per_pages_parametrize[1-https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html]",
-  "fullName" : "tests.test_common#test_back_per_pages_parametrize",
-  "historyId" : "c8fe1442e5851d63f9f3785b6a9f994f",
+  "uid" : "de38846009b5a7b7",
+  "name" : "test_validation[15-Valid]",
+  "fullName" : "tests.test_check_and_validation#test_validation",
+  "historyId" : "d1069b0f8b53bf512c2c7d1627e92621",
   "time" : {
-    "start" : 1707259531497,
-    "stop" : 1707259532884,
-    "duration" : 1387
+    "start" : 1707346692220,
+    "stop" : 1707346693112,
+    "duration" : 892
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "get_webdriver",
+    "name" : "check_and_validation_instance",
     "time" : {
-      "start" : 1707259525722,
-      "stop" : 1707259530811,
-      "duration" : 5089
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "common_instance",
-    "time" : {
-      "start" : 1707259530812,
-      "stop" : 1707259531495,
-      "duration" : 683
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "screenshot_on_failures",
-    "time" : {
-      "start" : 1707259530811,
-      "stop" : 1707259530811,
-      "duration" : 0
+      "start" : 1707346691441,
+      "stop" : 1707346692218,
+      "duration" : 777
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,8 +29,38 @@
   }, {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1707259525722,
-      "stop" : 1707259525722,
+      "start" : 1707346686397,
+      "stop" : 1707346686397,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1707346686397,
+      "stop" : 1707346691441,
+      "duration" : 5044
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "screenshot_on_failures",
+    "time" : {
+      "start" : 1707346691441,
+      "stop" : 1707346691441,
       "duration" : 0
     },
     "status" : "passed",
@@ -74,25 +74,61 @@
   } ],
   "testStage" : {
     "status" : "passed",
-    "steps" : [ ],
+    "steps" : [ {
+      "name" : "Вводим значение в инпут",
+      "time" : {
+        "start" : 1707346692220,
+        "stop" : 1707346692768,
+        "duration" : 548
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "'15'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "проверяем вывод соответствующего сообщения",
+      "time" : {
+        "start" : 1707346692768,
+        "stop" : 1707346693112,
+        "duration" : 344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'Valid'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
     "attachments" : [ {
-      "uid" : "aedaa77e76c85876",
+      "uid" : "9acb44fe827889de",
       "name" : "log",
-      "source" : "aedaa77e76c85876.txt",
+      "source" : "9acb44fe827889de.txt",
       "type" : "text/plain",
-      "size" : 79
+      "size" : 174
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
+    "stepsCount" : 2,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "common_instance::0",
+    "name" : "check_and_validation_instance::0",
     "time" : {
-      "start" : 1707259532886,
-      "stop" : 1707259532886,
+      "start" : 1707346693114,
+      "stop" : 1707346693114,
       "duration" : 0
     },
     "status" : "passed",
@@ -106,9 +142,9 @@
   }, {
     "name" : "screenshot_on_failures::0",
     "time" : {
-      "start" : 1707259532886,
-      "stop" : 1707259532886,
-      "duration" : 0
+      "start" : 1707346693115,
+      "stop" : 1707346693116,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -121,19 +157,19 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "common"
+    "value" : "check_and_validation"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_common"
+    "value" : "test_check_and_validation"
   }, {
     "name" : "host",
-    "value" : "fv-az564-192"
+    "value" : "fv-az695-943"
   }, {
     "name" : "thread",
-    "value" : "4173-MainThread"
+    "value" : "4120-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,17 +178,17 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_common"
+    "value" : "tests.test_check_and_validation"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
-    "name" : "index",
-    "value" : "1"
+    "name" : "text",
+    "value" : "'Valid'"
   }, {
-    "name" : "url",
-    "value" : "'https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html'"
+    "name" : "value",
+    "value" : "'15'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -161,8 +197,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "common" ]
+    "tags" : [ "check_and_validation" ]
   },
-  "source" : "a8600d4788ba43fd.json",
-  "parameterValues" : [ "1", "'https://toghrulmirzayev.github.io/ui-simulator/drag-and-drop.html'" ]
+  "source" : "de38846009b5a7b7.json",
+  "parameterValues" : [ "'Valid'", "'15'" ]
 }
