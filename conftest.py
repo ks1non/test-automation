@@ -86,3 +86,4 @@ def screenshot_on_failures(get_webdriver, request):
         screenshot = os.path.join(ROOT_PATH, "screens", f"screenshot_on_failures_{test_case_name}.png")
         get_webdriver.get_screenshot_as_file(screenshot)
         allure.attach.file(screenshot, 'screenshot_on_failures.png', attachment_type=allure.attachment_type.PNG)
+
